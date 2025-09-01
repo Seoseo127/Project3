@@ -1,0 +1,2902 @@
+--------------------------------------------------------
+--  파일이 생성됨 - 수요일-8월-27-2025   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Sequence DOCTOR_SCHEDULE_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."DOCTOR_SCHEDULE_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 592 NOCACHE  NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence DONATIONS_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."DONATIONS_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 29 NOCACHE  NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence EVENTS_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."EVENTS_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 161 NOCACHE  NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence EVENT_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."EVENT_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 55 NOCACHE  NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence HOSPITAL_FAQ_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."HOSPITAL_FAQ_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 20 NOCACHE  NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence HOSPITAL_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."HOSPITAL_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 NOCACHE  NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence NOTICE_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."NOTICE_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 30 NOCACHE  NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_CERTIFICATE_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_CERTIFICATE_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 361 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_COMMENT_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_COMMENT_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 101 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_COOP_QNA
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_COOP_QNA"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_COUNSEL_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_COUNSEL_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 121 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_CUSTOMER_QNA
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_CUSTOMER_QNA"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_EVENT_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_EVENT_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 301 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_FEEDBACK_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_FEEDBACK_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 141 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_FILE_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_FILE_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_HOSPITAL_FAQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_HOSPITAL_FAQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 81 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_HOSPITAL_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_HOSPITAL_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1001 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_HOSPITAL_NOTICE_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_HOSPITAL_NOTICE_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 101 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_MEDICAL_NOTICE_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_MEDICAL_NOTICE_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 11 NOCACHE  NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_MEDICAL_RECORD_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_MEDICAL_RECORD_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 80 NOCACHE  NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_NOTICE_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_NOTICE_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_NOTICE_READ_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_NOTICE_READ_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_NURSING_NOTE_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_NURSING_NOTE_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_PATIENT_NO
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_PATIENT_NO"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 47 NOCACHE  NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_PENDING_USER_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_PENDING_USER_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 161 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_PRAISE_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_PRAISE_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 161 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_QUESTIONNAIRE_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_QUESTIONNAIRE_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 361 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_RECORD_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_RECORD_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_REFERRAL_NOTICE_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_REFERRAL_NOTICE_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_REPLY_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_REPLY_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 121 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_REQUEST_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_REQUEST_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 201 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_RESERVATION_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_RESERVATION_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 381 NOCACHE  NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_SCHEDULE_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_SCHEDULE_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 141 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_USER_LOG_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_USER_LOG_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 101 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_WARD_ID
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "PROJECT"."SEQ_WARD_ID"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 1 CACHE 20 NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Table ADMINS
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."ADMINS" 
+   (	"ADMIN_ID" VARCHAR2(128 BYTE), 
+	"PASSWORD" VARCHAR2(128 BYTE), 
+	"NAME" VARCHAR2(100 BYTE), 
+	"EMAIL" VARCHAR2(100 BYTE), 
+	"PHONE" VARCHAR2(20 BYTE), 
+	"CREATED_AT" DATE DEFAULT SYSDATE
+   ) ;
+--------------------------------------------------------
+--  DDL for Table CERTIFICATES
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."CERTIFICATES" 
+   (	"CERTIFICATE_ID" NUMBER, 
+	"PATIENT_NO" NUMBER, 
+	"RECORD_ID" NUMBER, 
+	"TYPE" VARCHAR2(50 BYTE), 
+	"ISSUED_AT" DATE DEFAULT SYSDATE, 
+	"ISSUED_BY" VARCHAR2(100 BYTE), 
+	"METHOD" VARCHAR2(20 BYTE), 
+	"STATUS" VARCHAR2(20 BYTE) DEFAULT '접수', 
+	"VIEWED_AT" DATE, 
+	"REQUEST_METHOD" VARCHAR2(20 BYTE) DEFAULT '온라인', 
+	"FILE_ID" NUMBER, 
+	"CONTENT" CLOB
+   ) ;
+--------------------------------------------------------
+--  DDL for Table DEPARTMENTS
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."DEPARTMENTS" 
+   (	"DEPT_ID" VARCHAR2(20 BYTE), 
+	"NAME" VARCHAR2(100 BYTE), 
+	"DESCRIPTION" CLOB, 
+	"HEAD_DOCTOR_ID" VARCHAR2(50 BYTE), 
+	"PHONE" VARCHAR2(20 BYTE), 
+	"CREATED_AT" DATE DEFAULT SYSDATE, 
+	"INTRO" CLOB, 
+	"MAIN_DISEASES" VARCHAR2(1000 BYTE), 
+	"LOCATION_GUIDE" VARCHAR2(300 BYTE)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table DOCTOR_INFO
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."DOCTOR_INFO" 
+   (	"DOCTOR_ID" VARCHAR2(50 BYTE), 
+	"DEPT_ID" VARCHAR2(20 BYTE), 
+	"SPECIALTY" VARCHAR2(200 BYTE), 
+	"BIO" CLOB, 
+	"PROFILE_IMAGE_PATH" VARCHAR2(500 BYTE), 
+	"CREATED_AT" DATE DEFAULT SYSDATE
+   ) ;
+--------------------------------------------------------
+--  DDL for Table DOCTOR_SCHEDULES
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."DOCTOR_SCHEDULES" 
+   (	"SCHEDULE_ID" NUMBER, 
+	"DOCTOR_ID" VARCHAR2(50 BYTE), 
+	"SCHEDULE_DATE" DATE, 
+	"TIME_SLOT" VARCHAR2(10 BYTE), 
+	"SCHEDULE_TIME" VARCHAR2(20 BYTE), 
+	"NOTE" VARCHAR2(300 BYTE), 
+	"CREATED_AT" DATE DEFAULT SYSDATE
+   ) ;
+--------------------------------------------------------
+--  DDL for Table DONATIONS
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."DONATIONS" 
+   (	"DONATION_ID" NUMBER, 
+	"ORDER_ID" VARCHAR2(64 BYTE), 
+	"PAYMENT_KEY" VARCHAR2(128 BYTE), 
+	"DONOR_NAME" VARCHAR2(100 BYTE), 
+	"EMAIL" VARCHAR2(150 BYTE), 
+	"AMOUNT" NUMBER, 
+	"CURRENCY" VARCHAR2(10 BYTE) DEFAULT 'KRW', 
+	"METHOD" VARCHAR2(30 BYTE), 
+	"STATUS" VARCHAR2(20 BYTE), 
+	"APPROVED_AT" TIMESTAMP (6), 
+	"CREATED_AT" DATE DEFAULT SYSDATE, 
+	"UPDATED_AT" DATE, 
+	"CANCELED_AT" TIMESTAMP (6), 
+	"CANCEL_REASON" VARCHAR2(255 BYTE), 
+	"MEMO" VARCHAR2(500 BYTE)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table EVENTS
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."EVENTS" 
+   (	"EVENT_ID" NUMBER, 
+	"TITLE" VARCHAR2(200 BYTE), 
+	"DESCRIPTION" CLOB, 
+	"WORK_LOCATION" VARCHAR2(200 BYTE), 
+	"CREATED_BY" VARCHAR2(50 BYTE), 
+	"CREATED_AT" DATE DEFAULT SYSDATE, 
+	"UPDATED_AT" DATE, 
+	"STATUS" VARCHAR2(20 BYTE) DEFAULT '게시', 
+	"VIEW_COUNT" NUMBER DEFAULT 0, 
+	"THUMBNAIL_PATH" VARCHAR2(500 BYTE), 
+	"IMAGE_PATH" VARCHAR2(500 BYTE), 
+	"CATEGORY" VARCHAR2(20 BYTE), 
+	"START_DATE" DATE, 
+	"END_DATE" DATE, 
+	"SPEAKER" VARCHAR2(100 BYTE), 
+	"TIME_INFO" VARCHAR2(100 BYTE), 
+	"DURATION" VARCHAR2(50 BYTE), 
+	"CONTACT" VARCHAR2(50 BYTE), 
+	"REPORTER" VARCHAR2(100 BYTE), 
+	"SOURCE" VARCHAR2(200 BYTE), 
+	"SUB_CATEGORY" VARCHAR2(50 BYTE), 
+	"RESUME_FILE_PATH" VARCHAR2(200 BYTE), 
+	"RESUME_FORM" VARCHAR2(255 BYTE), 
+	"JOB_POSITION" VARCHAR2(100 BYTE), 
+	"WORKING_TYPE" VARCHAR2(100 BYTE), 
+	"CONTACT_METHOD" VARCHAR2(255 BYTE), 
+	"RECRUIT_COUNT" NUMBER, 
+	"CONTACT_EMAIL" VARCHAR2(100 BYTE), 
+	"FILE_PATH" VARCHAR2(300 BYTE), 
+	"ORIGINAL_FILE_NAME" VARCHAR2(255 BYTE)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table FEEDBACKS
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."FEEDBACKS" 
+   (	"FEEDBACK_ID" NUMBER, 
+	"PATIENT_USER_ID" VARCHAR2(50 BYTE), 
+	"CATEGORY" VARCHAR2(50 BYTE), 
+	"CONTENT" CLOB, 
+	"REPLY" CLOB, 
+	"REPLIED_BY" VARCHAR2(50 BYTE), 
+	"REPLIED_AT" DATE, 
+	"STATUS" VARCHAR2(20 BYTE) DEFAULT '접수', 
+	"CREATED_AT" DATE DEFAULT SYSDATE, 
+	"SENDER_NAME" VARCHAR2(100 BYTE), 
+	"PHONE" VARCHAR2(50 BYTE), 
+	"EMAIL" VARCHAR2(100 BYTE), 
+	"RELATION" VARCHAR2(50 BYTE), 
+	"PATIENT_NAME" VARCHAR2(100 BYTE), 
+	"HOSPITAL_NO" VARCHAR2(50 BYTE), 
+	"BIRTH_DATE" VARCHAR2(20 BYTE), 
+	"TITLE" VARCHAR2(200 BYTE), 
+	"WRITER_NAME" VARCHAR2(50 BYTE), 
+	"WRITER_PW" VARCHAR2(10 BYTE)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table HOSPITAL_FAQ
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."HOSPITAL_FAQ" 
+   (	"FAQ_ID" NUMBER, 
+	"CATEGORY" VARCHAR2(50 BYTE), 
+	"QUESTION" CLOB, 
+	"ANSWER" CLOB, 
+	"CREATED_AT" DATE DEFAULT SYSDATE
+   ) ;
+--------------------------------------------------------
+--  DDL for Table HOSPITAL_NOTICES
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."HOSPITAL_NOTICES" 
+   (	"NOTICE_ID" NUMBER, 
+	"TITLE" VARCHAR2(200 BYTE), 
+	"CONTENT" CLOB, 
+	"CREATED_AT" DATE DEFAULT SYSDATE, 
+	"UPDATED_AT" DATE, 
+	"VIEW_COUNT" NUMBER DEFAULT 0, 
+	"CREATED_BY" VARCHAR2(128 BYTE)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table MEDICAL_NOTICES
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."MEDICAL_NOTICES" 
+   (	"NOTICE_ID" NUMBER, 
+	"TITLE" VARCHAR2(200 BYTE), 
+	"CONTENT" CLOB, 
+	"CREATED_AT" DATE DEFAULT SYSDATE, 
+	"CREATED_BY" VARCHAR2(128 BYTE), 
+	"TARGET_ROLE" VARCHAR2(20 BYTE)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table MEDICAL_QUESTIONNAIRES
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."MEDICAL_QUESTIONNAIRES" 
+   (	"QUESTIONNAIRE_ID" NUMBER, 
+	"RESERVATION_ID" NUMBER, 
+	"CONTENT" CLOB, 
+	"SUBMITTED_AT" DATE DEFAULT SYSDATE
+   ) ;
+--------------------------------------------------------
+--  DDL for Table MEDICAL_RECORDS
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."MEDICAL_RECORDS" 
+   (	"RECORD_ID" NUMBER, 
+	"RESERVATION_ID" NUMBER, 
+	"DOCTOR_ID" VARCHAR2(50 BYTE), 
+	"CONTENT" CLOB, 
+	"MEDICATION" CLOB, 
+	"RECORD_DATE" DATE DEFAULT SYSDATE, 
+	"PRESCRIPTION" CLOB, 
+	"TREATMENT" CLOB, 
+	"DIAGNOSIS" VARCHAR2(300 BYTE), 
+	"REQUESTED" CHAR(1 BYTE) DEFAULT 'N'
+   ) ;
+--------------------------------------------------------
+--  DDL for Table PARTNER_HOSPITALS
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."PARTNER_HOSPITALS" 
+   (	"HOSPITAL_ID" NUMBER, 
+	"NAME" VARCHAR2(200 BYTE), 
+	"REGION" VARCHAR2(100 BYTE), 
+	"ADDRESS" VARCHAR2(300 BYTE), 
+	"PHONE" VARCHAR2(20 BYTE), 
+	"WEBSITE" VARCHAR2(200 BYTE), 
+	"CREATED_AT" DATE DEFAULT SYSDATE, 
+	"LAT" NUMBER(9,6), 
+	"LNG" NUMBER(10,6)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table PATIENTS
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."PATIENTS" 
+   (	"PATIENT_NO" NUMBER, 
+	"PATIENT_USER_ID" VARCHAR2(50 BYTE), 
+	"PATIENT_PASSWORD" VARCHAR2(256 BYTE), 
+	"PATIENT_NAME" VARCHAR2(100 BYTE), 
+	"PATIENT_RRN" VARCHAR2(13 BYTE), 
+	"PATIENT_GENDER" VARCHAR2(10 BYTE), 
+	"PATIENT_PHONE" VARCHAR2(20 BYTE), 
+	"PATIENT_EMAIL" VARCHAR2(100 BYTE), 
+	"PATIENT_CREATED_AT" DATE DEFAULT SYSDATE
+   ) ;
+--------------------------------------------------------
+--  DDL for Table PENDING_USERS
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."PENDING_USERS" 
+   (	"PENDING_ID" NUMBER, 
+	"USER_ID" VARCHAR2(50 BYTE), 
+	"PASSWORD" VARCHAR2(256 BYTE), 
+	"NAME" VARCHAR2(100 BYTE), 
+	"RRN" VARCHAR2(13 BYTE), 
+	"GENDER" VARCHAR2(10 BYTE), 
+	"PHONE" VARCHAR2(20 BYTE), 
+	"EMAIL" VARCHAR2(100 BYTE), 
+	"ROLE" VARCHAR2(20 BYTE), 
+	"HOSPITAL_ID" NUMBER, 
+	"DEPT_ID" VARCHAR2(20 BYTE), 
+	"APPLIED_AT" DATE DEFAULT SYSDATE, 
+	"STATUS" VARCHAR2(20 BYTE) DEFAULT '대기', 
+	"REVIEWED_BY" VARCHAR2(128 BYTE), 
+	"REVIEWED_AT" DATE, 
+	"REJECT_REASON" VARCHAR2(300 BYTE)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table PRAISE_RELAY
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."PRAISE_RELAY" 
+   (	"PRAISE_ID" NUMBER, 
+	"TITLE" VARCHAR2(300 BYTE), 
+	"CONTENT" CLOB, 
+	"VIEW_COUNT" NUMBER DEFAULT 0, 
+	"CREATED_AT" DATE DEFAULT SYSDATE, 
+	"PATIENT_USER_ID" VARCHAR2(50 BYTE)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table REFERRAL_COMMENT
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."REFERRAL_COMMENT" 
+   (	"COMMENT_ID" NUMBER, 
+	"REQUEST_ID" NUMBER, 
+	"DOCTOR_ID" VARCHAR2(50 BYTE), 
+	"COMMENT_TEXT" CLOB, 
+	"COMMENT_AT" DATE DEFAULT SYSDATE
+   ) ;
+--------------------------------------------------------
+--  DDL for Table REFERRAL_NOTICES
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."REFERRAL_NOTICES" 
+   (	"NOTICE_ID" NUMBER, 
+	"TITLE" VARCHAR2(200 BYTE), 
+	"CONTENT" CLOB, 
+	"CREATED_AT" DATE DEFAULT SYSDATE, 
+	"CREATED_BY" VARCHAR2(100 BYTE), 
+	"TARGET_ROLE" VARCHAR2(50 BYTE)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table REFERRAL_REPLIES
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."REFERRAL_REPLIES" 
+   (	"REPLY_ID" NUMBER, 
+	"REQUEST_ID" NUMBER, 
+	"RESPONDER_NAME" VARCHAR2(100 BYTE), 
+	"REPLY_CONTENT" CLOB, 
+	"REPLY_DATE" DATE, 
+	"STATUS" VARCHAR2(20 BYTE), 
+	"HOSPITAL_ID" NUMBER, 
+	"ATTACHMENT_PATH" VARCHAR2(300 BYTE)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table REFERRAL_REQUESTS
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."REFERRAL_REQUESTS" 
+   (	"REQUEST_ID" NUMBER, 
+	"USER_ID" VARCHAR2(50 BYTE), 
+	"PATIENT_NAME" VARCHAR2(100 BYTE), 
+	"RRN" VARCHAR2(13 BYTE), 
+	"CONTACT" VARCHAR2(50 BYTE), 
+	"DEPARTMENT" VARCHAR2(100 BYTE), 
+	"DOCTOR_ID" VARCHAR2(50 BYTE), 
+	"HOPE_DATE" DATE, 
+	"REASON" CLOB, 
+	"SYMPTOMS" CLOB, 
+	"HOSPITAL_ID" NUMBER, 
+	"STATUS" VARCHAR2(20 BYTE), 
+	"CREATED_AT" DATE DEFAULT SYSDATE, 
+	"RECORD_ID" NUMBER
+   ) ;
+--------------------------------------------------------
+--  DDL for Table RESERVATIONS
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."RESERVATIONS" 
+   (	"RESERVATION_ID" NUMBER, 
+	"PATIENT_NO" NUMBER, 
+	"DEPARTMENT" VARCHAR2(100 BYTE), 
+	"DOCTOR_ID" VARCHAR2(50 BYTE), 
+	"RESERVATION_DATE" DATE, 
+	"STATUS" VARCHAR2(20 BYTE), 
+	"CREATED_AT" DATE DEFAULT SYSDATE, 
+	"SCHEDULE_ID" NUMBER, 
+	"SCHEDULE_TIME" VARCHAR2(20 BYTE)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table RESERVATION_COUNSELS
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."RESERVATION_COUNSELS" 
+   (	"COUNSEL_ID" NUMBER, 
+	"PATIENT_NAME" VARCHAR2(100 BYTE), 
+	"EMAIL" VARCHAR2(100 BYTE), 
+	"SUBJECT" VARCHAR2(200 BYTE), 
+	"MESSAGE" CLOB, 
+	"STATUS" VARCHAR2(50 BYTE) DEFAULT '대기', 
+	"CREATED_AT" DATE DEFAULT SYSDATE, 
+	"PHONE" VARCHAR2(20 BYTE)
+   ) ;
+--------------------------------------------------------
+--  DDL for Table TMP_USER_IDS
+--------------------------------------------------------
+
+  CREATE GLOBAL TEMPORARY TABLE "PROJECT"."TMP_USER_IDS" 
+   (	"USER_ID" VARCHAR2(50 BYTE)
+   ) ON COMMIT DELETE ROWS ;
+--------------------------------------------------------
+--  DDL for Table UPLOADED_FILES
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."UPLOADED_FILES" 
+   (	"FILE_ID" NUMBER, 
+	"REF_TABLE" VARCHAR2(50 BYTE), 
+	"REF_ID" NUMBER, 
+	"FILE_NAME" VARCHAR2(300 BYTE), 
+	"FILE_PATH" VARCHAR2(500 BYTE), 
+	"UPLOADED_BY" VARCHAR2(50 BYTE), 
+	"UPLOADED_AT" DATE DEFAULT SYSDATE
+   ) ;
+--------------------------------------------------------
+--  DDL for Table USERS
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."USERS" 
+   (	"USER_ID" VARCHAR2(50 BYTE), 
+	"PASSWORD" VARCHAR2(256 BYTE), 
+	"NAME" VARCHAR2(100 BYTE), 
+	"RRN" VARCHAR2(13 BYTE), 
+	"GENDER" VARCHAR2(10 BYTE), 
+	"PHONE" VARCHAR2(20 BYTE), 
+	"EMAIL" VARCHAR2(100 BYTE), 
+	"ROLE" VARCHAR2(20 BYTE), 
+	"HOSPITAL_ID" NUMBER, 
+	"DEPT_ID" VARCHAR2(20 BYTE), 
+	"CREATED_AT" DATE DEFAULT SYSDATE
+   ) ;
+--------------------------------------------------------
+--  DDL for Table USER_ACTIVITY_LOGS
+--------------------------------------------------------
+
+  CREATE TABLE "PROJECT"."USER_ACTIVITY_LOGS" 
+   (	"LOG_ID" NUMBER, 
+	"USER_ID" VARCHAR2(100 BYTE), 
+	"ACTION" VARCHAR2(100 BYTE), 
+	"TARGET_TABLE" VARCHAR2(50 BYTE), 
+	"TARGET_ID" NUMBER, 
+	"TIMESTAMP" DATE DEFAULT SYSDATE, 
+	"USER_TYPE" VARCHAR2(10 BYTE), 
+	"USER_NAME" VARCHAR2(100 BYTE)
+   ) ;
+REM INSERTING into PROJECT.ADMINS
+SET DEFINE OFF;
+Insert into PROJECT.ADMINS (ADMIN_ID,PASSWORD,NAME,EMAIL,PHONE,CREATED_AT) values ('c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','관리자','admin@example.com','01012345678',to_date('2025/07/29','YYYY/MM/DD'));
+REM INSERTING into PROJECT.CERTIFICATES
+SET DEFINE OFF;
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (149,100118,null,'진단서',to_date('2025/07/30','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/07/30','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (150,100118,null,'진단서',to_date('2025/07/30','YYYY/MM/DD'),null,'온라인','접수',null,'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (151,100118,null,'진단서',to_date('2025/07/30','YYYY/MM/DD'),null,'온라인','발급완료',to_date('2025/07/30','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (152,100118,null,'진단서',to_date('2025/07/31','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/07/31','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (154,100118,null,'진단서',to_date('2025/08/04','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/04','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (166,100000,17,'진단서',to_date('2025/07/31','YYYY/MM/DD'),null,'온라인','발급완료',to_date('2025/07/31','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (167,100118,null,'진단서',to_date('2025/07/31','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/07/31','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (124,1,null,'진단서',to_date('2025/07/29','YYYY/MM/DD'),null,'온라인','발급완료',null,'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (125,1,null,'진단서',to_date('2025/07/29','YYYY/MM/DD'),null,'온라인','접수',null,'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (126,1,null,'진단서',to_date('2025/07/29','YYYY/MM/DD'),'kim','온라인','발급완료',null,'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (127,100000,null,'진단서',to_date('2025/07/29','YYYY/MM/DD'),null,'온라인','접수',null,'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (128,1,null,'진단서',to_date('2025/08/04','YYYY/MM/DD'),'kim','온라인','발급완료',null,'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (129,100118,null,'진단서',to_date('2025/07/29','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/07/30','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (130,100000,null,'소견서',to_date('2025/07/29','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/07/30','YYYY/MM/DD'),'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (131,100118,null,'진단서',to_date('2025/07/29','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/07/30','YYYY/MM/DD'),'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (132,100118,null,'진단서',to_date('2025/07/29','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/07/30','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (133,100118,null,'진단서',to_date('2025/07/29','YYYY/MM/DD'),null,'온라인','접수',null,'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (134,100000,null,'소견서',to_date('2025/08/04','YYYY/MM/DD'),'kim','온라인','발급완료',null,'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (171,100118,null,'진단서',to_date('2025/07/31','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/07/31','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (142,100118,null,'소견서',to_date('2025/07/31','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/07/31','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (143,100000,null,'소견서',to_date('2025/07/30','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/07/30','YYYY/MM/DD'),'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (144,100118,null,'진단서',to_date('2025/08/04','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/04','YYYY/MM/DD'),'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (145,100118,null,'진단서',to_date('2025/07/30','YYYY/MM/DD'),null,'온라인','접수',null,'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (156,100118,null,'소견서',to_date('2025/07/31','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/07/31','YYYY/MM/DD'),'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (157,100118,null,'진단서',to_date('2025/07/31','YYYY/MM/DD'),'kim','온라인','발급완료',null,'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (148,100118,null,'진단서',to_date('2025/07/30','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/07/30','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (158,100118,null,'진단서',to_date('2025/07/31','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/07/31','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (159,100118,null,'진단서',to_date('2025/07/31','YYYY/MM/DD'),'kim','온라인','발급완료',null,'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (160,100000,17,'진단서',to_date('2025/07/31','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/07/31','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (161,100000,17,'진단서',to_date('2025/07/31','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/07/31','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (164,100000,17,'소견서',to_date('2025/07/31','YYYY/MM/DD'),'kim','온라인','발급완료',null,'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (177,100118,null,'소견서',to_date('2025/07/31','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/07/31','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (181,1,23,'진단서',to_date('2025/08/01','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/01','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (182,1,1,'진단서',to_date('2025/08/05','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/01','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (183,1,22,'진단서',to_date('2025/08/01','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/01','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (184,1,1,'소견서',to_date('2025/08/01','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/01','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (185,1,1,'소견서',to_date('2025/08/01','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/01','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (186,1,23,'진단서',to_date('2025/08/05','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/01','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (187,1,1,'진단서',to_date('2025/08/01','YYYY/MM/DD'),'kim','온라인','발급완료',null,'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (188,1,1,'진단서',to_date('2025/08/05','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/01','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (189,100000,17,'소견서',to_date('2025/08/01','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/01','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (190,100000,17,'소견서',to_date('2025/08/01','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/01','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (191,100000,27,'진단서',to_date('2025/08/01','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/01','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (201,100000,17,'진단서',to_date('2025/08/04','YYYY/MM/DD'),'kim','온라인','발급완료',null,'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (202,100000,26,'소견서',to_date('2025/08/04','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/19','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (203,100000,26,'소견서',to_date('2025/08/04','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/04','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (204,100000,17,'소견서',to_date('2025/08/04','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/04','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (205,100000,26,'소견서',to_date('2025/08/04','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/04','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (206,100000,31,'소견서',to_date('2025/08/04','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/04','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (207,100000,31,'진단서',to_date('2025/08/04','YYYY/MM/DD'),'kim','온라인','발급완료',null,'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (208,100000,28,'소견서',to_date('2025/08/05','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/04','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (209,100000,26,'진단서',to_date('2025/08/04','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/04','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (210,100000,33,'진단서',to_date('2025/08/04','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/04','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (211,100000,28,'진단서',to_date('2025/08/04','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/04','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (212,100000,33,'소견서',to_date('2025/08/04','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/04','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (213,100000,33,'진단서',to_date('2025/08/04','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/04','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (214,100000,33,'소견서',to_date('2025/08/04','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/04','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (215,100000,34,'소견서',to_date('2025/08/04','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/04','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (216,100000,34,'소견서',to_date('2025/08/04','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/04','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (217,100000,35,'소견서',to_date('2025/08/05','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/05','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (218,100000,35,'진단서',to_date('2025/08/05','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/04','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (219,100000,35,'진단서',to_date('2025/08/05','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/04','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (220,100000,35,'진단서',to_date('2025/08/05','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/04','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (221,100000,34,'진단서',to_date('2025/08/05','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/19','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (222,100000,28,'진단서',to_date('2025/08/07','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/05','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (223,100000,33,'진단서',to_date('2025/08/21','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/11','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (224,1,23,'소견서',to_date('2025/08/18','YYYY/MM/DD'),'kim','온라인','발급완료',null,'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (225,100000,35,'소견서',to_date('2025/08/05','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/05','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (226,100000,38,'진단서',to_date('2025/08/05','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/05','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (227,100000,35,'진단서',to_date('2025/08/05','YYYY/MM/DD'),'kim','온라인','발급완료',null,'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (228,100000,31,'진단서',to_date('2025/08/05','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/19','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (229,100000,34,'소견서',to_date('2025/08/05','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/19','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (230,100000,35,'소견서',to_date('2025/08/05','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/05','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (263,100000,44,'진단서',to_date('2025/08/19','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/22','YYYY/MM/DD'),'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (281,100000,46,'진단서',to_date('2025/08/18','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/13','YYYY/MM/DD'),'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (282,100000,46,'소견서',to_date('2025/08/20','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/13','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (283,100000,46,'진단서',to_date('2025/08/18','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/19','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (235,1,24,'진단서',to_date('2025/08/19','YYYY/MM/DD'),'kim','온라인','발급완료',null,'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (236,1,23,'진단서',to_date('2025/08/05','YYYY/MM/DD'),'kim','온라인','발급완료',null,'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (284,100000,49,'진단서',to_date('2025/08/19','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/25','YYYY/MM/DD'),'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (238,100000,38,'소견서',to_date('2025/08/07','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/07','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (301,115,66,'진단서',to_date('2025/08/25','YYYY/MM/DD'),'kim','온라인','발급완료',null,'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (321,147,68,'진단서',to_date('2025/08/26','YYYY/MM/DD'),'kim','온라인','발급완료',null,'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (322,100000,65,'진단서',to_date('2025/08/25','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/25','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (323,100000,72,'진단서',to_date('2025/08/25','YYYY/MM/DD'),'kim','온라인','발급완료',null,'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (243,100000,35,'진단서',to_date('2025/08/07','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/07','YYYY/MM/DD'),'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (261,100000,38,'진단서',to_date('2025/08/19','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/11','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (262,100000,38,'진단서',to_date('2025/08/07','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/19','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (324,100000,64,'진단서',to_date('2025/08/26','YYYY/MM/DD'),'kim','온라인','발급완료',null,'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (325,100000,72,'진단서',to_date('2025/08/25','YYYY/MM/DD'),null,'온라인','접수',null,'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (326,100000,72,'소견서',to_date('2025/08/25','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/25','YYYY/MM/DD'),'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (327,100000,72,'소견서',to_date('2025/08/25','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/25','YYYY/MM/DD'),'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (328,100000,62,'진단서',to_date('2025/08/25','YYYY/MM/DD'),'kim','온라인','발급완료',null,'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (329,100000,72,'진단서',to_date('2025/08/26','YYYY/MM/DD'),null,'온라인','접수',null,'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (330,100000,64,'소견서',to_date('2025/08/26','YYYY/MM/DD'),'kim','온라인','발급완료',null,'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (331,100000,72,'진단서',to_date('2025/08/26','YYYY/MM/DD'),'kim','온라인','발급완료',to_date('2025/08/26','YYYY/MM/DD'),'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (341,100000,77,'소견서',to_date('2025/08/26','YYYY/MM/DD'),null,'온라인','접수',null,'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (342,100000,76,'소견서',to_date('2025/08/26','YYYY/MM/DD'),null,'온라인','접수',null,'온라인',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (343,100000,78,'소견서',to_date('2025/08/26','YYYY/MM/DD'),'doc027','온라인','발급완료',to_date('2025/08/26','YYYY/MM/DD'),'방문',null);
+Insert into PROJECT.CERTIFICATES (CERTIFICATE_ID,PATIENT_NO,RECORD_ID,TYPE,ISSUED_AT,ISSUED_BY,METHOD,STATUS,VIEWED_AT,REQUEST_METHOD,FILE_ID) values (344,115,66,'진단서',to_date('2025/08/26','YYYY/MM/DD'),null,'온라인','접수',null,'온라인',null);
+REM INSERTING into PROJECT.DEPARTMENTS
+SET DEFINE OFF;
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('001','내과',null,'02-111-1111',to_date('2025/07/21','YYYY/MM/DD'),null,null);
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('002','안과',null,'02-222-2222',to_date('2025/07/21','YYYY/MM/DD'),null,null);
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('000','진료과 없음',null,null,to_date('2025/07/21','YYYY/MM/DD'),null,null);
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('999','관리부',null,null,to_date('2025/07/28','YYYY/MM/DD'),null,null);
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('D1','내과',null,null,to_date('2025/07/28','YYYY/MM/DD'),null,null);
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('A01','감염내과',null,'02-1111-1001',to_date('2025/08/01','YYYY/MM/DD'),'폐렴, 결핵, 독감/바이러스감염, 패혈증, 요로감염, C-디피실 장염, 기회감염, 중증열성혈소판감소증(SFTS), 대상포진','본관 3층 감염내과 진료실');
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('A02','내분비내과',null,'02-1111-1002',to_date('2025/08/01','YYYY/MM/DD'),'당뇨병, 당뇨합병증(신장/망막/신경), 갑상선기능항진증, 갑상선기능저하증, 갑상선결절, 고지혈증, 비만, 골다공증, 뇌하수체·부신질환','본관 3층 내분비내과 진료실');
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('A03','소화기내과',null,'02-1111-1003',to_date('2025/08/01','YYYY/MM/DD'),'역류성식도염, 위염/위궤양, 위·대장용종, 과민성장증후군, 염증성장질환(크론/궤양성 대장염), 급·만성췌장염, 담석증, 담도협착, 간염/간경변','본관 4층 소화기내과 진료실');
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('A04','신장내과',null,'02-1111-1004',to_date('2025/08/01','YYYY/MM/DD'),'만성콩팥병(CKD), 급성신손상(AKI), 사구체신염, 단백뇨/혈뇨, 고혈압성 신질환, 당뇨병성 신증, 전해질 이상, 요로감염, 혈액투석/복막투석 관리','본관 2층 신장내과 진료실');
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('A05','호흡기내과',null,'02-1111-1005',to_date('2025/08/01','YYYY/MM/DD'),'폐렴, 천식, 만성폐쇄성폐질환(COPD), 결핵, 기관지확장증, 폐섬유화, 기흉, 수면무호흡증, 폐색전증','본관 2층 호흡기내과 진료실');
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('B01','대장항문외과',null,'02-2222-2001',to_date('2025/08/01','YYYY/MM/DD'),'대장암, 직장암, 치질(치핵), 치열, 치루, 대장폴립, 게실질환, 대장염, 변비, 변실금','신관 3층 대장항문외과 진료실');
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('B02','유방외과',null,'02-2222-2002',to_date('2025/08/01','YYYY/MM/DD'),'유방암, 유방 양성종양, 유방염, 유방낭종, 섬유선종, 유방통증, 유두분비물, 고위험유방병변','신관 3층 유방외과 진료실');
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('B03','일반외과',null,'02-2222-2003',to_date('2025/08/01','YYYY/MM/DD'),'동맥경화증, 말초동맥질환, 하지정맥류, 심부정맥혈전증(DVT), 폐색전증, 동맥류, 버거병, 혈관손상, 림프부종','본관 5층 일반외과 진료실');
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('B04','위장관외과',null,'02-2222-2004',to_date('2025/08/01','YYYY/MM/DD'),'위암, 대장암, 소장질환, 위·십이지장궤양, 위장관출혈, 위장관천공, 위폴립, 장폐색','본관 5층 위장관외과 진료실');
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('B05','갑상선내분비외과',null,'02-2222-2005',to_date('2025/08/01','YYYY/MM/DD'),'간암, 담낭암, 담도암, 췌장암, 비장종양, 담석증, 담도협착, 췌장염, 비장손상','본관 5층 갑상서내분비외과 진료실');
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('C01','정형외과',null,'02-3333-3001',to_date('2025/08/01','YYYY/MM/DD'),'무릎관절염, 고관절염, 인대손상, 반월상연골손상, 어깨충돌증후군, 회전근개파열, 척추측만증, 골절, 스포츠손상','본관 6층 정형외과 진료실');
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('C03','신경과',null,'02-3333-3003',to_date('2025/08/01','YYYY/MM/DD'),'뇌졸중, 치매, 파킨슨병, 간질, 다발성경화증, 말초신경병증, 두통, 어지럼증','본관 6층 신경과 진료실');
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('C04','소아청소년과',null,'02-3333-3004',to_date('2025/08/01','YYYY/MM/DD'),'소아천식, 아토피피부염, 중이염, 폐렴, 장염, 소아비만, 성장지연, 발달지연','본관 6층 소아청소년과 진료실');
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('C05','이비인후과',null,'02-3333-3005',to_date('2025/08/01','YYYY/MM/DD'),'선천성식도폐쇄, 선천성횡격막탈장, 장중첩증, 서혜부탈장, 소아종양, 소아화상, 선천성심장기형','본관 7층 이비인후과 진료실');
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('C06','응급의학과',null,'02-3333-3006',to_date('2025/08/01','YYYY/MM/DD'),'심근경색, 뇌졸중, 외상, 골절, 화상, 급성복증, 쇼크, 심정지','본관 7층 응급의학과 진료실');
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('C07','피부과',null,'02-3333-3007',to_date('2025/08/01','YYYY/MM/DD'),'아토피피부염, 여드름, 건선, 탈모, 피부암, 사마귀, 대상포진, 피부알레르기','본관 7층 피부과 진료실');
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('C08','흉부외과',null,'02-3333-3008',to_date('2025/08/01','YYYY/MM/DD'),'관상동맥질환, 심장판막질환, 폐암, 기흉, 식도암, 대동맥류, 대동맥박리','본관 7층 흉부외과 진료실');
+Insert into PROJECT.DEPARTMENTS (DEPT_ID,NAME,HEAD_DOCTOR_ID,PHONE,CREATED_AT,MAIN_DISEASES,LOCATION_GUIDE) values ('C02','산부인과',null,'02-3333-3002',to_date('2025/08/01','YYYY/MM/DD'),'자궁근종, 자궁내막증, 난소낭종, 난임, 폐경증후군, 고위험임신, 자궁경부암, 난소암','본관 6층 산부인과 진료실');
+REM INSERTING into PROJECT.DOCTOR_INFO
+SET DEFINE OFF;
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('kim','B03','일반 외과 수술',null,to_date('2025/07/21','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc111','C07','쁘띠시술',null,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc002','A02','당뇨 및 갑상선 질환',null,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc003','B01','대장 항문 질환',null,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc004','B02','유방 종양',null,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc005','C01','관절 수술',null,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc006','C02','여성 질환 및 분만',null,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc007','A03','위·장 질환',null,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc008','B03','일반 외과 수술',null,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc009','C03','신경계 질환',null,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc010','A04','신장 질환 및 투석',null,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc1001','C01','인공관절 수술, 고관절 질환',null,to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc1002','C01','척추 질환, 스포츠 손상',null,to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc011','C08','폐 질환 수술, 흉부 종양 제거',null,to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc012','C07','피부암, 아토피, 피부 미용 치료',null,to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc013','C06','응급 외상 처치, 심정지 대응',null,to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc014','C05','청력 손실, 축농증, 편도 수술',null,to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc015','C04','소아 예방접종, 성장 발달 관리',null,to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc016','C03','뇌졸중, 두통, 파킨슨병',null,to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc017','C02','고위험 임신 관리, 난임 치료',null,to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc018','C01','인공관절 수술, 고관절 질환',null,to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc019','B05','전립선 수술, 요로 결석 치료',null,to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc020','B04','위암, 대장암 수술',null,to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc021','B03','폐 질환 수술, 식도암 수술',null,to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc022','B02','유방암 절제술, 종양 제거',null,to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc023','A05','폐렴, 만성폐쇄성폐질환(COPD)',null,to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc024','A04','신부전, 투석 치료',null,to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc025','A03','위염, 대장 용종 제거',null,to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc026','A02','당뇨병, 갑상선 질환',null,to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_INFO (DOCTOR_ID,DEPT_ID,SPECIALTY,PROFILE_IMAGE_PATH,CREATED_AT) values ('doc027','A01','감염병 진단, 항생제 치료',null,to_date('2025/08/12','YYYY/MM/DD'));
+REM INSERTING into PROJECT.DOCTOR_SCHEDULES
+SET DEFINE OFF;
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (115,'kim',to_date('2025/07/31','YYYY/MM/DD'),'오전','09:30','외래진료',to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (116,'kim',to_date('2025/07/31','YYYY/MM/DD'),'오전','10:00','외래진료',to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (114,'kim',to_date('2025/07/31','YYYY/MM/DD'),'오전','09:00','외래진료',to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (117,'kim',to_date('2025/07/31','YYYY/MM/DD'),'오후','12:00','강의',to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (118,'kim',to_date('2025/07/30','YYYY/MM/DD'),'오후','12:00','외래진료',to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (156,'kim',to_date('2025/07/30','YYYY/MM/DD'),'오후','15:00','외래진료',to_date('2025/07/30','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (120,'kim',to_date('2025/07/24','YYYY/MM/DD'),'오후','18:00','외래진료',to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (121,'kim',to_date('2025/07/27','YYYY/MM/DD'),'오전','09:00','외래진료',to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (122,'kim',to_date('2025/07/27','YYYY/MM/DD'),'오전','09:30','외래진료',to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (123,'kim',to_date('2025/07/27','YYYY/MM/DD'),'오전','10:00','외래진료',to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (124,'kim',to_date('2025/07/27','YYYY/MM/DD'),'오전','10:30','외래진료',to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (125,'kim',to_date('2025/07/27','YYYY/MM/DD'),'오전','11:00','외래진료',to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (126,'kim',to_date('2025/07/27','YYYY/MM/DD'),'오전','11:30','외래진료',to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (24,'kim',to_date('2025/07/28','YYYY/MM/DD'),null,'09:00','외래진료',to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (25,'kim',to_date('2025/07/28','YYYY/MM/DD'),null,'09:30','외래진료',to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (26,'kim',to_date('2025/07/28','YYYY/MM/DD'),null,'10:00','외래진료',to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (127,'kim',to_date('2025/08/01','YYYY/MM/DD'),'오전','09:00','외래진료',to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (128,'kim',to_date('2025/08/01','YYYY/MM/DD'),'오전','09:30','학회',to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (129,'kim',to_date('2025/07/25','YYYY/MM/DD'),'오전','09:00','외래진료',to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (130,'kim',to_date('2025/07/25','YYYY/MM/DD'),'오전','09:30','학회',to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (131,'kim',to_date('2025/07/25','YYYY/MM/DD'),'오후','12:00','외래진료',to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (132,'kim',to_date('2025/07/25','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (133,'kim',to_date('2025/07/25','YYYY/MM/DD'),'오후','13:00','외래진료',to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (134,'kim',to_date('2025/07/25','YYYY/MM/DD'),'오후','13:30','외래진료',to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (135,'kim',to_date('2025/07/25','YYYY/MM/DD'),'오후','14:00','외래진료',to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (136,'kim',to_date('2025/07/28','YYYY/MM/DD'),'오후','12:00','외래진료',to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (137,'kim',to_date('2025/07/28','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (140,'kim',to_date('2025/07/28','YYYY/MM/DD'),'오후','13:00','학회',to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (142,'kim',to_date('2025/07/28','YYYY/MM/DD'),'오후','14:00','강의',to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (141,'kim',to_date('2025/07/28','YYYY/MM/DD'),'오후','13:30','강의',to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (146,'kim',to_date('2025/07/28','YYYY/MM/DD'),'오전','11:00','외래진료',to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (147,'kim',to_date('2025/07/28','YYYY/MM/DD'),'오전','11:30','외래진료',to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (145,'kim',to_date('2025/07/28','YYYY/MM/DD'),'오전','10:30','외래진료',to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (148,'kim',to_date('2025/07/29','YYYY/MM/DD'),'오후','12:00','외래진료',to_date('2025/07/29','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (149,'kim',to_date('2025/07/29','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/07/29','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (150,'kim',to_date('2025/07/29','YYYY/MM/DD'),'오후','13:00','외래진료',to_date('2025/07/29','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (151,'kim',to_date('2025/07/29','YYYY/MM/DD'),'오후','13:30','외래진료',to_date('2025/07/29','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (152,'kim',to_date('2025/07/30','YYYY/MM/DD'),'오후','13:00','외래진료',to_date('2025/07/30','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (155,'kim',to_date('2025/07/30','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/07/30','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (154,'kim',to_date('2025/07/30','YYYY/MM/DD'),'오후','13:30','외래진료',to_date('2025/07/30','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (157,'kim',to_date('2025/07/30','YYYY/MM/DD'),'오후','15:30','외래진료',to_date('2025/07/30','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (158,'kim',to_date('2025/07/30','YYYY/MM/DD'),'오후','16:00','외래진료',to_date('2025/07/30','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (159,'kim',to_date('2025/07/31','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/07/31','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (160,'kim',to_date('2025/07/31','YYYY/MM/DD'),'오후','13:00','외래진료',to_date('2025/07/31','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (161,'kim',to_date('2025/07/31','YYYY/MM/DD'),'오후','13:30','외래진료',to_date('2025/07/31','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (162,'kim',to_date('2025/07/31','YYYY/MM/DD'),'오후','14:00','외래진료',to_date('2025/07/31','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (163,'kim',to_date('2025/07/31','YYYY/MM/DD'),'오후','14:30','외래진료',to_date('2025/07/31','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (164,'kim',to_date('2025/07/31','YYYY/MM/DD'),'오후','15:00','외래진료',to_date('2025/07/31','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (165,'kim',to_date('2025/07/31','YYYY/MM/DD'),'오후','15:30','외래진료',to_date('2025/07/31','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (166,'kim',to_date('2025/07/31','YYYY/MM/DD'),'오후','16:00','외래진료',to_date('2025/07/31','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (167,'kim',to_date('2025/08/01','YYYY/MM/DD'),'오후','12:00','외래진료',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (168,'kim',to_date('2025/08/01','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (169,'kim',to_date('2025/08/01','YYYY/MM/DD'),'오후','13:00','외래진료',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (170,'kim',to_date('2025/08/01','YYYY/MM/DD'),'오후','13:30','외래진료',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (171,'kim',to_date('2025/08/02','YYYY/MM/DD'),'오후','12:00','외래진료',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (172,'kim',to_date('2025/08/02','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (173,'kim',to_date('2025/08/02','YYYY/MM/DD'),'오후','13:00','외래진료',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (174,'kim',to_date('2025/08/02','YYYY/MM/DD'),'오후','13:30','외래진료',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (175,'kim',to_date('2025/08/02','YYYY/MM/DD'),'오후','14:00','외래진료',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (176,'kim',to_date('2025/08/03','YYYY/MM/DD'),'오후','12:00','외래진료',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (177,'kim',to_date('2025/08/03','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (178,'kim',to_date('2025/08/03','YYYY/MM/DD'),'오후','13:00','외래진료',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (179,'kim',to_date('2025/08/03','YYYY/MM/DD'),'오후','13:30','외래진료',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (180,'kim',to_date('2025/08/03','YYYY/MM/DD'),'오후','14:00','외래진료',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (181,'kim',to_date('2025/08/01','YYYY/MM/DD'),'오후','14:00','외래진료',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (182,'kim',to_date('2025/08/01','YYYY/MM/DD'),'오후','14:30','외래진료',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (183,'kim',to_date('2025/08/01','YYYY/MM/DD'),'오후','15:00','외래진료',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (184,'kim',to_date('2025/08/01','YYYY/MM/DD'),'오후','15:30','외래진료',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (185,'kim',to_date('2025/08/04','YYYY/MM/DD'),'오후','12:00','외래진료',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (186,'kim',to_date('2025/08/04','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (187,'kim',to_date('2025/08/04','YYYY/MM/DD'),'오후','13:00','외래진료',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (188,'kim',to_date('2025/08/04','YYYY/MM/DD'),'오후','13:30','외래진료',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (189,'kim',to_date('2025/08/05','YYYY/MM/DD'),'오후','12:00','외래진료',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (190,'kim',to_date('2025/08/05','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (191,'kim',to_date('2025/08/05','YYYY/MM/DD'),'오후','13:00','외래진료',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (192,'kim',to_date('2025/08/05','YYYY/MM/DD'),'오후','13:30','외래진료',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (41,'doc005',to_date('2025/08/06','YYYY/MM/DD'),'오전','09:00','외래진료',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (42,'doc005',to_date('2025/08/06','YYYY/MM/DD'),'오후','13:00','강의',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (43,'doc005',to_date('2025/08/08','YYYY/MM/DD'),'오후','13:30','학회',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (44,'doc005',to_date('2025/08/10','YYYY/MM/DD'),'오전','09:30','휴가',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (45,'doc005',to_date('2025/08/09','YYYY/MM/DD'),'오전','09:00','외래진료',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (193,'kim',to_date('2025/08/04','YYYY/MM/DD'),'오후','14:00','외래진료',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (194,'kim',to_date('2025/08/04','YYYY/MM/DD'),'오후','14:30','외래진료',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (195,'kim',to_date('2025/08/04','YYYY/MM/DD'),'오후','15:00','외래진료',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (196,'kim',to_date('2025/08/04','YYYY/MM/DD'),'오후','15:30','외래진료',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (197,'kim',to_date('2025/08/04','YYYY/MM/DD'),'오후','16:00','외래진료',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (201,'kim',to_date('2025/08/04','YYYY/MM/DD'),'오후','16:30','외래진료',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (202,'kim',to_date('2025/08/04','YYYY/MM/DD'),'오후','17:00','외래진료',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (203,'kim',to_date('2025/08/04','YYYY/MM/DD'),'오후','17:30','외래진료',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (204,'kim',to_date('2025/08/05','YYYY/MM/DD'),'오후','14:00','외래진료',to_date('2025/08/05','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (205,'kim',to_date('2025/08/05','YYYY/MM/DD'),'오후','14:30','외래진료',to_date('2025/08/05','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (206,'kim',to_date('2025/08/05','YYYY/MM/DD'),'오후','15:00','외래진료',to_date('2025/08/05','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (207,'kim',to_date('2025/08/05','YYYY/MM/DD'),'오후','15:30','외래진료',to_date('2025/08/05','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (208,'kim',to_date('2025/08/05','YYYY/MM/DD'),'오후','16:00','외래진료',to_date('2025/08/05','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (209,'kim',to_date('2025/08/06','YYYY/MM/DD'),'오후','12:00','외래진료',to_date('2025/08/05','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (210,'kim',to_date('2025/08/06','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/08/05','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (211,'kim',to_date('2025/08/06','YYYY/MM/DD'),'오후','13:00','외래진료',to_date('2025/08/05','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (212,'kim',to_date('2025/08/06','YYYY/MM/DD'),'오전','09:00','외래진료',to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (213,'kim',to_date('2025/08/06','YYYY/MM/DD'),'오전','09:30','외래진료',to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (214,'kim',to_date('2025/08/06','YYYY/MM/DD'),'오전','10:00','외래진료',to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (215,'kim',to_date('2025/08/06','YYYY/MM/DD'),'오전','10:30','외래진료',to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (216,'kim',to_date('2025/08/06','YYYY/MM/DD'),'오전','11:00','외래진료',to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (217,'kim',to_date('2025/08/07','YYYY/MM/DD'),'오후','12:00','외래진료',to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (218,'kim',to_date('2025/08/07','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (219,'kim',to_date('2025/08/06','YYYY/MM/DD'),'오후','14:30','외래진료',to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (220,'kim',to_date('2025/08/06','YYYY/MM/DD'),'오후','15:00','외래진료',to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (221,'kim',to_date('2025/08/07','YYYY/MM/DD'),'오후','13:00','외래진료',to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (222,'kim',to_date('2025/08/07','YYYY/MM/DD'),'오후','13:30','외래진료',to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (223,'kim',to_date('2025/08/07','YYYY/MM/DD'),'오후','14:00','외래진료',to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (224,'kim',to_date('2025/08/07','YYYY/MM/DD'),'오후','14:30','외래진료',to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (225,'kim',to_date('2025/08/07','YYYY/MM/DD'),'오후','15:00','외래진료',to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (226,'kim',to_date('2025/08/07','YYYY/MM/DD'),'오후','15:30','외래진료',to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (227,'kim',to_date('2025/08/08','YYYY/MM/DD'),'오후','12:00','외래진료',to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (228,'kim',to_date('2025/08/08','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (229,'kim',to_date('2025/08/08','YYYY/MM/DD'),'오후','13:00','외래진료',to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (230,'kim',to_date('2025/08/08','YYYY/MM/DD'),'오후','13:30','외래진료',to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (238,'kim',to_date('2025/08/09','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/08/08','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (239,'kim',to_date('2025/08/09','YYYY/MM/DD'),'오후','13:00','외래진료',to_date('2025/08/08','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (240,'kim',to_date('2025/08/09','YYYY/MM/DD'),'오후','13:30','외래진료',to_date('2025/08/08','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (241,'kim',to_date('2025/08/12','YYYY/MM/DD'),'오전','11:00','외래진료',to_date('2025/08/11','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (242,'kim',to_date('2025/08/12','YYYY/MM/DD'),'오전','11:30','외래진료',to_date('2025/08/11','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (243,'kim',to_date('2025/08/12','YYYY/MM/DD'),'오후','12:00','외래진료',to_date('2025/08/11','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (244,'kim',to_date('2025/08/12','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/08/11','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (245,'kim',to_date('2025/08/12','YYYY/MM/DD'),'오후','13:00','외래진료',to_date('2025/08/11','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (246,'kim',to_date('2025/08/12','YYYY/MM/DD'),'오후','13:30','외래진료',to_date('2025/08/11','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (247,'kim',to_date('2025/08/12','YYYY/MM/DD'),'오후','14:00','외래진료',to_date('2025/08/11','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (248,'kim',to_date('2025/08/12','YYYY/MM/DD'),'오후','14:30','외래진료',to_date('2025/08/11','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (61,'doc005',to_date('2025/08/14','YYYY/MM/DD'),'오후',null,'강의',to_date('2025/08/11','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (62,'doc005',to_date('2025/08/15','YYYY/MM/DD'),'오전',null,'외래진료',to_date('2025/08/11','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (63,'doc005',to_date('2025/08/16','YYYY/MM/DD'),'오전',null,'기타',to_date('2025/08/11','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (64,'doc005',to_date('2025/08/17','YYYY/MM/DD'),'오전',null,'외래진료',to_date('2025/08/11','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (251,'kim',to_date('2025/08/13','YYYY/MM/DD'),'오후','13:00','외래진료',to_date('2025/08/13','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (249,'kim',to_date('2025/08/13','YYYY/MM/DD'),'오후','12:00','외래진료',to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (250,'kim',to_date('2025/08/13','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (252,'kim',to_date('2025/08/13','YYYY/MM/DD'),'오후','13:30','외래진료',to_date('2025/08/13','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (253,'kim',to_date('2025/08/14','YYYY/MM/DD'),'오후','12:00','외래진료',to_date('2025/08/13','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (254,'kim',to_date('2025/08/14','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/08/13','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (259,'kim',to_date('2025/08/13','YYYY/MM/DD'),'오후','14:00','외래진료',to_date('2025/08/13','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (256,'kim',to_date('2025/08/14','YYYY/MM/DD'),'오후','13:00','외래진료',to_date('2025/08/13','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (260,'kim',to_date('2025/08/14','YYYY/MM/DD'),'오후','13:30','외래진료',to_date('2025/08/14','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (261,'kim',to_date('2025/08/14','YYYY/MM/DD'),'오후','14:00','외래진료',to_date('2025/08/14','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (262,'kim',to_date('2025/08/14','YYYY/MM/DD'),'오후','14:30','외래진료',to_date('2025/08/14','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (263,'kim',to_date('2025/08/15','YYYY/MM/DD'),'오전','10:00','외래진료',to_date('2025/08/14','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (264,'kim',to_date('2025/08/15','YYYY/MM/DD'),'오전','10:30','외래진료',to_date('2025/08/14','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (98,'kim',to_date('2025/08/20','YYYY/MM/DD'),null,'09:00','외래진료',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (274,'kim',to_date('2025/08/19','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (265,'kim',to_date('2025/08/18','YYYY/MM/DD'),'오후','12:00','외래진료',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (266,'kim',to_date('2025/08/18','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (100,'doc005',to_date('2025/08/18','YYYY/MM/DD'),'오전','09:00','외래진료',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (268,'kim',to_date('2025/08/21','YYYY/MM/DD'),'오후','13:00','외래진료',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (273,'kim',to_date('2025/08/19','YYYY/MM/DD'),'오후','12:00','외래진료',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (280,'kim',to_date('2025/08/18','YYYY/MM/DD'),'오후','18:00','외래진료',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (279,'kim',to_date('2025/08/22','YYYY/MM/DD'),'오전','10:00','외래진료',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (101,'kim',to_date('2025/08/18','YYYY/MM/DD'),null,'18:20','외래진료',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (102,'kim',to_date('2025/08/18','YYYY/MM/DD'),null,'18:30','외래진료',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (103,'kim',to_date('2025/08/18','YYYY/MM/DD'),null,'18:50','외래진료',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (104,'kim',to_date('2025/08/18','YYYY/MM/DD'),null,'19:00','외래진료',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (105,'kim',to_date('2025/08/18','YYYY/MM/DD'),null,'19:20','외래진료',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (284,'kim',to_date('2025/08/21','YYYY/MM/DD'),'오후','14:00','외래진료',to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (285,'kim',to_date('2025/08/21','YYYY/MM/DD'),'오후','14:30','외래진료',to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (283,'kim',to_date('2025/08/21','YYYY/MM/DD'),'오후','13:30','외래진료',to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (286,'kim',to_date('2025/08/19','YYYY/MM/DD'),'오후','13:00',null,to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (287,'kim',to_date('2025/08/19','YYYY/MM/DD'),'오후','13:30',null,to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (106,'kim',to_date('2025/08/31','YYYY/MM/DD'),null,'12:00','외래진료',to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (107,'kim',to_date('2025/08/31','YYYY/MM/DD'),null,'12:30','외래진료',to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (108,'kim',to_date('2025/08/31','YYYY/MM/DD'),null,'13:00','외래진료',to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (109,'kim',to_date('2025/08/31','YYYY/MM/DD'),null,'13:30','외래진료',to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (110,'kim',to_date('2025/08/31','YYYY/MM/DD'),null,'14:00','외래진료',to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (111,'kim',to_date('2025/08/31','YYYY/MM/DD'),null,'14:30','외래진료',to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (112,'kim',to_date('2025/08/31','YYYY/MM/DD'),null,'15:00','외래진료',to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (113,'kim',to_date('2025/08/31','YYYY/MM/DD'),null,'15:30','외래진료',to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (288,'kim',to_date('2025/08/20','YYYY/MM/DD'),'오전','09:30','외래진료',to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (295,'kim',to_date('2025/08/31','YYYY/MM/DD'),null,'16:00','외래진료',to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (296,'kim',to_date('2025/08/31','YYYY/MM/DD'),null,'16:30','외래진료',to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (303,'kim',to_date('2025/08/19','YYYY/MM/DD'),'오후','18:00','외래진료',to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (310,'kim',to_date('2025/08/20','YYYY/MM/DD'),'오전','10:30',null,to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (308,'kim',to_date('2025/08/21','YYYY/MM/DD'),'오전','10:00','외래진료',to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (309,'kim',to_date('2025/08/20','YYYY/MM/DD'),'오전','10:00','외래진료',to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (311,'kim',to_date('2025/08/21','YYYY/MM/DD'),'오전','10:30',null,to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (315,'kim',to_date('2025/08/21','YYYY/MM/DD'),'오후','15:00',null,to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (313,'kim',to_date('2025/08/22','YYYY/MM/DD'),'오전','11:00',null,to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (318,'kim',to_date('2025/08/21','YYYY/MM/DD'),'오전','11:00','외래진료',to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (319,'kim',to_date('2025/08/21','YYYY/MM/DD'),'오후','16:00','외래진료',to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (317,'kim',to_date('2025/08/22','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (320,'kim',to_date('2025/08/21','YYYY/MM/DD'),'오후','17:00',null,to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (321,'kim',to_date('2025/08/22','YYYY/MM/DD'),'오후','13:00',null,to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (322,'kim',to_date('2025/08/23','YYYY/MM/DD'),'오전','10:30','외래진료',to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (323,'kim',to_date('2025/08/23','YYYY/MM/DD'),'오전','11:00','외래진료',to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (327,'kim',to_date('2025/08/22','YYYY/MM/DD'),'오후','13:30','외래진료',to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (325,'kim',to_date('2025/08/22','YYYY/MM/DD'),'오전','09:00',null,to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (326,'kim',to_date('2025/08/22','YYYY/MM/DD'),'오전','10:30',null,to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (328,'doc018',to_date('2025/08/25','YYYY/MM/DD'),null,'09:00','외래진료',to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (329,'doc018',to_date('2025/08/25','YYYY/MM/DD'),null,'09:30','외래진료',to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (330,'doc018',to_date('2025/08/25','YYYY/MM/DD'),null,'10:00','외래진료',to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (331,'doc018',to_date('2025/08/25','YYYY/MM/DD'),null,'10:30','외래진료',to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (332,'doc018',to_date('2025/08/25','YYYY/MM/DD'),null,'11:00','외래진료',to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (333,'doc018',to_date('2025/08/25','YYYY/MM/DD'),'오전','11:30','외래진료',to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (334,'kim',to_date('2025/08/21','YYYY/MM/DD'),'오전','11:30',null,to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (335,'kim',to_date('2025/08/23','YYYY/MM/DD'),'오전','11:30','외래진료',to_date('2025/08/22','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (336,'kim',to_date('2025/08/23','YYYY/MM/DD'),'오후','12:00','외래진료',to_date('2025/08/22','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (337,'kim',to_date('2025/08/23','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/08/22','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (361,'kim',to_date('2025/08/25','YYYY/MM/DD'),'오후','12:00','외래진료',to_date('2025/08/25','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (363,'kim',to_date('2025/08/25','YYYY/MM/DD'),'오후','13:00','외래진료',to_date('2025/08/25','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (362,'kim',to_date('2025/08/25','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/08/25','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (364,'kim',to_date('2025/08/25','YYYY/MM/DD'),'오후','13:30','외래진료',to_date('2025/08/25','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (365,'kim',to_date('2025/08/25','YYYY/MM/DD'),'오후','14:00','외래진료',to_date('2025/08/25','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (377,'doc023',to_date('2025/08/27','YYYY/MM/DD'),null,'12:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (396,'doc023',to_date('2025/08/26','YYYY/MM/DD'),null,'15:30','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (397,'doc023',to_date('2025/08/26','YYYY/MM/DD'),null,'16:00','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (398,'doc023',to_date('2025/08/26','YYYY/MM/DD'),null,'16:30','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (399,'doc023',to_date('2025/08/26','YYYY/MM/DD'),null,'17:00','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (400,'doc023',to_date('2025/08/26','YYYY/MM/DD'),null,'17:30','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (403,'doc023',to_date('2025/08/29','YYYY/MM/DD'),null,'09:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (404,'doc023',to_date('2025/08/29','YYYY/MM/DD'),null,'10:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (405,'doc023',to_date('2025/08/29','YYYY/MM/DD'),null,'10:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (406,'doc023',to_date('2025/08/29','YYYY/MM/DD'),null,'11:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (407,'doc023',to_date('2025/08/29','YYYY/MM/DD'),null,'11:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (408,'doc023',to_date('2025/08/29','YYYY/MM/DD'),null,'12:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (409,'doc023',to_date('2025/08/29','YYYY/MM/DD'),null,'12:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (410,'doc023',to_date('2025/08/29','YYYY/MM/DD'),null,'13:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (411,'doc023',to_date('2025/08/29','YYYY/MM/DD'),null,'13:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (412,'doc023',to_date('2025/08/29','YYYY/MM/DD'),null,'14:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (413,'doc023',to_date('2025/08/29','YYYY/MM/DD'),null,'14:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (414,'doc023',to_date('2025/08/29','YYYY/MM/DD'),null,'15:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (415,'doc023',to_date('2025/08/29','YYYY/MM/DD'),null,'15:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (416,'doc023',to_date('2025/08/29','YYYY/MM/DD'),null,'16:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (417,'doc023',to_date('2025/08/29','YYYY/MM/DD'),null,'16:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (418,'doc023',to_date('2025/08/29','YYYY/MM/DD'),null,'17:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (419,'doc023',to_date('2025/08/29','YYYY/MM/DD'),null,'17:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (420,'doc023',to_date('2025/08/29','YYYY/MM/DD'),null,'18:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (479,'doc023',to_date('2025/08/31','YYYY/MM/DD'),null,'10:00','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (422,'doc023',to_date('2025/08/30','YYYY/MM/DD'),null,'09:30','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (423,'doc023',to_date('2025/08/30','YYYY/MM/DD'),null,'10:00','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (424,'doc023',to_date('2025/08/30','YYYY/MM/DD'),null,'10:30','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (425,'doc023',to_date('2025/08/30','YYYY/MM/DD'),null,'11:00','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (426,'doc023',to_date('2025/08/30','YYYY/MM/DD'),null,'11:30','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (427,'doc023',to_date('2025/08/30','YYYY/MM/DD'),null,'12:00','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (428,'doc023',to_date('2025/08/30','YYYY/MM/DD'),null,'12:30','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (429,'doc023',to_date('2025/08/30','YYYY/MM/DD'),null,'13:00','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (430,'doc023',to_date('2025/08/30','YYYY/MM/DD'),null,'13:30','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (431,'doc023',to_date('2025/08/30','YYYY/MM/DD'),null,'14:00','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (432,'doc023',to_date('2025/08/30','YYYY/MM/DD'),null,'14:30','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (433,'doc023',to_date('2025/08/30','YYYY/MM/DD'),null,'15:00','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (434,'doc023',to_date('2025/08/30','YYYY/MM/DD'),null,'15:30','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (435,'doc023',to_date('2025/08/30','YYYY/MM/DD'),null,'16:00','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (436,'doc023',to_date('2025/08/30','YYYY/MM/DD'),null,'16:30','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (437,'doc023',to_date('2025/08/30','YYYY/MM/DD'),null,'17:00','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (438,'doc023',to_date('2025/08/30','YYYY/MM/DD'),null,'17:30','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (439,'doc023',to_date('2025/08/30','YYYY/MM/DD'),null,'18:00','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (440,'kim',to_date('2025/08/26','YYYY/MM/DD'),'오후','12:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (441,'kim',to_date('2025/08/26','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (442,'kim',to_date('2025/08/26','YYYY/MM/DD'),'오후','13:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (443,'kim',to_date('2025/08/26','YYYY/MM/DD'),'오후','13:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (444,'kim',to_date('2025/08/26','YYYY/MM/DD'),'오후','14:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (445,'kim',to_date('2025/08/26','YYYY/MM/DD'),'오후','14:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (446,'kim',to_date('2025/08/26','YYYY/MM/DD'),'오후','15:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (447,'kim',to_date('2025/08/26','YYYY/MM/DD'),'오전','09:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (448,'kim',to_date('2025/08/26','YYYY/MM/DD'),'오전','09:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (449,'kim',to_date('2025/08/26','YYYY/MM/DD'),'오전','10:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (450,'kim',to_date('2025/08/26','YYYY/MM/DD'),'오전','10:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (451,'kim',to_date('2025/08/26','YYYY/MM/DD'),'오전','11:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (529,'doc002',to_date('2025/08/26','YYYY/MM/DD'),'오후','18:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (530,'doc027',to_date('2025/08/27','YYYY/MM/DD'),'오후','17:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (531,'doc027',to_date('2025/08/27','YYYY/MM/DD'),'오후','18:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (532,'doc027',to_date('2025/08/26','YYYY/MM/DD'),'오후','12:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (533,'doc027',to_date('2025/08/26','YYYY/MM/DD'),'오후','12:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (535,'doc027',to_date('2025/08/26','YYYY/MM/DD'),'오후','18:00',null,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (536,'doc023',to_date('2025/08/28','YYYY/MM/DD'),'오후','12:00','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (537,'doc023',to_date('2025/08/28','YYYY/MM/DD'),'오후','12:30','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (538,'doc023',to_date('2025/08/28','YYYY/MM/DD'),'오후','13:00','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (539,'doc023',to_date('2025/08/28','YYYY/MM/DD'),'오후','13:30','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (540,'doc023',to_date('2025/08/28','YYYY/MM/DD'),'오후','14:00','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (541,'doc023',to_date('2025/08/27','YYYY/MM/DD'),'오전','09:00','강의',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (542,'doc023',to_date('2025/08/27','YYYY/MM/DD'),'오전','09:30','강의',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (543,'doc023',to_date('2025/08/27','YYYY/MM/DD'),'오전','10:00','강의',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (544,'doc023',to_date('2025/08/27','YYYY/MM/DD'),'오전','10:30','강의',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (545,'doc023',to_date('2025/08/27','YYYY/MM/DD'),'오전','11:00','강의',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (546,'doc023',to_date('2025/08/27','YYYY/MM/DD'),'오전','11:30','강의',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (547,'doc023',to_date('2025/08/26','YYYY/MM/DD'),'오전','09:00','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (548,'doc023',to_date('2025/08/26','YYYY/MM/DD'),'오전','09:30','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (549,'doc023',to_date('2025/08/26','YYYY/MM/DD'),'오전','10:00','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (550,'doc023',to_date('2025/08/26','YYYY/MM/DD'),'오전','10:30','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (551,'doc023',to_date('2025/08/26','YYYY/MM/DD'),'오전','11:00','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (552,'doc023',to_date('2025/08/26','YYYY/MM/DD'),'오전','11:30','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (477,'doc023',to_date('2025/08/31','YYYY/MM/DD'),null,'09:00','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (478,'doc023',to_date('2025/08/31','YYYY/MM/DD'),null,'09:30','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (480,'doc023',to_date('2025/08/31','YYYY/MM/DD'),null,'10:30','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (481,'doc023',to_date('2025/08/31','YYYY/MM/DD'),null,'11:00','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (482,'doc023',to_date('2025/08/31','YYYY/MM/DD'),null,'11:30','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (483,'doc023',to_date('2025/08/31','YYYY/MM/DD'),null,'12:00','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (484,'doc023',to_date('2025/08/31','YYYY/MM/DD'),null,'12:30','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (485,'doc025',to_date('2025/08/27','YYYY/MM/DD'),null,'09:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (486,'doc025',to_date('2025/08/27','YYYY/MM/DD'),null,'10:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (487,'doc025',to_date('2025/08/27','YYYY/MM/DD'),null,'10:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (488,'doc1002',to_date('2025/08/26','YYYY/MM/DD'),null,'09:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (489,'doc1002',to_date('2025/08/26','YYYY/MM/DD'),null,'09:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (490,'doc1002',to_date('2025/08/26','YYYY/MM/DD'),null,'10:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (491,'doc1002',to_date('2025/08/26','YYYY/MM/DD'),null,'10:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (492,'doc1002',to_date('2025/08/26','YYYY/MM/DD'),null,'11:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (493,'doc1002',to_date('2025/08/26','YYYY/MM/DD'),null,'11:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (494,'doc1002',to_date('2025/08/26','YYYY/MM/DD'),null,'12:00','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (495,'doc1002',to_date('2025/08/26','YYYY/MM/DD'),null,'12:30','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (496,'doc1002',to_date('2025/08/26','YYYY/MM/DD'),null,'13:00','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (497,'doc1002',to_date('2025/08/27','YYYY/MM/DD'),null,'12:00','강의',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (498,'doc1002',to_date('2025/08/27','YYYY/MM/DD'),null,'12:30','강의',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (499,'doc1002',to_date('2025/08/27','YYYY/MM/DD'),null,'13:00','강의',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (500,'doc1002',to_date('2025/08/27','YYYY/MM/DD'),null,'13:30','강의',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (501,'doc1002',to_date('2025/08/27','YYYY/MM/DD'),null,'14:00','강의',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (502,'doc1002',to_date('2025/08/27','YYYY/MM/DD'),null,'14:30','강의',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (503,'doc1002',to_date('2025/08/27','YYYY/MM/DD'),null,'15:00','강의',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (504,'doc1002',to_date('2025/08/27','YYYY/MM/DD'),null,'15:30','강의',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (505,'doc1002',to_date('2025/08/27','YYYY/MM/DD'),null,'16:00','강의',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (506,'doc1002',to_date('2025/08/27','YYYY/MM/DD'),null,'16:30','강의',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (507,'doc1002',to_date('2025/08/27','YYYY/MM/DD'),null,'17:00','강의',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (508,'doc1002',to_date('2025/08/27','YYYY/MM/DD'),null,'17:30','강의',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (509,'doc1002',to_date('2025/08/27','YYYY/MM/DD'),null,'18:00','강의',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (510,'doc1002',to_date('2025/08/27','YYYY/MM/DD'),null,'09:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (511,'doc1002',to_date('2025/08/27','YYYY/MM/DD'),null,'09:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (512,'doc1002',to_date('2025/08/27','YYYY/MM/DD'),null,'10:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (513,'doc1002',to_date('2025/08/27','YYYY/MM/DD'),null,'10:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (514,'doc1002',to_date('2025/08/27','YYYY/MM/DD'),null,'11:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (515,'doc1002',to_date('2025/08/27','YYYY/MM/DD'),null,'11:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (516,'doc005',to_date('2025/08/26','YYYY/MM/DD'),null,'09:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (517,'doc005',to_date('2025/08/26','YYYY/MM/DD'),null,'09:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (518,'doc005',to_date('2025/08/26','YYYY/MM/DD'),null,'10:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (519,'doc005',to_date('2025/08/26','YYYY/MM/DD'),null,'10:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (520,'doc005',to_date('2025/08/26','YYYY/MM/DD'),null,'11:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (524,'doc005',to_date('2025/08/27','YYYY/MM/DD'),null,'10:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (522,'doc005',to_date('2025/08/27','YYYY/MM/DD'),null,'09:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (523,'doc005',to_date('2025/08/27','YYYY/MM/DD'),null,'09:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (525,'doc005',to_date('2025/08/27','YYYY/MM/DD'),null,'10:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (526,'doc005',to_date('2025/08/27','YYYY/MM/DD'),null,'11:00','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (527,'doc005',to_date('2025/08/27','YYYY/MM/DD'),null,'11:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (572,'doc011',to_date('2025/08/27','YYYY/MM/DD'),'오전','09:00','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (573,'doc011',to_date('2025/08/27','YYYY/MM/DD'),'오전','09:30','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (574,'doc011',to_date('2025/08/27','YYYY/MM/DD'),'오전','10:00','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (575,'doc011',to_date('2025/08/27','YYYY/MM/DD'),'오전','10:30','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (576,'doc011',to_date('2025/08/27','YYYY/MM/DD'),'오전','11:00','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (577,'doc011',to_date('2025/08/27','YYYY/MM/DD'),'오전','11:30','학회',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (578,'doc011',to_date('2025/08/27','YYYY/MM/DD'),'오후','12:00','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (579,'doc011',to_date('2025/08/27','YYYY/MM/DD'),'오후','12:30','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (580,'doc011',to_date('2025/08/27','YYYY/MM/DD'),'오후','13:00','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (581,'doc011',to_date('2025/08/27','YYYY/MM/DD'),'오후','13:30','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (582,'doc011',to_date('2025/08/27','YYYY/MM/DD'),'오후','14:00','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (583,'doc011',to_date('2025/08/27','YYYY/MM/DD'),'오후','14:30','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (584,'doc011',to_date('2025/08/27','YYYY/MM/DD'),'오후','15:00','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (585,'doc011',to_date('2025/08/27','YYYY/MM/DD'),'오후','15:30','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (586,'doc011',to_date('2025/08/27','YYYY/MM/DD'),'오후','16:00','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (587,'doc011',to_date('2025/08/27','YYYY/MM/DD'),'오후','16:30','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (588,'doc011',to_date('2025/08/27','YYYY/MM/DD'),'오후','17:00','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (589,'doc011',to_date('2025/08/27','YYYY/MM/DD'),'오후','17:30','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (590,'doc011',to_date('2025/08/27','YYYY/MM/DD'),'오후','18:00','휴가',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.DOCTOR_SCHEDULES (SCHEDULE_ID,DOCTOR_ID,SCHEDULE_DATE,TIME_SLOT,SCHEDULE_TIME,NOTE,CREATED_AT) values (591,'doc027',to_date('2025/08/26','YYYY/MM/DD'),'오후','18:30','외래진료',to_date('2025/08/26','YYYY/MM/DD'));
+REM INSERTING into PROJECT.DONATIONS
+SET DEFINE OFF;
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (1,'DON_20250812181548_349169',null,'임세아','sertyw110868@naver.com',1000,'KRW',null,'READY',null,to_date('2025/08/12','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (2,'DON_20250812181549_927151',null,'임세아','sertyw110868@naver.com',1000,'KRW',null,'READY',null,to_date('2025/08/12','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (3,'DON_20250812181956_865004',null,'임세아','sertyw110868@naver.com',1000,'KRW',null,'READY',null,to_date('2025/08/12','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (4,'DON_20250812181956_309998',null,'임세아','sertyw110868@naver.com',1000,'KRW',null,'READY',null,to_date('2025/08/12','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (5,'DON_20250812185138_113571',null,'임세아','sertyw110868@naver,com',1000,'KRW',null,'READY',null,to_date('2025/08/12','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (6,'DON_20250812190342_596599',null,'임세아','sertyw110868@naver.com',1000,'KRW',null,'READY',null,to_date('2025/08/12','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (7,'202508181045151111','tviva2025081810453234SX3','익명','unknown',1000,'KRW','간편결제','PAID',to_timestamp('2025/08/18 10:45:48.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/18','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (8,'202508181046437754','tviva202508181046592My11','익명','unknown',1000,'KRW','카드','PAID',to_timestamp('2025/08/18 10:47:25.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/18','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (9,'202508181056258969','tviva20250818105640Zzf44','익명','unknown',1000,'KRW','간편결제','PAID',to_timestamp('2025/08/18 10:56:57.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/18','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (10,'202508181105008353','tviva202508181105164qiM8','임세아','sertyw110868@naver.com',1100,'KRW','간편결제','PAID',to_timestamp('2025/08/18 11:05:35.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/18','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (11,'202508181112388058','tviva2025081811125718RF9','어쩌고','sertyw110868@naver.com',1100,'KRW','간편결제','PAID',to_timestamp('2025/08/18 11:13:15.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/18','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (12,'202508181117575618','tviva2025081811181219Cj1','가나디','sertyw110868@naver.com',1200,'KRW','간편결제','PAID',to_timestamp('2025/08/18 11:18:32.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/18','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (13,'202508181127480661','tviva202508181128207sC31','춘식이','ooo@naver.com',1500,'KRW','간편결제','PAID',to_timestamp('2025/08/18 11:28:38.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/18','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (14,'202508181138123082','tviva2025081811383384X59','가나디','yyy@naver,com',1600,'KRW','간편결제','PAID',to_timestamp('2025/08/18 11:38:53.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/18','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (15,'202508181141059092','tviva202508181141327ue75','가나디','uuu@naver.com',1700,'KRW','간편결제','PAID',to_timestamp('2025/08/18 11:41:46.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/18','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (16,'202508181149554834','tviva202508181150583cyA2','카피바라','ooo@naver.com',1800,'KRW','간편결제','PAID',to_timestamp('2025/08/18 11:51:16.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/18','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (17,'202508181213170750','tviva202508181213421g3B7','임세아','ssss110868@naver.com',2000,'KRW','카드','PAID',to_timestamp('2025/08/18 12:13:59.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/18','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (18,'202508181302587885','tviva202508181303265CSc2','어쩌고','qqq@naver,com',1250,'KRW','간편결제','PAID',to_timestamp('2025/08/18 13:03:51.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/18','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (19,'202508181304461541','tviva202508181305110Car9','ㅇㅇㅇㅇㅇ','www@naver,com',2200,'KRW','카드','PAID',to_timestamp('2025/08/18 13:05:30.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/18','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (20,'202508181342302259','tviva202508181342571p3G8','임세아','ttt@naver.com',2000,'KRW','간편결제','PAID',to_timestamp('2025/08/18 13:43:16.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/18','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (21,'202508181627563289','tviva202508181628175WMT3','ㅑㅑㅑ','UUU@NAVER.COM',2000,'KRW','간편결제','PAID',to_timestamp('2025/08/18 16:28:36.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/18','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (22,'202508181716361544','tviva20250818171707aiEJ7','짱구','bbb@naver.com',9000,'KRW','간편결제','PAID',to_timestamp('2025/08/18 17:17:59.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/18','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (23,'202508191437144108','tviva20250819143745aMPS8','ddddddd','b@naver.com',1500,'KRW','간편결제','PAID',to_timestamp('2025/08/19 14:38:17.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/19','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (24,'202508191511301238','tviva202508191511577zIe2','PPP','P@naver.com',2000,'KRW','간편결제','PAID',to_timestamp('2025/08/19 15:12:14.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/19','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (25,'202508191537534266','tviva202508191538288d1p9','oo','oo@naver.com',1100,'KRW','카드','PAID',to_timestamp('2025/08/19 15:38:44.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/19','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (26,'202508211603015361','tviva202508211603249Mdy2','이기탁','dlrlxkr111@gmail.com',1000,'KRW','간편결제','PAID',to_timestamp('2025/08/21 16:04:09.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/21','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (27,'202508221220310646','tviva202508221220456J5F1','안찬우','a@a',5000,'KRW','간편결제','PAID',to_timestamp('2025/08/22 12:21:42.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/22','YYYY/MM/DD'),null,null,null,null);
+Insert into PROJECT.DONATIONS (DONATION_ID,ORDER_ID,PAYMENT_KEY,DONOR_NAME,EMAIL,AMOUNT,CURRENCY,METHOD,STATUS,APPROVED_AT,CREATED_AT,UPDATED_AT,CANCELED_AT,CANCEL_REASON,MEMO) values (28,'202508251735424729','tviva202508251738197Adv1','안찬우','a@a',2100000000,'KRW','간편결제','PAID',to_timestamp('2025/08/25 17:39:50.000000000','YYYY/MM/DD HH24:MI:SSXFF'),to_date('2025/08/25','YYYY/MM/DD'),null,null,null,null);
+REM INSERTING into PROJECT.EVENTS
+SET DEFINE OFF;
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (136,'심장 건강을 위한 생활습관 강좌','본원 대강당','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'강좌',to_date('2025/09/10','YYYY/MM/DD'),to_date('2025/09/10','YYYY/MM/DD'),'정우성 교수','오전 10시 ~ 12시',null,'02-3456-7890',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (137,'심장 건강을 위한 생활습관 강좌','본원 대강당','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'강좌',to_date('2025/09/10','YYYY/MM/DD'),to_date('2025/09/10','YYYY/MM/DD'),'정우성 교수','오전 10시 ~ 12시',null,'02-3456-7890',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (138,'건강한 노년을 위한 뇌 건강 강의','2층 교육실','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'강좌',to_date('2025/09/12','YYYY/MM/DD'),to_date('2025/09/12','YYYY/MM/DD'),'김소연 박사','오후 2시 ~ 4시',null,'02-3456-7891',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (139,'산모를 위한 출산 준비 강좌','산부인과 센터 1층','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'강좌',to_date('2025/09/14','YYYY/MM/DD'),to_date('2025/09/14','YYYY/MM/DD'),'이정은 간호사','오후 3시 ~ 5시',null,'02-3456-7892',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (140,'당뇨병 예방과 관리법 강의','건강증진센터','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'강좌',to_date('2025/09/17','YYYY/MM/DD'),to_date('2025/09/17','YYYY/MM/DD'),'박지훈 교수','오전 9시 ~ 11시',null,'02-3456-7893',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (141,'아동 응급처치법 강의','3층 회의실','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'강좌',to_date('2025/09/20','YYYY/MM/DD'),to_date('2025/09/20','YYYY/MM/DD'),'최유리 응급전문간호사','오전 10시 ~ 12시',null,'02-3456-7894',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (142,'간 건강과 음주 관리 강의','본원 대강당','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'강좌',to_date('2025/09/22','YYYY/MM/DD'),to_date('2025/09/22','YYYY/MM/DD'),'장한별 내과의사','오후 1시 ~ 3시',null,'02-3456-7895',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (143,'갱년기 여성 건강 강의','여성센터 강의실','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'강좌',to_date('2025/09/25','YYYY/MM/DD'),to_date('2025/09/25','YYYY/MM/DD'),'한예지 산부인과 교수','오전 10시 ~ 11시 30분',null,'02-3456-7896',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (144,'의료인을 위한 최신 감염병 대응 교육','감염병 교육센터','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'교육',to_date('2025/09/23','YYYY/MM/DD'),to_date('2025/09/23','YYYY/MM/DD'),'이재훈 감염내과 전문의','오전 9시 ~ 오후 1시',null,'02-3456-7901',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (22,'ㅎㅎ',null,null,to_date('2025/07/24','YYYY/MM/DD'),null,'게시',0,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (3,'소아청소년과 전문의 채용','서울 본원','admin',to_date('2025/08/06','YYYY/MM/DD'),null,'게시',0,null,null,'채용',to_date('2025/08/10','YYYY/MM/DD'),to_date('2025/08/31','YYYY/MM/DD'),null,'09:00~17:00',null,'recruit@hospital.com',null,null,'의사직',null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (7,'본원, ‘환자 중심 병원’ 대상 수상g',null,'admin',to_date('2025/07/28','YYYY/MM/DD'),to_date('2025/08/08','YYYY/MM/DD'),'게시',0,null,null,'소식',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (12,'해외 의료진 교류 프로그램 운영',null,'admin',to_date('2025/07/28','YYYY/MM/DD'),null,'게시',0,null,null,'소식',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (15,'원무과 신입직원 채용','서울 본원','admin',to_date('2025/07/28','YYYY/MM/DD'),to_date('2025/08/07','YYYY/MM/DD'),'게시',0,'80f3d32c-6462-49e3-9c81-c6cbd0570b2e_화면 캡처 2025-08-07 170711.png',null,'채용',to_date('2025/08/07','YYYY/MM/DD'),to_date('2025/08/21','YYYY/MM/DD'),null,null,null,'010-9999-9999',null,null,null,'2f0df665-66cb-4766-91ab-9f45efe61af8_hwp_06.hwp',null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (16,'건강검진센터 코디네이터 모집','서울 본원','admin',to_date('2025/07/28','YYYY/MM/DD'),to_date('2025/08/27','YYYY/MM/DD'),'게시',0,null,null,'채용',to_date('2025/08/05','YYYY/MM/DD'),to_date('2025/08/30','YYYY/MM/DD'),null,null,null,'010-8888-8888',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (4,'병동 간호사 모집','서울 분원','admin',to_date('2025/08/06','YYYY/MM/DD'),null,'게시',0,null,null,'채용',to_date('2025/08/12','YYYY/MM/DD'),to_date('2025/08/25','YYYY/MM/DD'),null,'08:00~16:00',null,'nurse@hospital.com',null,null,'간호사직',null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (5,'방사선사 채용','서울 영상의학센터','admin',to_date('2025/08/06','YYYY/MM/DD'),null,'게시',0,null,null,'채용',to_date('2025/08/15','YYYY/MM/DD'),to_date('2025/08/30','YYYY/MM/DD'),null,'10:00~18:00',null,'tech@hospital.com',null,null,'의료기사직',null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (102,'원무과 행정직 채용','서울 본원','admin',to_date('2025/08/06','YYYY/MM/DD'),null,'게시',0,null,null,'채용',to_date('2025/08/11','YYYY/MM/DD'),to_date('2025/08/20','YYYY/MM/DD'),null,'09:00~18:00',null,'support@hospital.com',null,null,'의료지원직',null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (103,'의료기사 채용공고',null,null,to_date('2025/08/06','YYYY/MM/DD'),null,'게시',0,null,null,'채용',to_date('2025/08/01','YYYY/MM/DD'),to_date('2025/08/15','YYYY/MM/DD'),null,null,null,null,null,null,'의료기사직',null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (104,'의료지원직 채용공고',null,null,to_date('2025/08/06','YYYY/MM/DD'),null,'게시',0,null,null,'채용',to_date('2025/08/02','YYYY/MM/DD'),to_date('2025/08/20','YYYY/MM/DD'),null,null,null,null,null,null,'의료지원직',null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (115,'건강한 여름나기 캠페인 안내',null,'admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',2,null,null,'소식',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (116,'야간 진료 확대 운영',null,'admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'소식',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (117,'신규 의료진 초빙 안내',null,'admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'소식',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (118,'지역 주민을 위한 무료 건강 강좌 개최',null,'admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',1,null,null,'소식',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (119,'병원 주차장 이용 안내 변경',null,'admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'소식',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (120,'의료기기 교체 및 최신화 완료',null,'admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'소식',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (121,'환자 중심 서비스 만족도 조사 실시',null,'admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'소식',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (122,'추석 연휴 진료 일정 안내',null,'admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',1,null,null,'소식',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (123,'환자 대기실 환경 개선 공사 완료',null,'admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',2,null,null,'소식',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (124,'건강검진센터 확대 개편 안내',null,'admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',3,null,null,'소식',null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (125,'정규직 간호사 채용 공고','서울 본원','admin',to_date('2025/08/08','YYYY/MM/DD'),to_date('2025/08/27','YYYY/MM/DD'),'게시',0,null,null,'채용',to_date('2025/08/01','YYYY/MM/DD'),to_date('2025/08/23','YYYY/MM/DD'),null,null,null,'010-9999-9999',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (126,'영상의학과 방사선사 채용','서울 본원','admin',to_date('2025/08/08','YYYY/MM/DD'),to_date('2025/08/27','YYYY/MM/DD'),'게시',0,null,null,'채용',to_date('2025/08/07','YYYY/MM/DD'),to_date('2025/08/29','YYYY/MM/DD'),null,null,null,'010-9999-9999',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (129,'응급실 간호사 채용','서울 본원','admin',to_date('2025/08/08','YYYY/MM/DD'),to_date('2025/08/27','YYYY/MM/DD'),'게시',0,null,null,'채용',to_date('2025/08/01','YYYY/MM/DD'),to_date('2025/09/05','YYYY/MM/DD'),null,null,null,'010-8888-8888',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (130,'병동보조 인력 채용 안내','서울 본원','admin',to_date('2025/08/08','YYYY/MM/DD'),to_date('2025/08/27','YYYY/MM/DD'),'게시',0,null,null,'채용',to_date('2025/08/01','YYYY/MM/DD'),to_date('2025/09/05','YYYY/MM/DD'),null,null,null,'010-8888-8888',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (131,'내과 전문의 초빙 안내','서울 본원','admin',to_date('2025/08/08','YYYY/MM/DD'),to_date('2025/08/27','YYYY/MM/DD'),'게시',0,null,null,'채용',to_date('2025/08/01','YYYY/MM/DD'),to_date('2025/09/30','YYYY/MM/DD'),null,null,null,'010-8888-8888',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (133,'임상병리사 모집','서울 본원','admin',to_date('2025/08/08','YYYY/MM/DD'),to_date('2025/08/27','YYYY/MM/DD'),'게시',0,null,null,'채용',to_date('2025/08/27','YYYY/MM/DD'),to_date('2025/08/30','YYYY/MM/DD'),null,null,null,'010-8888-8888',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (134,'병원 시설 관리직 채용 안내','서울 본원','admin',to_date('2025/08/08','YYYY/MM/DD'),to_date('2025/08/27','YYYY/MM/DD'),'게시',0,null,null,'채용',to_date('2025/08/06','YYYY/MM/DD'),to_date('2025/08/30','YYYY/MM/DD'),null,null,null,'010-8888-8888',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (145,'신입 간호사를 위한 의사소통 기초 교육','2층 세미나실','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'교육',to_date('2025/09/25','YYYY/MM/DD'),to_date('2025/09/25','YYYY/MM/DD'),'한지민 간호부 교육팀장','오후 2시 ~ 5시',null,'02-3456-7902',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (146,'의무기록 작성 표준화 교육','본관 1층 전산교육실','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'교육',to_date('2025/09/10','YYYY/MM/DD'),to_date('2025/09/10','YYYY/MM/DD'),'홍성우 QI팀장','오전 10시 ~ 12시',null,'02-3456-7903',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (147,'병원 내 화재 및 재난 대응 모의훈련 교육','지하 대피훈련장','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'교육',to_date('2025/09/25','YYYY/MM/DD'),to_date('2025/09/25','YYYY/MM/DD'),'소방청 협력 강사','오후 3시 ~ 6시',null,'02-3456-7904',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (148,'감정노동자를 위한 심리상담 및 대처법 교육','심리상담실','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'교육',to_date('2025/09/16','YYYY/MM/DD'),to_date('2025/09/16','YYYY/MM/DD'),'김하늘 임상심리사','오전 11시 ~ 오후 1시',null,'02-3456-7905',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (149,'신규 전산 시스템 도입 교육 (EMR 2.0)','IT교육장','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'교육',to_date('2025/09/21','YYYY/MM/DD'),to_date('2025/09/21','YYYY/MM/DD'),'전산실 정기훈 책임','오후 1시 ~ 4시',null,'02-3456-7906',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (150,'의료 정보 공개 세미나','서울 본원 강당','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'행사',to_date('2025/08/24','YYYY/MM/DD'),to_date('2025/08/27','YYYY/MM/DD'),'강연자 1','10:00 ~ 16:00',null,'02-1234-5678',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (151,'지역사회 헌혈 캠페인','부산 센터 로비','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'기타',to_date('2025/08/19','YYYY/MM/DD'),to_date('2025/08/20','YYYY/MM/DD'),'강연자 2','9:00 ~ 17:00',null,'051-234-8888',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (152,'응급처치 체험행사','대전 병원 야외무대','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'기타',to_date('2025/08/30','YYYY/MM/DD'),to_date('2025/09/01','YYYY/MM/DD'),'강연자 3','9:00 ~ 17:00',null,'042-333-4444',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (153,'의료인과의 만남','서울 회의실 A동','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'기타',to_date('2025/08/11','YYYY/MM/DD'),to_date('2025/08/14','YYYY/MM/DD'),'강연자 4','11:00 ~ 17:00',null,'031-555-1212',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (154,'병원 음악회','병원 중앙홀','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'기타',to_date('2025/08/30','YYYY/MM/DD'),to_date('2025/09/02','YYYY/MM/DD'),'강연자 5','11:00 ~ 16:00',null,'070-1111-9999',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (155,'지역 보건포럼','대구 복지센터','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'기타',to_date('2025/08/13','YYYY/MM/DD'),to_date('2025/08/16','YYYY/MM/DD'),'강연자 7','11:00 ~ 17:00',null,'031-2222-2222',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (156,'환자와 가족을 위한 상담행사','서울 컨퍼런스룸 B','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'기타',to_date('2025/08/30','YYYY/MM/DD'),to_date('2025/09/02','YYYY/MM/DD'),'강연자 9','11:00 ~ 14:00',null,'010-5555-5555',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (157,'환자와 가족을 위한 상담행사','서울 컨퍼런스룸 B','admin',to_date('2025/08/08','YYYY/MM/DD'),null,'게시',0,null,null,'기타',to_date('2025/08/30','YYYY/MM/DD'),to_date('2025/09/02','YYYY/MM/DD'),'강연자 9','11:00 ~ 14:00',null,'010-5555-5555',null,null,null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (268,'메디프라임 병원, 인공지능 기반 진단 시스템 도입',null,null,to_date('2025/08/18','YYYY/MM/DD'),to_date('2025/08/26','YYYY/MM/DD'),'게시',0,'/press/1756198638815_news3.png',null,'언론',null,null,null,null,null,null,'이정민기자','메디컬투데이',null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (266,'메디프라임 병원, 지역 의료 혁신 선도…첨단 진료 시스템과 환자 중심 케어 강화',null,null,to_date('2025/08/18','YYYY/MM/DD'),to_date('2025/08/26','YYYY/MM/DD'),'게시',0,'/press/1756198645170_news4.png',null,'언론',null,null,null,null,null,null,'홍길동 기자','메디컬뉴스타임즈',null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (262,'간호사 채용','본원',null,to_date('2025/08/13','YYYY/MM/DD'),to_date('2025/08/27','YYYY/MM/DD'),'게시',0,null,null,'채용',to_date('2025/08/12','YYYY/MM/DD'),to_date('2025/09/11','YYYY/MM/DD'),null,null,null,'010-9999-9999',null,null,'간호사직',null,null,'외과 간호사','인턴',null,3,'0000@naver.com',null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (269,'메디프라임 병원, 지역 사회와 함께하는 건강 나눔 캠페인 전개',null,null,to_date('2025/08/18','YYYY/MM/DD'),to_date('2025/08/26','YYYY/MM/DD'),'게시',0,'/press/1756198632503_news2.png',null,'언론',null,null,null,null,null,null,'박소연기자','서울경제',null,null,null,null,null,null,null,null,null,null);
+Insert into PROJECT.EVENTS (EVENT_ID,TITLE,WORK_LOCATION,CREATED_BY,CREATED_AT,UPDATED_AT,STATUS,VIEW_COUNT,THUMBNAIL_PATH,IMAGE_PATH,CATEGORY,START_DATE,END_DATE,SPEAKER,TIME_INFO,DURATION,CONTACT,REPORTER,SOURCE,SUB_CATEGORY,RESUME_FILE_PATH,RESUME_FORM,JOB_POSITION,WORKING_TYPE,CONTACT_METHOD,RECRUIT_COUNT,CONTACT_EMAIL,FILE_PATH,ORIGINAL_FILE_NAME) values (270,'메디프라임 병원, 로봇 수술 1천례 달성',null,null,to_date('2025/08/18','YYYY/MM/DD'),to_date('2025/08/26','YYYY/MM/DD'),'게시',0,'/press/1756198623613_news1.png',null,'언론',null,null,null,null,null,null,'최재훈 기자','한국일보',null,null,null,null,null,null,null,null,null,null);
+REM INSERTING into PROJECT.FEEDBACKS
+SET DEFINE OFF;
+Insert into PROJECT.FEEDBACKS (FEEDBACK_ID,PATIENT_USER_ID,CATEGORY,REPLIED_BY,REPLIED_AT,STATUS,CREATED_AT,SENDER_NAME,PHONE,EMAIL,RELATION,PATIENT_NAME,HOSPITAL_NO,BIRTH_DATE,TITLE,WRITER_NAME,WRITER_PW) values (1,'sh1012','진료 서비스',null,null,'접수',to_date('2025/08/08','YYYY/MM/DD'),'김철수','010-1234-1111','cs@example.com','본인','김철수','H001','1980-01-01','진료 대기 관련 불편','철수','pw1234');
+Insert into PROJECT.FEEDBACKS (FEEDBACK_ID,PATIENT_USER_ID,CATEGORY,REPLIED_BY,REPLIED_AT,STATUS,CREATED_AT,SENDER_NAME,PHONE,EMAIL,RELATION,PATIENT_NAME,HOSPITAL_NO,BIRTH_DATE,TITLE,WRITER_NAME,WRITER_PW) values (2,'sh1012','의료진 친절도',null,null,'접수',to_date('2025/08/08','YYYY/MM/DD'),'이영희','010-1234-2222','yh@example.com','가족','이영희','H002','1990-05-12','친절한 진료에 감사드립니다.','영희','pw2345');
+Insert into PROJECT.FEEDBACKS (FEEDBACK_ID,PATIENT_USER_ID,CATEGORY,REPLIED_BY,REPLIED_AT,STATUS,CREATED_AT,SENDER_NAME,PHONE,EMAIL,RELATION,PATIENT_NAME,HOSPITAL_NO,BIRTH_DATE,TITLE,WRITER_NAME,WRITER_PW) values (3,'sh1012','시설 이용',null,null,'접수',to_date('2025/08/08','YYYY/MM/DD'),'박민수','010-1234-3333','ms@example.com','보호자','박민수','H003','1975-03-25','화장실 위생 개선 요청','민수','pw3456');
+Insert into PROJECT.FEEDBACKS (FEEDBACK_ID,PATIENT_USER_ID,CATEGORY,REPLIED_BY,REPLIED_AT,STATUS,CREATED_AT,SENDER_NAME,PHONE,EMAIL,RELATION,PATIENT_NAME,HOSPITAL_NO,BIRTH_DATE,TITLE,WRITER_NAME,WRITER_PW) values (4,'sh1012','접수/수납',null,null,'접수',to_date('2025/08/08','YYYY/MM/DD'),'정다은','010-1234-4444','de@example.com','본인','정다은','H004','2000-07-14','접수 프로세스 개선 요청','다은','pw4567');
+Insert into PROJECT.FEEDBACKS (FEEDBACK_ID,PATIENT_USER_ID,CATEGORY,REPLIED_BY,REPLIED_AT,STATUS,CREATED_AT,SENDER_NAME,PHONE,EMAIL,RELATION,PATIENT_NAME,HOSPITAL_NO,BIRTH_DATE,TITLE,WRITER_NAME,WRITER_PW) values (5,'sh1012','전화 응대',null,null,'접수',to_date('2025/08/08','YYYY/MM/DD'),'최지훈','010-1234-5555','jh@example.com','본인','최지훈','H005','1988-09-10','전화 문의 응대 개선 요청','지훈','pw5678');
+Insert into PROJECT.FEEDBACKS (FEEDBACK_ID,PATIENT_USER_ID,CATEGORY,REPLIED_BY,REPLIED_AT,STATUS,CREATED_AT,SENDER_NAME,PHONE,EMAIL,RELATION,PATIENT_NAME,HOSPITAL_NO,BIRTH_DATE,TITLE,WRITER_NAME,WRITER_PW) values (6,'sh1012','진료 서비스','관리자',to_date('2025/08/26','YYYY/MM/DD'),'답변완료',to_date('2025/08/08','YYYY/MM/DD'),'한지민','010-1234-6666','jm@example.com','가족','한지민','H006','1995-11-23','상담 시간 관련 문의','지민','pw6789');
+Insert into PROJECT.FEEDBACKS (FEEDBACK_ID,PATIENT_USER_ID,CATEGORY,REPLIED_BY,REPLIED_AT,STATUS,CREATED_AT,SENDER_NAME,PHONE,EMAIL,RELATION,PATIENT_NAME,HOSPITAL_NO,BIRTH_DATE,TITLE,WRITER_NAME,WRITER_PW) values (7,'sh1012','주차','관리자',to_date('2025/08/18','YYYY/MM/DD'),'답변완료',to_date('2025/08/08','YYYY/MM/DD'),'오세훈','010-1234-7777','sh@example.com','본인','오세훈','H007','1978-02-02','주차 공간 관련 의견','세훈','pw7890');
+Insert into PROJECT.FEEDBACKS (FEEDBACK_ID,PATIENT_USER_ID,CATEGORY,REPLIED_BY,REPLIED_AT,STATUS,CREATED_AT,SENDER_NAME,PHONE,EMAIL,RELATION,PATIENT_NAME,HOSPITAL_NO,BIRTH_DATE,TITLE,WRITER_NAME,WRITER_PW) values (8,'sh1012','진료 서비스','관리자',to_date('2025/08/26','YYYY/MM/DD'),'답변완료',to_date('2025/08/08','YYYY/MM/DD'),'강소라','010-1234-8888','sr@example.com','보호자','강소라','H008','1992-04-30','진료 지연에 대한 불편사항','소라','pw8901');
+Insert into PROJECT.FEEDBACKS (FEEDBACK_ID,PATIENT_USER_ID,CATEGORY,REPLIED_BY,REPLIED_AT,STATUS,CREATED_AT,SENDER_NAME,PHONE,EMAIL,RELATION,PATIENT_NAME,HOSPITAL_NO,BIRTH_DATE,TITLE,WRITER_NAME,WRITER_PW) values (9,'sh1012','상담','관리자',to_date('2025/08/13','YYYY/MM/DD'),'답변완료',to_date('2025/08/08','YYYY/MM/DD'),'배정남','010-1234-9999','jn@example.com','본인','배정남','H009','1982-06-06','간호 상담 후기','정남','pw9012');
+Insert into PROJECT.FEEDBACKS (FEEDBACK_ID,PATIENT_USER_ID,CATEGORY,REPLIED_BY,REPLIED_AT,STATUS,CREATED_AT,SENDER_NAME,PHONE,EMAIL,RELATION,PATIENT_NAME,HOSPITAL_NO,BIRTH_DATE,TITLE,WRITER_NAME,WRITER_PW) values (10,'sh1012','기타','관리자',to_date('2025/08/08','YYYY/MM/DD'),'답변완료',to_date('2025/08/08','YYYY/MM/DD'),'서유리','010-1234-0000','yr@example.com','본인','서유리','H010','1999-10-10','병원 이용 안내 요청','유리','pw0123');
+Insert into PROJECT.FEEDBACKS (FEEDBACK_ID,PATIENT_USER_ID,CATEGORY,REPLIED_BY,REPLIED_AT,STATUS,CREATED_AT,SENDER_NAME,PHONE,EMAIL,RELATION,PATIENT_NAME,HOSPITAL_NO,BIRTH_DATE,TITLE,WRITER_NAME,WRITER_PW) values (122,'sh1012','불만','관리자',to_date('2025/08/18','YYYY/MM/DD'),'답변완료',to_date('2025/08/18','YYYY/MM/DD'),'김뫄뫄','010-5484-5151','123456aaa@naver.com','보호자','소소','1','2001-10-12','서비스 상태 최악입니다. 실망이네요','성소현','1111');
+REM INSERTING into PROJECT.HOSPITAL_FAQ
+SET DEFINE OFF;
+Insert into PROJECT.HOSPITAL_FAQ (FAQ_ID,CATEGORY,CREATED_AT) values (2,'진료예약',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.HOSPITAL_FAQ (FAQ_ID,CATEGORY,CREATED_AT) values (3,'외래진료',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.HOSPITAL_FAQ (FAQ_ID,CATEGORY,CREATED_AT) values (4,'외래진료',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.HOSPITAL_FAQ (FAQ_ID,CATEGORY,CREATED_AT) values (5,'입퇴원',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.HOSPITAL_FAQ (FAQ_ID,CATEGORY,CREATED_AT) values (6,'입퇴원',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.HOSPITAL_FAQ (FAQ_ID,CATEGORY,CREATED_AT) values (7,'서류발급',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.HOSPITAL_FAQ (FAQ_ID,CATEGORY,CREATED_AT) values (8,'서류발급',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.HOSPITAL_FAQ (FAQ_ID,CATEGORY,CREATED_AT) values (9,'병원안내',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.HOSPITAL_FAQ (FAQ_ID,CATEGORY,CREATED_AT) values (10,'병원안내',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.HOSPITAL_FAQ (FAQ_ID,CATEGORY,CREATED_AT) values (11,'기타',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.HOSPITAL_FAQ (FAQ_ID,CATEGORY,CREATED_AT) values (12,'기타',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.HOSPITAL_FAQ (FAQ_ID,CATEGORY,CREATED_AT) values (13,'기타',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.HOSPITAL_FAQ (FAQ_ID,CATEGORY,CREATED_AT) values (14,'기타',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.HOSPITAL_FAQ (FAQ_ID,CATEGORY,CREATED_AT) values (15,'병원안내',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.HOSPITAL_FAQ (FAQ_ID,CATEGORY,CREATED_AT) values (16,'입퇴원',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.HOSPITAL_FAQ (FAQ_ID,CATEGORY,CREATED_AT) values (17,'외래진료',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.HOSPITAL_FAQ (FAQ_ID,CATEGORY,CREATED_AT) values (18,'외래진료',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.HOSPITAL_FAQ (FAQ_ID,CATEGORY,CREATED_AT) values (19,'진료예약',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.HOSPITAL_FAQ (FAQ_ID,CATEGORY,CREATED_AT) values (1,'진료예약',to_date('2025/08/18','YYYY/MM/DD'));
+REM INSERTING into PROJECT.HOSPITAL_NOTICES
+SET DEFINE OFF;
+Insert into PROJECT.HOSPITAL_NOTICES (NOTICE_ID,TITLE,CREATED_AT,UPDATED_AT,VIEW_COUNT,CREATED_BY) values (11,'2025년 하반기 정기 건강검진 안내',to_date('2025/07/23','YYYY/MM/DD'),null,0,'admin01');
+Insert into PROJECT.HOSPITAL_NOTICES (NOTICE_ID,TITLE,CREATED_AT,UPDATED_AT,VIEW_COUNT,CREATED_BY) values (12,'[안내] MRI 기기 점검에 따른 예약 일시 중단',to_date('2025/07/23','YYYY/MM/DD'),null,0,'admin01');
+Insert into PROJECT.HOSPITAL_NOTICES (NOTICE_ID,TITLE,CREATED_AT,UPDATED_AT,VIEW_COUNT,CREATED_BY) values (13,'병원 주차장 공사 안내! (8월 말까지)',to_date('2025/07/23','YYYY/MM/DD'),null,0,'admin01');
+REM INSERTING into PROJECT.MEDICAL_NOTICES
+SET DEFINE OFF;
+Insert into PROJECT.MEDICAL_NOTICES (NOTICE_ID,TITLE,CREATED_AT,CREATED_BY,TARGET_ROLE) values (9,'의료진용 공지사항 작성',to_date('2025/08/13','YYYY/MM/DD'),'c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec','all');
+Insert into PROJECT.MEDICAL_NOTICES (NOTICE_ID,TITLE,CREATED_AT,CREATED_BY,TARGET_ROLE) values (10,'테스트',to_date('2025/08/19','YYYY/MM/DD'),'c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec','all');
+Insert into PROJECT.MEDICAL_NOTICES (NOTICE_ID,TITLE,CREATED_AT,CREATED_BY,TARGET_ROLE) values (6,'테스트 작성',to_date('2025/08/05','YYYY/MM/DD'),'c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec','all');
+REM INSERTING into PROJECT.MEDICAL_QUESTIONNAIRES
+SET DEFINE OFF;
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (3,50,to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (4,51,to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (5,52,to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (6,53,to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (7,54,to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (8,55,to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (9,56,to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (10,57,to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (11,58,to_date('2025/07/29','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (12,59,to_date('2025/07/29','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (13,60,to_date('2025/07/29','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (14,61,to_date('2025/07/29','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (15,62,to_date('2025/07/30','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (16,63,to_date('2025/07/30','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (17,64,to_date('2025/07/31','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (18,65,to_date('2025/07/31','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (19,66,to_date('2025/07/31','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (20,67,to_date('2025/07/31','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (21,68,to_date('2025/07/31','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (22,69,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (23,70,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (24,71,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (25,72,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (26,73,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (27,74,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (28,75,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (29,76,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (30,77,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (31,78,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (32,79,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (33,80,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (34,81,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (35,82,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (36,83,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (37,84,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (38,85,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (39,86,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (40,87,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (41,88,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (42,89,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (43,90,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (44,91,to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (61,92,to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (62,93,to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (63,94,to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (64,95,to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (65,96,to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (66,97,to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (67,98,to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (68,99,to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (69,100,to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (70,101,to_date('2025/08/05','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (71,102,to_date('2025/08/05','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (72,103,to_date('2025/08/05','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (73,104,to_date('2025/08/05','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (74,105,to_date('2025/08/05','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (75,106,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (76,107,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (77,108,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (78,109,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (79,110,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (80,111,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (81,112,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (82,113,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (83,114,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (84,115,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (85,116,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (86,117,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (87,118,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (88,119,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (89,120,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (90,121,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (91,122,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (92,123,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (93,124,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (94,125,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (95,126,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (96,127,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (97,128,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (98,129,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (99,130,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (100,131,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (101,132,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (102,133,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (103,134,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (104,135,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (105,136,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (106,137,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (107,138,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (108,139,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (109,140,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (110,141,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (111,142,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (112,143,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (113,144,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (114,145,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (115,146,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (116,147,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (117,148,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (118,149,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (119,150,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (120,151,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (121,152,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (122,153,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (123,154,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (124,155,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (125,156,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (126,157,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (127,158,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (128,159,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (129,160,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (130,161,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (131,162,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (132,163,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (133,164,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (134,165,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (135,166,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (136,167,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (137,168,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (138,169,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (139,170,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (140,171,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (141,172,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (142,173,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (143,174,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (144,175,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (145,176,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (146,177,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (147,178,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (148,179,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (149,180,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (150,181,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (151,182,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (152,183,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (153,184,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (154,185,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (155,186,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (156,187,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (157,188,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (158,189,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (159,190,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (160,191,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (161,192,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (162,193,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (163,194,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (164,195,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (165,196,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (166,197,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (167,198,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (168,199,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (169,200,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (170,201,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (171,202,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (172,203,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (173,204,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (174,205,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (175,206,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (176,207,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (177,208,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (178,209,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (179,210,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (180,211,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (181,212,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (182,213,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (183,214,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (184,215,to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (185,216,to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (201,224,to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (202,225,to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (203,226,to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (206,229,to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (207,230,to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (209,232,to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (210,233,to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (212,235,to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (215,238,to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (216,239,to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (217,240,to_date('2025/08/08','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (222,286,to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (223,287,to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (224,291,to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (225,292,to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (226,293,to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (227,294,to_date('2025/08/19','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (228,295,to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (229,297,to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (230,298,to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (231,299,to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (232,300,to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (233,301,to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (234,302,to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (235,304,to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (236,305,to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (237,306,to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (238,307,to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (239,308,to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (240,309,to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (241,310,to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (261,311,to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (262,312,to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (263,313,to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (264,314,to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (281,316,to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (282,317,to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (301,318,to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (302,319,to_date('2025/08/22','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (303,320,to_date('2025/08/22','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (304,321,to_date('2025/08/22','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (305,324,to_date('2025/08/25','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (306,325,to_date('2025/08/25','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (307,326,to_date('2025/08/25','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (308,328,to_date('2025/08/25','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (309,330,to_date('2025/08/25','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (310,331,to_date('2025/08/25','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (311,332,to_date('2025/08/25','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (312,338,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (313,339,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (314,350,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (315,351,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (316,352,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (317,353,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (318,354,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (319,355,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (320,356,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (321,357,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (322,358,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (323,359,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (324,360,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (325,361,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (326,362,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (327,363,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (328,364,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (329,365,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (330,366,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (331,367,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (332,368,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (333,369,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (334,370,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (335,371,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (336,372,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (337,373,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (338,374,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (339,375,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (340,376,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (341,377,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (342,378,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (343,379,to_date('2025/08/27','YYYY/MM/DD'));
+Insert into PROJECT.MEDICAL_QUESTIONNAIRES (QUESTIONNAIRE_ID,RESERVATION_ID,SUBMITTED_AT) values (344,380,to_date('2025/08/27','YYYY/MM/DD'));
+REM INSERTING into PROJECT.MEDICAL_RECORDS
+SET DEFINE OFF;
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (1,33,'kim',to_date('2025/07/24','YYYY/MM/DD'),'일반 감기','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (16,47,'kim',to_date('2025/07/25','YYYY/MM/DD'),'붸ㅐㄹ','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (18,52,'kim',to_date('2025/07/28','YYYY/MM/DD'),null,'N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (19,58,'kim',to_date('2025/07/29','YYYY/MM/DD'),null,'N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (15,46,'kim',to_date('2025/07/25','YYYY/MM/DD'),'ㅇ','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (17,51,'kim',to_date('2025/07/25','YYYY/MM/DD'),'ㅇㅇ','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (20,62,'kim',to_date('2025/07/30','YYYY/MM/DD'),'78','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (21,34,'kim',to_date('2025/07/30','YYYY/MM/DD'),'58','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (22,36,'kim',to_date('2025/07/30','YYYY/MM/DD'),'4','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (23,30,'kim',to_date('2025/07/31','YYYY/MM/DD'),'55','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (24,29,'kim',to_date('2025/07/31','YYYY/MM/DD'),'ㄹㄹㄹ','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (25,45,'kim',to_date('2025/08/01','YYYY/MM/DD'),'ㅀㅀㅇㅎㄹ','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (26,69,'kim',to_date('2025/08/01','YYYY/MM/DD'),'///','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (27,70,'kim',to_date('2025/08/01','YYYY/MM/DD'),'1','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (28,71,'kim',to_date('2025/08/01','YYYY/MM/DD'),'88','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (29,74,'kim',to_date('2025/08/01','YYYY/MM/DD'),'3666','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (30,79,'kim',to_date('2025/08/01','YYYY/MM/DD'),'진단','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (31,83,'kim',to_date('2025/08/01','YYYY/MM/DD'),'진단1','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (32,92,'kim',to_date('2025/08/04','YYYY/MM/DD'),'진단2','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (33,95,'kim',to_date('2025/08/04','YYYY/MM/DD'),'진단3','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (34,98,'kim',to_date('2025/08/04','YYYY/MM/DD'),'진단4','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (35,99,'kim',to_date('2025/08/04','YYYY/MM/DD'),'진단5','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (36,93,'kim',to_date('2025/08/05','YYYY/MM/DD'),'가나','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (37,93,'kim',to_date('2025/08/05','YYYY/MM/DD'),'가나','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (38,94,'kim',to_date('2025/08/05','YYYY/MM/DD'),'1111','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (39,105,'kim',to_date('2025/08/06','YYYY/MM/DD'),'진단8','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (41,110,'kim',to_date('2025/08/07','YYYY/MM/DD'),'진단','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (42,129,'kim',to_date('2025/08/07','YYYY/MM/DD'),'하','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (43,181,'kim',to_date('2025/08/08','YYYY/MM/DD'),'진 단','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (44,224,'kim',to_date('2025/08/08','YYYY/MM/DD'),'진단11','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (45,238,'kim',to_date('2025/08/08','YYYY/MM/DD'),'123','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (46,250,'kim',to_date('2025/08/13','YYYY/MM/DD'),'했나?','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (47,252,'kim',to_date('2025/08/14','YYYY/MM/DD'),'3','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (48,253,'kim',to_date('2025/08/14','YYYY/MM/DD'),'4','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (49,254,'kim',to_date('2025/08/14','YYYY/MM/DD'),'1','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (50,255,'kim',to_date('2025/08/14','YYYY/MM/DD'),'22','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (51,258,'kim',to_date('2025/08/18','YYYY/MM/DD'),'진단18','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (52,264,'kim',to_date('2025/08/18','YYYY/MM/DD'),'진단!!!!','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (53,264,'kim',to_date('2025/08/18','YYYY/MM/DD'),'진단!!!!','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (54,272,'kim',to_date('2025/08/18','YYYY/MM/DD'),'33333','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (55,274,'kim',to_date('2025/08/18','YYYY/MM/DD'),'제발','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (56,275,'kim',to_date('2025/08/18','YYYY/MM/DD'),'1','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (57,117,'kim',to_date('2025/08/19','YYYY/MM/DD'),'1','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (58,178,'kim',to_date('2025/08/19','YYYY/MM/DD'),'11','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (59,288,'kim',to_date('2025/08/19','YYYY/MM/DD'),'11','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (60,289,'kim',to_date('2025/08/19','YYYY/MM/DD'),'11','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (61,290,'kim',to_date('2025/08/19','YYYY/MM/DD'),'1','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (62,290,'kim',to_date('2025/08/19','YYYY/MM/DD'),'1','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (63,224,'kim',to_date('2025/08/20','YYYY/MM/DD'),'44','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (64,224,'kim',to_date('2025/08/20','YYYY/MM/DD'),'44','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (65,224,'kim',to_date('2025/08/20','YYYY/MM/DD'),'4','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (66,283,'kim',to_date('2025/08/20','YYYY/MM/DD'),'진단','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (67,279,'kim',to_date('2025/08/21','YYYY/MM/DD'),'1','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (68,291,'kim',to_date('2025/08/21','YYYY/MM/DD'),'1','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (69,296,'kim',to_date('2025/08/21','YYYY/MM/DD'),'1','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (70,308,'kim',to_date('2025/08/22','YYYY/MM/DD'),'1','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (71,310,'kim',to_date('2025/08/22','YYYY/MM/DD'),'1','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (72,312,'kim',to_date('2025/08/22','YYYY/MM/DD'),'1','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (73,314,'kim',to_date('2025/08/22','YYYY/MM/DD'),'1','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (74,316,'kim',to_date('2025/08/22','YYYY/MM/DD'),'1','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (75,317,'kim',to_date('2025/08/22','YYYY/MM/DD'),'cc','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (76,351,'kim',to_date('2025/08/26','YYYY/MM/DD'),'진단','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (77,353,'kim',to_date('2025/08/26','YYYY/MM/DD'),'진단2','N');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (78,370,'doc027',to_date('2025/08/26','YYYY/MM/DD'),'1','Y');
+Insert into PROJECT.MEDICAL_RECORDS (RECORD_ID,RESERVATION_ID,DOCTOR_ID,RECORD_DATE,DIAGNOSIS,REQUESTED) values (79,372,'doc027',to_date('2025/08/26','YYYY/MM/DD'),'1','N');
+REM INSERTING into PROJECT.PARTNER_HOSPITALS
+SET DEFINE OFF;
+Insert into PROJECT.PARTNER_HOSPITALS (HOSPITAL_ID,NAME,REGION,ADDRESS,PHONE,WEBSITE,CREATED_AT,LAT,LNG) values (1,'MEDIPRIME병원','대한민국','강남어딘가','02-999-2586','amugae.com',to_date('2025/07/11','YYYY/MM/DD'),null,null);
+Insert into PROJECT.PARTNER_HOSPITALS (HOSPITAL_ID,NAME,REGION,ADDRESS,PHONE,WEBSITE,CREATED_AT,LAT,LNG) values (2,'MEDIPRIME협진병원','대한민국','합정뭐시기','02-156-4567','testhos.com',to_date('2025/07/11','YYYY/MM/DD'),null,null);
+Insert into PROJECT.PARTNER_HOSPITALS (HOSPITAL_ID,NAME,REGION,ADDRESS,PHONE,WEBSITE,CREATED_AT,LAT,LNG) values (0,'우리병원','대한민국','서울 강남구 역삼로 115','01-5111-5555','USA.com',to_date('2025/07/28','YYYY/MM/DD'),37.49401,127.0338);
+REM INSERTING into PROJECT.PATIENTS
+SET DEFINE OFF;
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100000,'test','b109f3bbbc244eb82441917ed06d618b9008dd09b3befd1b5e07394c706a8bb980b1d7785e5976ec049b46df5f1326af5a2ea6d103fd07c95385ffab0cacbc86','김민','0000000000000','남','01000000000','test@test.com',to_date('2025/07/21','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100024,'ghkswk','1234','나환자','0112121234567','여','01098459845','ghkswk@test.com',to_date('2025/07/23','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (1,'12','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','김환자','0000001234567','여','01023234545','test@der.com',to_date('2025/07/23','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100040,'kim123','3c56aafa21488c24fe9ecb68ba8478778184c131fd422444c4a6b8f305260b4af28be8f29dd23ffa7ed6aa9dc9b8d2691ce3d8d3ad9cab0e77f42f4bf945a966','김김김','1010101011010','남','01011112223','kim@naver.com',to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100041,null,null,'안안안','1212121211212',null,'01025825802',null,to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100042,null,null,'안차누','0101011114752',null,'01098745612',null,to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100043,null,null,'안1','0101140111231',null,'01036554011',null,to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100044,null,null,'이이이','1478521236547',null,'01011111111',null,to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100045,null,null,'으으으','1411511311111',null,'01033336666',null,to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100047,null,null,'아제발','1023456981231',null,'01036990499',null,to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100078,null,null,'7771','1251',null,'6612',null,to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100049,'ganada','1234','가나다','0212213012345','남','01098456321','ganada@test.com',to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100051,null,null,'바브','9012101033120',null,'01049495959',null,to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100052,null,null,'으마','1236985236523',null,'01025698541',null,to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100054,null,null,'안찬','1011141233210',null,'01085663266',null,to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100055,null,null,'안차','9999999999999',null,'01000000000',null,to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100056,null,null,'안안안','0000000000001',null,'1111111111',null,to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100057,null,null,'김김김','1111234111111',null,'11212121',null,to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100058,'rkskekfk','1234','가나다라','0112130112345','여','01055555555','rkskekfk@test.com',to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (8,null,null,'안찬','7777',null,'777',null,to_date('2025/07/29','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (53,'zxcv','bf1bd0206f4df33dac31ac532fa823ffcb8ed0a29e6253735c7b4f426ae7fae05ba6313a92e7f0ffd50fb587dc0ce31074b2430fa8bd9372bea537b2f6b81a6c','호호호홍','1111225558888','남','01055558888','zxcv@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (22,'guest123','a3708ada2bec9c825be78cbdec499c15e123934790ce3be90a4368212d05ffa299014c24eccbdd89e35fbe9c58d5cd25fa8a369003acdd92f76eb176e3dd28b5','게스트','1234569898987','남','01098746321','guest@gmail.com',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100062,null,null,'안안안안','9998888899777',null,'01011114456',null,to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100063,null,null,'123','124555123112',null,'123123121',null,to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100066,null,null,'3341','1775432486423',null,'1231452451',null,to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100067,null,null,'123','5789877655432',null,'123456789641',null,to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100068,null,null,'123','5789877655431',null,'123456789641',null,to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100069,null,null,'123','5789877625431',null,'123456789641',null,to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100070,null,null,'123','123',null,'123',null,to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100071,null,null,'1232','57898776252',null,'123456789641',null,to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100072,null,null,'432','161',null,'1231',null,to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100073,null,null,'5555','1654',null,'123',null,to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100075,null,null,'5123','5161',null,'61323',null,to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100076,null,null,'51236','516166',null,'61323',null,to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100077,null,null,'65789','12111',null,'61',null,to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100079,null,null,'6611','612',null,'12',null,to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100081,null,null,'d12','511',null,'1211',null,to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100082,null,null,'666','612346',null,'123657',null,to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100083,null,null,'5555','123451',null,'12',null,to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100084,null,null,'6611','12345511',null,'1',null,to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100085,null,null,'4412','1617878272',null,'1',null,to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100086,null,null,'51241','15611361',null,'161521323',null,to_date('2025/07/25','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100087,null,null,'55511','99989',null,'12111',null,to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100091,null,null,'55125','1661651',null,'111',null,to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100089,null,null,'55112','87611',null,'1265666',null,to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100090,null,null,'555111','18987676767',null,'154151',null,to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100120,'hello','hello','hello','1234567891234','남','12345679123','1234564979@naver.com',to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100118,'yyy','yyyy','와이','1234561111111','여','01011111111','yyy@naver.com',to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100119,'user123','pass1234','김철수','8001011234567','남','01098765432','newemail@example.com',to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100122,'hihihi','hihihi','hihihi','1234578123131','남','1234567891','soho@naver.com',to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (100123,'plzz','plzz','plzz','1234562151222','남','15411653123','plzzz@naver.com',to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (2,'hong02','1234','김철수','9001021234567','남','010-9876-5432','hong02@test.com',to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (3,'kakao_3c786255',null,'성소현','999999962780','기타',null,'noemail@kakao.com',to_date('2025/07/29','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (5,null,null,'안찬','777',null,'777',null,to_date('2025/07/29','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (7,'1111','9aef4e46','1111','1112165431221','남','2152312222','11@maver.com',to_date('2025/07/29','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (10,'dlrlxkr','1234','나는왜','1111111111123','남','01024289638','dlrlxkr11@naver.com',to_date('2025/07/29','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (12,'dlrlxkr123','1234','이기탁','9607074758666','남','75336363636','rkskek78f8k@test.com',to_date('2025/07/29','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (16,'cococo','f1475c3c','코코','1111112222222','남','01022222222','21512@naver.com',to_date('2025/07/31','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (17,'hahaha','hahaha','하하하','1234564444444','남','01055111515','ㄴㅇㄹ@naver.com',to_date('2025/07/31','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (31,'qqqqqq','b5c363bf315c22e9b51a197fb372655efb2903a9072e8f77ae291286afb4abafcc2b13fe4867eb712fa9ed89a7a689b67759c6e2f87df9d0362283e25199e242','큐큐큐큐','9999556555622','남','01055155525',null,to_date('2025/08/05','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (23,'qoqoqo','1c66c877c7ff8ed06317e68d4f6e2bb569ceeebf6eb9bd87ccb61fa1caf691dbadc5fdfa686a0df0b4e01a29cae51e7682416ddfbd31e63aa8976d4e36841faf','코코코','4851521561321','남','01012348563','75265@naver.com',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (29,'hahahshsshh','hahahah','하ㅏ하하','5566668884524','남','01016854653','dsffd@naver.com',to_date('2025/08/05','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (32,'sh1012','45b104cf09fa6e74dac78d1d1535d1e1030e2c4a9929dc2318d2fe6bb6f0ff88d2cfb33036c1e2984a56513e5115cd52bc665ff9cbdae17317cbebab5f073da6','소소','0110125555554','여',null,'123456aaa@naver.com',to_date('2025/08/05','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (36,'dlrlxkr111','3c56aafa21488c24fe9ecb68ba8478778184c131fd422444c4a6b8f305260b4af28be8f29dd23ffa7ed6aa9dc9b8d2691ce3d8d3ad9cab0e77f42f4bf945a966','이기탁','9607061111111','남','01022223333','dlrlxkr11111@naver.com',to_date('2025/08/05','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (37,null,null,'이기탁','11111',null,'01024289638',null,to_date('2025/08/05','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (38,'qwer','3c56aafa21488c24fe9ecb68ba8478778184c131fd422444c4a6b8f305260b4af28be8f29dd23ffa7ed6aa9dc9b8d2691ce3d8d3ad9cab0e77f42f4bf945a966','주화합치기','0101011010101','남','01012341234','ascsaddd3322@naver.com',to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (39,null,null,'이기탁','9999994545632',null,'0102428963811111111',null,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (41,null,null,'이기탁','6222222222222',null,'01021213356',null,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (42,null,null,'aaa','9907061213714',null,'01022155589',null,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (43,null,null,'안찬우','9801201111111',null,'01036990499',null,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (44,null,null,'안안안안','7777772222222',null,'01096981231',null,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (45,null,null,'ㅁㄴㅇ','1222221222222',null,'01012311515',null,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (46,null,null,'안찬안','1111118888888',null,'01045555556',null,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (47,null,null,'ㅂㅂㅂ','7878787878787',null,'01012331233',null,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (48,null,null,'ㅇㅊㅇ','1231230000000',null,'01012311231',null,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (49,null,null,'안찬안','1111111888888',null,'01044556655',null,to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (51,'seaa','10d27f4e0fd7506ba4fb90d7a8a2b5211cde93bbdd8b6e440222711c1d1009c5b46d68576044e9c719220ebae486f7db5a5e5fea584af82f407fa53435028573','춘식이','0311083333333','여','01087570786','sertyw110868@naver.com',to_date('2025/08/06','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (52,'pppp','e0a60a68d2dbfdb149feb42f9e6d766f923adcd365436cb0b799824db0a6133429c1aade635f12e1c59d8082a33fcd109a247580be5f48de6731ae584a2ac96b','피피피피','8888884444444','여','01088884444','8484@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (54,'eeee','d43317fa8c2f5f921f403b8a98d54e26070ee4f8e78e96e1cdb81732f55256a7472934a7c8f2b346abd8ccc5e5cdc38e8d399e18ac3347dc95e1f24d823cf9fb','이이이이','5555558888874','여','01055135152','eeee@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (55,'erer','3c07cb747cad9ff7cbd4f69a0a1c4ae9210e5b8ecd7cdd58797a273164626cfd20e51857d3be86cce7dee37c80b6c79529d46264a9c3940b623af1ad8a0b37c2','erer','erererrererer','남','010ererrere',null,to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (56,'cccc','2859209b8d697ec4f82c9643c9470f7c7b6ad8caad0b1c6d694efabe5af4d82bed2464a9bb738bd856395f85613eb317602df2144fe47dc536b8aebb8dbf1fcf','코코낸내','5555554545454','여','01054112222','hihello@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (57,'zzzzz','83f9f087d39423281763f1d697b8cf060f04c839ccf9344d68d710803b6730d1608fdc521492c5f64ed09919862d6c9f31e407a92bb244da143dbec368e14216','하하','1234561234444','남','01012345555','5112@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (58,'plzz1','eabf63927d2f9edc888e6e0babe45075e5d243a0ec5cdc2cd00fe0dcb3236b623696b59e15398adf96db7a3a5c3b23b5a3cf63a8da045849300fac5bbc0c7f1f','플리즈','5555555555555','여','01055555555','5555555555@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (59,'aaaa','ab6a8c5bb8e6170879267776985a1e885bd09bdbff92bbb302cc314aebaf52a9bc906bf4883c6689234a2d0495089b526dc296a433634d867c7afa44a1079374','아아아아','5555545555555','남','01055555551','111@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (60,'plzzz','94821c46e9b93afaf1918317ca28141f214d0184e7e8c907568e9cfaea7b15ee2bfe53c00c8a15d3b22b563a4b2c373c96114abb25167850d49abd42ede52a51','플리즈','1234561234567','여','01011115555','plzzzzzzzzzzzzz@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (61,'hahahah','3c56aafa21488c24fe9ecb68ba8478778184c131fd422444c4a6b8f305260b4af28be8f29dd23ffa7ed6aa9dc9b8d2691ce3d8d3ad9cab0e77f42f4bf945a966','하항','1234561555555','여','01012345678','hehehe@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (62,'hahahahh','3c56aafa21488c24fe9ecb68ba8478778184c131fd422444c4a6b8f305260b4af28be8f29dd23ffa7ed6aa9dc9b8d2691ce3d8d3ad9cab0e77f42f4bf945a966','하항','1234564485512','여','01011111111','hehehe1@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (63,'plzz1234','d22d6024d890859f982eab79267832c5d2a69f937b757f11e507c9a9e5f0faeba5438543984c0efe8d66b86e41e887774330e8d66226b9ed527e38dac473282b','하하하하','1111115415152','여','01011114455','plzz1234@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (64,'9999','4f8b1136d28b446cd7362086bcf740b74feddbb15799228f9fe224bcc5075980c574c2e54b78be4228e388fe7e3b3151199566c88da4b9487fd5224b704e951a','구구구구','9999991111111','여','01099991111','999111@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (65,'wowow','3c56aafa21488c24fe9ecb68ba8478778184c131fd422444c4a6b8f305260b4af28be8f29dd23ffa7ed6aa9dc9b8d2691ce3d8d3ad9cab0e77f42f4bf945a966','와우와우','5413615143132','남','01021025121','wowwow@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (66,'aaaaa','2bf99d5e5d22578054a90ee001e45e52db87091a1f0b29590b6a2a3eb7b4cbe64ec6aeb3a50353733594442ba2e50ae32c91c3ded859c966238f7a6ec9dddf3d','하하','5468545413132','남','01035635130','3321@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (67,'abcde','27159f6e140c8c9d2652f2c07b74c8a485593f08a6da8b955d2887102a127a4508fff44e74dffae07ccf546b5d3be5fa4f1ec14a2dc9f6a2576635e623f50c87','가나다라','1234569845612','남','01098546513','abcde@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (112,'8888','33275a8aa48ea918bd53a9181aa975f15ab0d0645398f5918a006d08675c1cb27d5c645dbd084eee56e675e25ba4019f2ecea37ca9e2995b49fcb12c096a032e','팔팔이','8888881111111','남','01088881111','8811@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (75,'1234','3627909a29c31381a071ec27f7c9ca97726182aed29a7ddd2e54353322cfb30abb9e3a6df2ac2c20fe23436311d678564d0c8d305930575f60e2d3d048184d79','일이삼사','0000001111111','여','01000001111','0011@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (70,null,null,'이기탁','1222220000000',null,'01000001231',null,to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (72,null,null,'QQQ','1222221230000',null,'01000001515',null,to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (102,'0000','33275a8aa48ea918bd53a9181aa975f15ab0d0645398f5918a006d08675c1cb27d5c645dbd084eee56e675e25ba4019f2ecea37ca9e2995b49fcb12c096a032e','호호','2222221111111','남','01000002222','0022@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (103,'2222','2f116a908cf26341547be5d4eec5d9e325fa75f1b6bfd6ba1618d9283b9aeb60cfb00a6a8508e0bcff4e673a52abf31cad6d7b26ba3994c087a0566ead3b2330','이이','0000002222222','남','01022220000','2222@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (104,'ssss',null,'엉엉','2222228888888','남','01022228888','22885@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (105,null,null,'www','3333333333333',null,'01012341231',null,to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (111,'yyyy1111','33275a8aa48ea918bd53a9181aa975f15ab0d0645398f5918a006d08675c1cb27d5c645dbd084eee56e675e25ba4019f2ecea37ca9e2995b49fcb12c096a032e','아랑','6541565143122','남','01054161432','553121@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (107,null,null,'ttt','7878780000000',null,'01011111223',null,to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (108,'eeeee','33275a8aa48ea918bd53a9181aa975f15ab0d0645398f5918a006d08675c1cb27d5c645dbd084eee56e675e25ba4019f2ecea37ca9e2995b49fcb12c096a032e','아아','1111115555555','남','01084638542','fjaklnfd@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (109,'wwww','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','아아아아','5555558884215','남','01015134513','wwww@naver.com',to_date('2025/08/07','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (113,'sungso','33275a8aa48ea918bd53a9181aa975f15ab0d0645398f5918a006d08675c1cb27d5c645dbd084eee56e675e25ba4019f2ecea37ca9e2995b49fcb12c096a032e','성소현','0110120110154','여','01011118885',null,to_date('2025/08/08','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (114,'zzzz','689f26e006a5ce811f4ddfed28fbd725976e80703da1d10a8143e19e91828cc93b3ea29995c4c1f9b4e7814319e5a85f84a06e9a71b98701e3618ad815d94047','zz','4444445555555','여','01011112222','zzzzzz@naver.com',to_date('2025/08/08','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (115,'dlrlxkr789','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','이기탁','9607061234567','남','01012342222','dlrlxkr11111111@naver.com',to_date('2025/08/08','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (116,'bbbb','9b73d9aa7cec73be610b857ab0db7043e0fad84c99015037015e0de1d0ad076f6c838727417e0d77735c978dfc8d05bd3b92de2d23b810f69fc4316202f201b1','bb','0000001411111','남','01000003333','bbbb@naver.com',to_date('2025/08/11','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (117,'guest1','27159f6e140c8c9d2652f2c07b74c8a485593f08a6da8b955d2887102a127a4508fff44e74dffae07ccf546b5d3be5fa4f1ec14a2dc9f6a2576635e623f50c87','게스트유저','1568466846351','남','01084636841','guest1@naver.com',to_date('2025/08/11','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (118,'cw11','a07139cea2b31e5d1f9b84e47169db82748bc324bbbce5d7b92313806fdbd90fd2d783e6d9293fd887db6f47c0ca8a0ae1bd0cc6938f81f39e041ef501cb9874','안찬','1111151111155','남','01022224444','cc11@naver.com',to_date('2025/08/11','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (119,'cc12','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','안찬우','1544445456564','남','01022212221','aaa1@naver.com',to_date('2025/08/11','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (120,'kakao_a88b8732','1111','임세아','999999228816','기타',null,'sea20031108@gmail.com',to_date('2025/08/11','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (121,'guestd','3627909a29c31381a071ec27f7c9ca97726182aed29a7ddd2e54353322cfb30abb9e3a6df2ac2c20fe23436311d678564d0c8d305930575f60e2d3d048184d79','게스트닥','4818488462351','남','01068415645','guestd@naver.com',to_date('2025/08/13','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (122,'asdf','33275a8aa48ea918bd53a9181aa975f15ab0d0645398f5918a006d08675c1cb27d5c645dbd084eee56e675e25ba4019f2ecea37ca9e2995b49fcb12c096a032e','하하하','0158656513211','여','01098641111','dfdfdf@naver.com',to_date('2025/08/13','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (123,'sungs','33275a8aa48ea918bd53a9181aa975f15ab0d0645398f5918a006d08675c1cb27d5c645dbd084eee56e675e25ba4019f2ecea37ca9e2995b49fcb12c096a032e','성소소','1651320000000','남','01021650000','@',to_date('2025/08/14','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (124,'sssss','22e7e9d85b7fe6004f7b9f3aa592ea9ec9ce098682e8192fa83785f1784c768d1d1ac3b8afcae88666f66aec24739ac133e9d4adc7506f1a5f1f6078cb27c674','하하하','1615166412312','남','01015165165','dfdcdd@naver.com',to_date('2025/08/14','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (129,null,null,'비회원','8787878787878',null,null,null,to_date('2025/08/14','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (128,'kakao_82629230',null,'성소현','999999633331','기타',null,'sasa547@naver.com',to_date('2025/08/14','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (130,null,null,'비회원','7878788787878',null,null,null,to_date('2025/08/14','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (132,null,null,'성소현','1111119999999',null,null,null,to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (133,'vvvv','33275a8aa48ea918bd53a9181aa975f15ab0d0645398f5918a006d08675c1cb27d5c645dbd084eee56e675e25ba4019f2ecea37ca9e2995b49fcb12c096a032e','브이','1234561234561','여','01012349874','vvvv@naver.com',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (135,null,null,'성소소','5555551111111',null,null,null,to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (136,null,null,'무아악','8888889999999',null,null,null,to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (137,null,null,'김뫄뫄','7777777775555',null,null,null,to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (139,null,null,'아아','5555554564654',null,null,null,to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (140,null,null,'마ㅏㅁ','1111111111111',null,null,null,to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (142,null,null,'김땡땡','1651651651531',null,null,null,to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (143,null,null,'adfdsfdsaf','3453535434545',null,null,null,to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (144,null,null,'df','1341244234324',null,null,null,to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (145,null,null,'성소소','8888885555555',null,null,null,to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (146,null,null,'안찬우','1111111111112',null,null,null,to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (147,'cw123','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','안찬우','9966669944444','남','01036990444','akakak@naver.com',to_date('2025/08/18','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (154,'sea1','0aed5f82e760e27bd53d4b7d368233e981d9150ca02a4054b6dac6ecb9884dabe2da2b26e7a600bd77d1747dcaa3a68b53d07378017376566b395f306676808a','임세아','0311084111111','여','01087777777','ssss@naver.com',to_date('2025/08/20','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (161,null,null,'이주화','0101010101018',null,null,null,to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (10684530,'qwer11','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','김또깡','1111111231111','남','01011112321','12311123@naver.com',to_date('2025/08/21','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (10000023,null,null,'봐봐봐','4564564564564',null,null,null,to_date('2025/08/25','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (10000024,null,null,'마마마','1231231231237',null,null,null,to_date('2025/08/25','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (14017869,'33333','4cf5a5be41f417cb2087f1f17e44734ae9b1677dc6b0ed3b80de422cc8e5607980ed08334540c15966485db039927bade22d3dedd5fd3b3f7d9743c20310882c','신짱구','0011111111111','여','01033332222','8888@naver.com',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (94925962,'qwer111','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','가나다라','1231112333333','남','01012311111','12311111@naver.com',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (79857131,null,null,'아무거나','4484445125548',null,null,null,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (10998811,'333333','8d2e1d45e47aeaeaad4c908af5e66b1fbe877609fcd31e9f07bc3e210d817d5924dd23039f8c96bce732b34956e3e96a97f72b86850c8ce03c975444899b501c','오예린','0103335555555','여','01055555656','5656@naver.com',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (70932293,null,null,'유리','0303030303033',null,null,null,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (93973135,null,null,'하이','5465456456445',null,null,null,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (45524129,null,null,'유리','0101010000000',null,null,null,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (61574467,null,null,'유리','0311080000000',null,null,null,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (24939194,null,null,'유리','0303033333333',null,null,null,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (16574992,null,null,'신짱구123','0399999999999',null,null,null,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (77267544,null,null,'안찬우','1111110000000',null,null,null,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (74389698,null,null,'이주화','0101281111111',null,null,null,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (89955143,null,null,'주화에요','1111116666666',null,null,null,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (16502567,null,null,'포므','1111113737373',null,null,null,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (92734076,null,null,'안찬우','1111110004444',null,null,null,to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.PATIENTS (PATIENT_NO,PATIENT_USER_ID,PATIENT_PASSWORD,PATIENT_NAME,PATIENT_RRN,PATIENT_GENDER,PATIENT_PHONE,PATIENT_EMAIL,PATIENT_CREATED_AT) values (57732898,null,null,'안찬우','9801203111111',null,null,null,to_date('2025/08/27','YYYY/MM/DD'));
+REM INSERTING into PROJECT.PENDING_USERS
+SET DEFINE OFF;
+Insert into PROJECT.PENDING_USERS (PENDING_ID,USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,APPLIED_AT,STATUS,REVIEWED_BY,REVIEWED_AT,REJECT_REASON) values (1,'hong01','1234','홍길동','0210101234567','남','010153211515','hong@test.com','doctor',1,'001',to_date('2025/07/22','YYYY/MM/DD'),'승인',null,to_date('2025/07/22','YYYY/MM/DD'),null);
+Insert into PROJECT.PENDING_USERS (PENDING_ID,USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,APPLIED_AT,STATUS,REVIEWED_BY,REVIEWED_AT,REJECT_REASON) values (2,'doctor','1234','가나다','0201231234567','남','01094617643','doctor@test.com','doctor',1,'002',to_date('2025/07/22','YYYY/MM/DD'),'승인',null,null,null);
+Insert into PROJECT.PENDING_USERS (PENDING_ID,USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,APPLIED_AT,STATUS,REVIEWED_BY,REVIEWED_AT,REJECT_REASON) values (21,'cooptest','1234','나협력','021231','남','01054869785','coop@test.com','coop',2,'000',to_date('2025/07/24','YYYY/MM/DD'),'승인',null,null,null);
+Insert into PROJECT.PENDING_USERS (PENDING_ID,USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,APPLIED_AT,STATUS,REVIEWED_BY,REVIEWED_AT,REJECT_REASON) values (41,'shh','shh','성소의사','123-4511','여','010845184152','hong011@example.com','doctor',1,null,to_date('2025/07/28','YYYY/MM/DD'),'승인',null,null,null);
+Insert into PROJECT.PENDING_USERS (PENDING_ID,USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,APPLIED_AT,STATUS,REVIEWED_BY,REVIEWED_AT,REJECT_REASON) values (42,'aaaa','aaaa','aaaa','aaaa','남','aaaaa','aaaa@aaaa','doctor',1,'000',to_date('2025/07/29','YYYY/MM/DD'),'승인','c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec',to_date('2025/08/12','YYYY/MM/DD'),null);
+Insert into PROJECT.PENDING_USERS (PENDING_ID,USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,APPLIED_AT,STATUS,REVIEWED_BY,REVIEWED_AT,REJECT_REASON) values (43,'hallo','hallo','할로','01252511111','남','010845184152','21512dfdf@naver.com','doctor',1,'999',to_date('2025/07/31','YYYY/MM/DD'),'승인','c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec',to_date('2025/08/12','YYYY/MM/DD'),null);
+Insert into PROJECT.PENDING_USERS (PENDING_ID,USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,APPLIED_AT,STATUS,REVIEWED_BY,REVIEWED_AT,REJECT_REASON) values (44,'doc','doc','내가의사','0110120110122','여','01001010101','010@010','doctor',1,'002',to_date('2025/08/01','YYYY/MM/DD'),'승인',null,null,null);
+Insert into PROJECT.PENDING_USERS (PENDING_ID,USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,APPLIED_AT,STATUS,REVIEWED_BY,REVIEWED_AT,REJECT_REASON) values (84,'tttt','33275a8aa48ea918bd53a9181aa975f15ab0d0645398f5918a006d08675c1cb27d5c645dbd084eee56e675e25ba4019f2ecea37ca9e2995b49fcb12c096a032e','안뇽연낭','4165131165321','남','01053152151','hihello211@naver.com','doctor',1,'B03',to_date('2025/08/07','YYYY/MM/DD'),'승인',null,null,null);
+Insert into PROJECT.PENDING_USERS (PENDING_ID,USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,APPLIED_AT,STATUS,REVIEWED_BY,REVIEWED_AT,REJECT_REASON) values (64,'guestdoc','3627909a29c31381a071ec27f7c9ca97726182aed29a7ddd2e54353322cfb30abb9e3a6df2ac2c20fe23436311d678564d0c8d305930575f60e2d3d048184d79','게스트닥터','1212313213214','남','01094613467','guestdoc@test.com','doctor',1,'C02',to_date('2025/08/04','YYYY/MM/DD'),'승인',null,null,null);
+Insert into PROJECT.PENDING_USERS (PENDING_ID,USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,APPLIED_AT,STATUS,REVIEWED_BY,REVIEWED_AT,REJECT_REASON) values (85,'iiii','d489f16186d808735ec3d9ef36f6e3d8238b0508e766672e803765ac986bcb4a4a47b4270ee9a734028d031fed84be2dd1d74d15dc2726ba9bb9b7073ff754a3','아아아아','4465356512220','남','01045155555','4165@naver.com','doctor',1,'B03',to_date('2025/08/07','YYYY/MM/DD'),'승인','c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec',to_date('2025/08/19','YYYY/MM/DD'),null);
+Insert into PROJECT.PENDING_USERS (PENDING_ID,USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,APPLIED_AT,STATUS,REVIEWED_BY,REVIEWED_AT,REJECT_REASON) values (86,'iiii5555','ff10adfb269be4305513343801317405d2186824683d4a00f41964ba33ac4a0633595ff0f099b8b9f2784e781704159b8d500b4cc9cfa19a5f368fd1f2e60b1a','아아아아','4654516512220','남','01052555555','465151@naver.com','doctor',1,'B02',to_date('2025/08/07','YYYY/MM/DD'),'승인','c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec',to_date('2025/08/26','YYYY/MM/DD'),null);
+Insert into PROJECT.PENDING_USERS (PENDING_ID,USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,APPLIED_AT,STATUS,REVIEWED_BY,REVIEWED_AT,REJECT_REASON) values (87,'hohoho','ba3253876aed6bc22d4a6ff53d8406c6ad864195ed144ab5c87621b6c233b548baeae6956df346ec8c17f5ea10f35ee3cbc514797ed7ddd3145464e2a0bab413','난좃댐','8465418465132','남','01051321513','85121@naver.com','doctor',1,'C06',to_date('2025/08/07','YYYY/MM/DD'),'승인',null,null,null);
+Insert into PROJECT.PENDING_USERS (PENDING_ID,USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,APPLIED_AT,STATUS,REVIEWED_BY,REVIEWED_AT,REJECT_REASON) values (88,'hohoho12','a1b4806a7c3a781504f393cbebab89da183839c924cf99e2bdd89bf8b23d1fd55d9d887c07e0e945b1958afa2388615e975859ae2038fd76da32d47ca5c7f1e4','난좃댐12','5613108465132','남','01065131513','6563@naver.com','doctor',1,'A01',to_date('2025/08/07','YYYY/MM/DD'),'반려','c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec',to_date('2025/08/26','YYYY/MM/DD'),'그냥');
+Insert into PROJECT.PENDING_USERS (PENDING_ID,USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,APPLIED_AT,STATUS,REVIEWED_BY,REVIEWED_AT,REJECT_REASON) values (101,'zzz','617e115814675db57bd7fd21b2e5471d612583de968b29bf08b9aec647cbfbc3f90269f41151eaafed0cbdba0d3a0a1db79e0dab03b8f6f1c6af57e43e0426ed','zzz','0000000111111','남','01000004444','222@naver.com','doctor',1,'001',to_date('2025/08/13','YYYY/MM/DD'),'승인',null,null,null);
+Insert into PROJECT.PENDING_USERS (PENDING_ID,USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,APPLIED_AT,STATUS,REVIEWED_BY,REVIEWED_AT,REJECT_REASON) values (121,'qqqq','5e3b118f9e6917361f4a1e222becdf0ba765ba94447ee0065776a596007156bc0e570e6446e6bdf68e33fa182915dd36a155162b29a0f5a40feca462a5985fdd','관리자1','0011111111111','여','01088888888','8888@naver.com','coop',2,null,to_date('2025/08/26','YYYY/MM/DD'),'대기',null,null,null);
+Insert into PROJECT.PENDING_USERS (PENDING_ID,USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,APPLIED_AT,STATUS,REVIEWED_BY,REVIEWED_AT,REJECT_REASON) values (141,'doc111','33275a8aa48ea918bd53a9181aa975f15ab0d0645398f5918a006d08675c1cb27d5c645dbd084eee56e675e25ba4019f2ecea37ca9e2995b49fcb12c096a032e','차은우','1111117894561','남','01045677894','789456dd@naver.com','doctor',1,'C07',to_date('2025/08/26','YYYY/MM/DD'),'승인','c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec',to_date('2025/08/26','YYYY/MM/DD'),null);
+REM INSERTING into PROJECT.PRAISE_RELAY
+SET DEFINE OFF;
+Insert into PROJECT.PRAISE_RELAY (PRAISE_ID,TITLE,VIEW_COUNT,CREATED_AT,PATIENT_USER_ID) values (141,'김태훈 의사님 감사합니다',2,to_date('2025/08/26','YYYY/MM/DD'),'cw123');
+Insert into PROJECT.PRAISE_RELAY (PRAISE_ID,TITLE,VIEW_COUNT,CREATED_AT,PATIENT_USER_ID) values (83,'정형외과 최우성 의사 선생님 감사드립니다!',17,to_date('2025/08/18','YYYY/MM/DD'),'sungso');
+Insert into PROJECT.PRAISE_RELAY (PRAISE_ID,TITLE,VIEW_COUNT,CREATED_AT,PATIENT_USER_ID) values (1,'친절한 간호사님께 감사드립니다',5,to_date('2025/08/08','YYYY/MM/DD'),'sungso');
+Insert into PROJECT.PRAISE_RELAY (PRAISE_ID,TITLE,VIEW_COUNT,CREATED_AT,PATIENT_USER_ID) values (2,'청소 직원분들의 노력에 감사드립니다',3,to_date('2025/08/08','YYYY/MM/DD'),'sungso');
+Insert into PROJECT.PRAISE_RELAY (PRAISE_ID,TITLE,VIEW_COUNT,CREATED_AT,PATIENT_USER_ID) values (3,'야간 응급실 의료진 감사합니다',3,to_date('2025/08/08','YYYY/MM/DD'),'sungso');
+Insert into PROJECT.PRAISE_RELAY (PRAISE_ID,TITLE,VIEW_COUNT,CREATED_AT,PATIENT_USER_ID) values (4,'원무과 직원의 친절에 감동했습니다',2,to_date('2025/08/08','YYYY/MM/DD'),'sungso');
+Insert into PROJECT.PRAISE_RELAY (PRAISE_ID,TITLE,VIEW_COUNT,CREATED_AT,PATIENT_USER_ID) values (5,'정형외과 선생님 진심으로 감사합니다',2,to_date('2025/08/08','YYYY/MM/DD'),'sungso');
+Insert into PROJECT.PRAISE_RELAY (PRAISE_ID,TITLE,VIEW_COUNT,CREATED_AT,PATIENT_USER_ID) values (6,'입원실 간호사님의 배려에 감사합니다',3,to_date('2025/08/08','YYYY/MM/DD'),'sungso');
+Insert into PROJECT.PRAISE_RELAY (PRAISE_ID,TITLE,VIEW_COUNT,CREATED_AT,PATIENT_USER_ID) values (7,'정신건강의학과 상담 선생님께 감사 인사',4,to_date('2025/08/08','YYYY/MM/DD'),'sungso');
+Insert into PROJECT.PRAISE_RELAY (PRAISE_ID,TITLE,VIEW_COUNT,CREATED_AT,PATIENT_USER_ID) values (8,'식당 직원들의 정성에 감사드려요',4,to_date('2025/08/08','YYYY/MM/DD'),'sungso');
+Insert into PROJECT.PRAISE_RELAY (PRAISE_ID,TITLE,VIEW_COUNT,CREATED_AT,PATIENT_USER_ID) values (9,'MRI 촬영 도와주신 기사님 감사드립니다',4,to_date('2025/08/08','YYYY/MM/DD'),'sungso');
+REM INSERTING into PROJECT.REFERRAL_COMMENT
+SET DEFINE OFF;
+REM INSERTING into PROJECT.REFERRAL_NOTICES
+SET DEFINE OFF;
+Insert into PROJECT.REFERRAL_NOTICES (NOTICE_ID,TITLE,CREATED_AT,CREATED_BY,TARGET_ROLE) values (22,'협진 의뢰서 양식 및 접수 절차 변경 안내 (전자서명 필수)',to_date('2025/08/18','YYYY/MM/DD'),'cooptest','all');
+Insert into PROJECT.REFERRAL_NOTICES (NOTICE_ID,TITLE,CREATED_AT,CREATED_BY,TARGET_ROLE) values (23,'추석 연휴 진료 및 응급 운영 안내',to_date('2025/08/18','YYYY/MM/DD'),'cooptest','all');
+Insert into PROJECT.REFERRAL_NOTICES (NOTICE_ID,TITLE,CREATED_AT,CREATED_BY,TARGET_ROLE) values (21,'진료협력센터 시스템 정기 점검 안내 (9/03 00:00–02:00)',to_date('2025/08/18','YYYY/MM/DD'),'cooptest','all');
+Insert into PROJECT.REFERRAL_NOTICES (NOTICE_ID,TITLE,CREATED_AT,CREATED_BY,TARGET_ROLE) values (24,'영상자료 전달 정책 개선 안내 – 온라인 PACS 업로드 오픈',to_date('2025/08/18','YYYY/MM/DD'),'cooptest','all');
+Insert into PROJECT.REFERRAL_NOTICES (NOTICE_ID,TITLE,CREATED_AT,CREATED_BY,TARGET_ROLE) values (25,'협진 의뢰 우선 가이드 업데이트(심장내과·신경외과)',to_date('2025/08/18','YYYY/MM/DD'),'cooptest','all');
+Insert into PROJECT.REFERRAL_NOTICES (NOTICE_ID,TITLE,CREATED_AT,CREATED_BY,TARGET_ROLE) values (28,'1111',to_date('2025/08/26','YYYY/MM/DD'),'cooptest','doctor');
+REM INSERTING into PROJECT.REFERRAL_REPLIES
+SET DEFINE OFF;
+Insert into PROJECT.REFERRAL_REPLIES (REPLY_ID,REQUEST_ID,RESPONDER_NAME,REPLY_DATE,STATUS,HOSPITAL_ID,ATTACHMENT_PATH) values (82,133,'나협력',to_date('2025/08/26','YYYY/MM/DD'),'완료',2,null);
+Insert into PROJECT.REFERRAL_REPLIES (REPLY_ID,REQUEST_ID,RESPONDER_NAME,REPLY_DATE,STATUS,HOSPITAL_ID,ATTACHMENT_PATH) values (101,186,'나협력',to_date('2025/08/27','YYYY/MM/DD'),'거절',2,null);
+REM INSERTING into PROJECT.REFERRAL_REQUESTS
+SET DEFINE OFF;
+Insert into PROJECT.REFERRAL_REQUESTS (REQUEST_ID,USER_ID,PATIENT_NAME,RRN,CONTACT,DEPARTMENT,DOCTOR_ID,HOPE_DATE,HOSPITAL_ID,STATUS,CREATED_AT,RECORD_ID) values (133,'cooptest','테스트',null,'01012341234','A04','doc010',to_date('2025/08/21','YYYY/MM/DD'),2,'완료',to_date('2025/08/19','YYYY/MM/DD'),null);
+Insert into PROJECT.REFERRAL_REQUESTS (REQUEST_ID,USER_ID,PATIENT_NAME,RRN,CONTACT,DEPARTMENT,DOCTOR_ID,HOPE_DATE,HOSPITAL_ID,STATUS,CREATED_AT,RECORD_ID) values (141,'qqq','나환자',null,'01012344321','C04','doc015',to_date('2025/08/21','YYYY/MM/DD'),0,'접수',to_date('2025/08/20','YYYY/MM/DD'),null);
+Insert into PROJECT.REFERRAL_REQUESTS (REQUEST_ID,USER_ID,PATIENT_NAME,RRN,CONTACT,DEPARTMENT,DOCTOR_ID,HOPE_DATE,HOSPITAL_ID,STATUS,CREATED_AT,RECORD_ID) values (186,'cooptest','test','0000000000000','01000000000','A01','doc027',to_date('2025/08/21','YYYY/MM/DD'),2,'거절',to_date('2025/08/26','YYYY/MM/DD'),78);
+REM INSERTING into PROJECT.RESERVATIONS
+SET DEFINE OFF;
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (29,1,'001','kim',to_date('2025/07/31','YYYY/MM/DD'),'확정',to_date('2025/07/24','YYYY/MM/DD'),114,'09:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (31,1,'001','kim',to_date('2025/07/31','YYYY/MM/DD'),'확정',to_date('2025/07/24','YYYY/MM/DD'),115,'09:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (30,1,'001','kim',to_date('2025/07/31','YYYY/MM/DD'),'확정',to_date('2025/07/24','YYYY/MM/DD'),117,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (32,1,'001','kim',to_date('2025/07/31','YYYY/MM/DD'),'확정',to_date('2025/07/24','YYYY/MM/DD'),116,'10:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (33,1,'001','kim',to_date('2025/07/24','YYYY/MM/DD'),'확정',to_date('2025/07/24','YYYY/MM/DD'),120,'18:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (34,1,'001','kim',to_date('2025/07/30','YYYY/MM/DD'),'확정',to_date('2025/07/24','YYYY/MM/DD'),118,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (35,1,'001','kim',to_date('2025/07/30','YYYY/MM/DD'),'확정',to_date('2025/07/24','YYYY/MM/DD'),118,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (36,1,'001','kim',to_date('2025/07/30','YYYY/MM/DD'),'확정',to_date('2025/07/24','YYYY/MM/DD'),118,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (37,100024,'001','kim',to_date('2025/07/27','YYYY/MM/DD'),'확정',to_date('2025/07/24','YYYY/MM/DD'),121,'09:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (38,100024,'001','kim',to_date('2025/07/27','YYYY/MM/DD'),'확정',to_date('2025/07/24','YYYY/MM/DD'),122,'09:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (39,100000,'001','kim',to_date('2025/07/27','YYYY/MM/DD'),'취소',to_date('2025/07/24','YYYY/MM/DD'),123,'10:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (40,100000,'001','kim',to_date('2025/07/27','YYYY/MM/DD'),'확정',to_date('2025/07/25','YYYY/MM/DD'),124,'10:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (41,100081,'001','kim',to_date('2025/07/27','YYYY/MM/DD'),'확정',to_date('2025/07/25','YYYY/MM/DD'),125,'11:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (42,100082,'001','kim',to_date('2025/07/27','YYYY/MM/DD'),'확정',to_date('2025/07/25','YYYY/MM/DD'),126,'11:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (43,100000,'001','kim',to_date('2025/07/28','YYYY/MM/DD'),'확정',to_date('2025/07/25','YYYY/MM/DD'),24,'09:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (44,100000,'001','kim',to_date('2025/07/28','YYYY/MM/DD'),'확정',to_date('2025/07/25','YYYY/MM/DD'),25,'09:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (45,100083,'001','kim',to_date('2025/08/01','YYYY/MM/DD'),'확정',to_date('2025/07/25','YYYY/MM/DD'),127,'09:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (46,100083,'001','kim',to_date('2025/07/25','YYYY/MM/DD'),'확정',to_date('2025/07/25','YYYY/MM/DD'),129,'09:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (47,100084,'001','kim',to_date('2025/07/25','YYYY/MM/DD'),'확정',to_date('2025/07/25','YYYY/MM/DD'),131,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (48,100085,'001','kim',to_date('2025/07/25','YYYY/MM/DD'),'확정',to_date('2025/07/25','YYYY/MM/DD'),132,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (49,100084,'001','kim',to_date('2025/07/25','YYYY/MM/DD'),'확정',to_date('2025/07/25','YYYY/MM/DD'),133,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (50,100085,'001','kim',to_date('2025/07/25','YYYY/MM/DD'),'확정',to_date('2025/07/25','YYYY/MM/DD'),134,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (51,100000,'001','kim',to_date('2025/07/25','YYYY/MM/DD'),'취소',to_date('2025/07/25','YYYY/MM/DD'),135,'14:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (52,100087,'001','kim',to_date('2025/07/28','YYYY/MM/DD'),'확정',to_date('2025/07/28','YYYY/MM/DD'),26,'10:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (53,100089,'001','kim',to_date('2025/07/28','YYYY/MM/DD'),'확정',to_date('2025/07/28','YYYY/MM/DD'),136,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (54,100000,'001','kim',to_date('2025/07/28','YYYY/MM/DD'),'확정',to_date('2025/07/28','YYYY/MM/DD'),137,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (55,100090,'001','kim',to_date('2025/07/28','YYYY/MM/DD'),'확정',to_date('2025/07/28','YYYY/MM/DD'),145,'10:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (56,100091,'001','kim',to_date('2025/07/28','YYYY/MM/DD'),'확정',to_date('2025/07/28','YYYY/MM/DD'),146,'11:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (57,100000,'001','kim',to_date('2025/07/28','YYYY/MM/DD'),'확정',to_date('2025/07/28','YYYY/MM/DD'),147,'11:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (58,5,'001','kim',to_date('2025/07/29','YYYY/MM/DD'),'확정',to_date('2025/07/29','YYYY/MM/DD'),148,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (59,5,'001','kim',to_date('2025/07/29','YYYY/MM/DD'),'확정',to_date('2025/07/29','YYYY/MM/DD'),149,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (60,1,'001','kim',to_date('2025/07/29','YYYY/MM/DD'),'확정',to_date('2025/07/29','YYYY/MM/DD'),150,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (61,8,'001','kim',to_date('2025/07/29','YYYY/MM/DD'),'확정',to_date('2025/07/29','YYYY/MM/DD'),151,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (62,5,'001','kim',to_date('2025/07/30','YYYY/MM/DD'),'확정',to_date('2025/07/30','YYYY/MM/DD'),152,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (63,5,'001','kim',to_date('2025/07/30','YYYY/MM/DD'),'확정',to_date('2025/07/30','YYYY/MM/DD'),155,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (64,5,'001','kim',to_date('2025/07/31','YYYY/MM/DD'),'확정',to_date('2025/07/31','YYYY/MM/DD'),159,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (65,5,'001','kim',to_date('2025/07/31','YYYY/MM/DD'),'확정',to_date('2025/07/31','YYYY/MM/DD'),160,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (66,5,'001','kim',to_date('2025/07/31','YYYY/MM/DD'),'확정',to_date('2025/07/31','YYYY/MM/DD'),161,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (67,5,'001','kim',to_date('2025/07/31','YYYY/MM/DD'),'완료',to_date('2025/07/31','YYYY/MM/DD'),162,'14:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (68,100000,'001','kim',to_date('2025/07/31','YYYY/MM/DD'),'확정',to_date('2025/07/31','YYYY/MM/DD'),163,'14:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (69,100000,'001','kim',to_date('2025/08/01','YYYY/MM/DD'),'확정',to_date('2025/08/01','YYYY/MM/DD'),167,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (70,100000,'001','kim',to_date('2025/08/01','YYYY/MM/DD'),'확정',to_date('2025/08/01','YYYY/MM/DD'),168,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (71,100000,'001','kim',to_date('2025/08/01','YYYY/MM/DD'),'확정',to_date('2025/08/01','YYYY/MM/DD'),170,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (72,100119,'001','kim',to_date('2025/08/02','YYYY/MM/DD'),'확정',to_date('2025/08/01','YYYY/MM/DD'),171,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (73,100119,'001','kim',to_date('2025/08/03','YYYY/MM/DD'),'확정',to_date('2025/08/01','YYYY/MM/DD'),176,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (74,100120,'001','kim',to_date('2025/08/01','YYYY/MM/DD'),'확정',to_date('2025/08/01','YYYY/MM/DD'),169,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (75,17,'001','kim',to_date('2025/08/02','YYYY/MM/DD'),'취소',to_date('2025/08/01','YYYY/MM/DD'),172,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (76,17,'001','kim',to_date('2025/08/02','YYYY/MM/DD'),'취소',to_date('2025/08/01','YYYY/MM/DD'),173,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (77,5,'001','kim',to_date('2025/08/01','YYYY/MM/DD'),'완료',to_date('2025/08/01','YYYY/MM/DD'),181,'14:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (78,5,'001','kim',to_date('2025/08/01','YYYY/MM/DD'),'완료',to_date('2025/08/01','YYYY/MM/DD'),182,'14:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (79,5,'001','kim',to_date('2025/08/01','YYYY/MM/DD'),'완료',to_date('2025/08/01','YYYY/MM/DD'),183,'15:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (80,17,'001','kim',to_date('2025/08/01','YYYY/MM/DD'),'취소',to_date('2025/08/01','YYYY/MM/DD'),184,'15:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (81,17,'001','kim',to_date('2025/08/02','YYYY/MM/DD'),'취소',to_date('2025/08/01','YYYY/MM/DD'),172,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (82,17,'001','kim',to_date('2025/08/02','YYYY/MM/DD'),'취소',to_date('2025/08/01','YYYY/MM/DD'),173,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (83,100000,'001','kim',to_date('2025/08/01','YYYY/MM/DD'),'완료',to_date('2025/08/01','YYYY/MM/DD'),184,'15:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (84,100000,'001','kim',to_date('2025/08/02','YYYY/MM/DD'),'취소',to_date('2025/08/01','YYYY/MM/DD'),172,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (85,100000,'001','kim',to_date('2025/08/02','YYYY/MM/DD'),'취소',to_date('2025/08/01','YYYY/MM/DD'),173,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (86,100000,'001','kim',to_date('2025/08/02','YYYY/MM/DD'),'취소',to_date('2025/08/01','YYYY/MM/DD'),174,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (87,100000,'001','kim',to_date('2025/08/02','YYYY/MM/DD'),'취소',to_date('2025/08/01','YYYY/MM/DD'),173,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (88,100000,'001','kim',to_date('2025/08/02','YYYY/MM/DD'),'취소',to_date('2025/08/01','YYYY/MM/DD'),172,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (89,100000,'001','kim',to_date('2025/08/02','YYYY/MM/DD'),'취소',to_date('2025/08/01','YYYY/MM/DD'),173,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (90,100000,'001','kim',to_date('2025/08/03','YYYY/MM/DD'),'취소',to_date('2025/08/01','YYYY/MM/DD'),180,'14:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (91,5,'001','kim',to_date('2025/08/02','YYYY/MM/DD'),'확정',to_date('2025/08/01','YYYY/MM/DD'),175,'14:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (92,5,'001','kim',to_date('2025/08/04','YYYY/MM/DD'),'완료',to_date('2025/08/04','YYYY/MM/DD'),185,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (93,5,'001','kim',to_date('2025/08/05','YYYY/MM/DD'),'완료',to_date('2025/08/04','YYYY/MM/DD'),189,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (94,100000,'001','kim',to_date('2025/08/05','YYYY/MM/DD'),'완료',to_date('2025/08/04','YYYY/MM/DD'),190,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (95,100000,'001','kim',to_date('2025/08/04','YYYY/MM/DD'),'완료',to_date('2025/08/04','YYYY/MM/DD'),186,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (96,5,'001','kim',to_date('2025/08/05','YYYY/MM/DD'),'취소',to_date('2025/08/04','YYYY/MM/DD'),192,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (97,5,'001','kim',to_date('2025/08/04','YYYY/MM/DD'),'확정',to_date('2025/08/04','YYYY/MM/DD'),188,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (98,100000,'001','kim',to_date('2025/08/04','YYYY/MM/DD'),'완료',to_date('2025/08/04','YYYY/MM/DD'),197,'16:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (99,100000,'001','kim',to_date('2025/08/04','YYYY/MM/DD'),'완료',to_date('2025/08/04','YYYY/MM/DD'),196,'15:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (100,100000,'001','kim',to_date('2025/08/04','YYYY/MM/DD'),'확정',to_date('2025/08/04','YYYY/MM/DD'),187,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (101,12,'001','kim',to_date('2025/08/05','YYYY/MM/DD'),'확정',to_date('2025/08/05','YYYY/MM/DD'),204,'14:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (102,12,'001','kim',to_date('2025/08/06','YYYY/MM/DD'),'취소',to_date('2025/08/05','YYYY/MM/DD'),209,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (103,12,'001','kim',to_date('2025/08/06','YYYY/MM/DD'),'취소',to_date('2025/08/05','YYYY/MM/DD'),211,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (104,37,'001','kim',to_date('2025/08/06','YYYY/MM/DD'),'취소',to_date('2025/08/05','YYYY/MM/DD'),210,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (105,37,'001','kim',to_date('2025/08/06','YYYY/MM/DD'),'완료',to_date('2025/08/05','YYYY/MM/DD'),209,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (106,100000,'001','kim',to_date('2025/08/06','YYYY/MM/DD'),'확정',to_date('2025/08/06','YYYY/MM/DD'),210,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (107,12,'001','kim',to_date('2025/08/06','YYYY/MM/DD'),'확정',to_date('2025/08/06','YYYY/MM/DD'),211,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (108,12,'001','kim',to_date('2025/08/06','YYYY/MM/DD'),'확정',to_date('2025/08/06','YYYY/MM/DD'),219,'14:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (109,12,'001','kim',to_date('2025/08/06','YYYY/MM/DD'),'확정',to_date('2025/08/06','YYYY/MM/DD'),220,'15:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (110,41,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'완료',to_date('2025/08/06','YYYY/MM/DD'),217,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (111,12,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),218,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (112,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),226,'15:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (113,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),224,'14:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (114,12,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (115,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (116,42,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (117,100000,'001','kim',to_date('2025/08/19','YYYY/MM/DD'),'완료',to_date('2025/08/06','YYYY/MM/DD'),274,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (118,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),223,'14:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (119,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),224,'14:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (120,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (121,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),224,'14:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (122,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),223,'14:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (123,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),223,'14:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (124,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),226,'15:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (125,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),222,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (126,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),226,'15:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (127,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),223,'14:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (128,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (129,43,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'완료',to_date('2025/08/06','YYYY/MM/DD'),222,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (130,45,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'확정',to_date('2025/08/06','YYYY/MM/DD'),218,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (131,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),226,'15:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (132,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),226,'15:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (133,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),225,'15:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (134,47,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (135,47,'내과',null,to_date('2025/08/07','YYYY/MM/DD'),'확정',to_date('2025/08/06','YYYY/MM/DD'),223,'14:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (136,48,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),224,'14:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (137,48,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (138,48,'내과',null,to_date('2025/08/07','YYYY/MM/DD'),'확정',to_date('2025/08/06','YYYY/MM/DD'),224,'14:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (139,12,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (140,100000,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),227,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (141,100000,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),227,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (142,100000,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),230,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (143,100000,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),229,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (144,100000,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),227,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (145,12,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),229,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (146,12,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),228,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (147,12,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),230,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (148,12,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),230,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (149,100000,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),228,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (150,46,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),230,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (151,46,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),229,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (152,46,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),228,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (153,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),225,'15:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (154,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),226,'15:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (155,46,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),230,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (156,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),225,'15:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (157,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),225,'15:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (158,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (159,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),225,'15:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (160,46,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),230,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (161,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),225,'15:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (162,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),226,'15:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (163,46,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),230,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (164,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),226,'15:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (165,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (166,46,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),229,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (167,46,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),227,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (168,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),225,'15:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (169,46,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),230,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (170,100000,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),227,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (171,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),226,'15:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (172,46,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),230,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (173,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (174,46,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),229,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (175,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),225,'15:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (176,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (177,100000,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),229,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (178,100000,'001','kim',to_date('2025/08/19','YYYY/MM/DD'),'완료',to_date('2025/08/06','YYYY/MM/DD'),273,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (179,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),226,'15:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (180,46,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),230,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (181,49,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'완료',to_date('2025/08/06','YYYY/MM/DD'),230,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (182,46,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),228,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (183,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),226,'15:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (184,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),226,'15:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (185,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (186,46,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),228,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (187,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),225,'15:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (188,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (189,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (190,46,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),229,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (191,46,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),228,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (192,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (193,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (194,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (195,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (196,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (197,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (198,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (199,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (200,46,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),227,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (201,46,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),228,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (202,46,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),229,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (203,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (204,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),226,'15:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (205,100000,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),229,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (206,100000,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),228,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (207,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),225,'15:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (208,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (209,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),226,'15:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (210,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (211,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),225,'15:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (212,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),226,'15:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (213,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),226,'15:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (214,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/06','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (215,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/07','YYYY/MM/DD'),221,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (216,100000,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/07','YYYY/MM/DD'),225,'15:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (218,100118,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/07','YYYY/MM/DD'),227,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (221,100118,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'확정',to_date('2025/08/07','YYYY/MM/DD'),225,'15:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (220,100118,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/07','YYYY/MM/DD'),227,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (224,100000,'001','kim',to_date('2025/08/20','YYYY/MM/DD'),'완료',to_date('2025/08/07','YYYY/MM/DD'),98,'09:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (225,46,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/07','YYYY/MM/DD'),228,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (226,46,'001','kim',to_date('2025/08/07','YYYY/MM/DD'),'취소',to_date('2025/08/07','YYYY/MM/DD'),226,'15:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (229,105,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/07','YYYY/MM/DD'),228,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (230,12,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/07','YYYY/MM/DD'),228,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (232,12,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/07','YYYY/MM/DD'),228,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (233,12,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/07','YYYY/MM/DD'),228,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (235,12,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'취소',to_date('2025/08/07','YYYY/MM/DD'),228,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (238,100118,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'완료',to_date('2025/08/07','YYYY/MM/DD'),228,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (239,100000,'001','kim',to_date('2025/08/08','YYYY/MM/DD'),'확정',to_date('2025/08/07','YYYY/MM/DD'),227,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (240,46,'001','kim',to_date('2025/08/09','YYYY/MM/DD'),'완료',to_date('2025/08/08','YYYY/MM/DD'),238,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (252,115,'내과','kim',to_date('2025/08/14','YYYY/MM/DD'),'완료',to_date('2025/08/14','YYYY/MM/DD'),262,'14:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (253,130,'내과','kim',to_date('2025/08/14','YYYY/MM/DD'),'완료',to_date('2025/08/14','YYYY/MM/DD'),261,'14:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (265,113,'정형외과','doc005',to_date('2025/08/18','YYYY/MM/DD'),'취소',to_date('2025/08/18','YYYY/MM/DD'),100,'09:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (274,147,'내과','kim',to_date('2025/08/18','YYYY/MM/DD'),'완료',to_date('2025/08/18','YYYY/MM/DD'),104,'19:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (255,130,'내과','kim',to_date('2025/08/14','YYYY/MM/DD'),'완료',to_date('2025/08/14','YYYY/MM/DD'),253,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (258,130,'내과','kim',to_date('2025/08/18','YYYY/MM/DD'),'완료',to_date('2025/08/18','YYYY/MM/DD'),265,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (250,100000,'001','kim',to_date('2025/08/13','YYYY/MM/DD'),'완료',to_date('2025/08/13','YYYY/MM/DD'),247,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (254,100000,'내과','kim',to_date('2025/08/18','YYYY/MM/DD'),'대기',to_date('2025/08/14','YYYY/MM/DD'),280,'18:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (264,113,'내과','kim',to_date('2025/08/18','YYYY/MM/DD'),'완료',to_date('2025/08/18','YYYY/MM/DD'),266,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (272,146,'내과','kim',to_date('2025/08/18','YYYY/MM/DD'),'완료',to_date('2025/08/18','YYYY/MM/DD'),101,'18:20');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (275,147,'내과','kim',to_date('2025/08/18','YYYY/MM/DD'),'완료',to_date('2025/08/18','YYYY/MM/DD'),105,'19:20');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (276,147,'내과','kim',to_date('2025/08/23','YYYY/MM/DD'),'대기',to_date('2025/08/18','YYYY/MM/DD'),323,'11:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (282,115,null,'kim',to_date('2025/08/22','YYYY/MM/DD'),'취소',to_date('2025/08/19','YYYY/MM/DD'),279,'10:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (283,115,'내과','kim',to_date('2025/08/20','YYYY/MM/DD'),'완료',to_date('2025/08/19','YYYY/MM/DD'),288,'09:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (279,147,'내과','kim',to_date('2025/08/21','YYYY/MM/DD'),'완료',to_date('2025/08/19','YYYY/MM/DD'),284,'14:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (280,147,'내과','kim',to_date('2025/08/21','YYYY/MM/DD'),'취소',to_date('2025/08/19','YYYY/MM/DD'),283,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (284,115,'내과','kim',to_date('2025/08/21','YYYY/MM/DD'),'취소',to_date('2025/08/19','YYYY/MM/DD'),284,'14:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (285,115,'내과','kim',to_date('2025/08/21','YYYY/MM/DD'),'취소',to_date('2025/08/19','YYYY/MM/DD'),285,'14:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (286,115,'내과','kim',to_date('2025/08/31','YYYY/MM/DD'),'취소',to_date('2025/08/19','YYYY/MM/DD'),106,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (287,130,'내과','kim',to_date('2025/08/31','YYYY/MM/DD'),'취소',to_date('2025/08/19','YYYY/MM/DD'),107,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (288,100000,'내과','kim',to_date('2025/08/19','YYYY/MM/DD'),'완료',to_date('2025/08/19','YYYY/MM/DD'),286,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (289,100000,'내과','kim',to_date('2025/08/19','YYYY/MM/DD'),'완료',to_date('2025/08/19','YYYY/MM/DD'),287,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (290,100000,'내과','kim',to_date('2025/08/19','YYYY/MM/DD'),'완료',to_date('2025/08/19','YYYY/MM/DD'),303,'18:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (291,147,'내과','kim',to_date('2025/08/21','YYYY/MM/DD'),'완료',to_date('2025/08/19','YYYY/MM/DD'),283,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (292,147,'내과','kim',to_date('2025/08/21','YYYY/MM/DD'),'취소',to_date('2025/08/19','YYYY/MM/DD'),285,'14:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (293,140,'내과','kim',to_date('2025/08/21','YYYY/MM/DD'),'취소',to_date('2025/08/19','YYYY/MM/DD'),285,'14:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (294,115,'내과','kim',to_date('2025/08/31','YYYY/MM/DD'),'취소',to_date('2025/08/19','YYYY/MM/DD'),106,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (295,115,'내과','kim',to_date('2025/08/21','YYYY/MM/DD'),'취소',to_date('2025/08/20','YYYY/MM/DD'),308,'10:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (296,116,'내과','kim',to_date('2025/08/21','YYYY/MM/DD'),'완료',to_date('2025/08/20','YYYY/MM/DD'),268,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (297,115,'내과','kim',to_date('2025/08/21','YYYY/MM/DD'),'취소',to_date('2025/08/20','YYYY/MM/DD'),311,'10:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (298,115,'내과','kim',to_date('2025/08/21','YYYY/MM/DD'),'취소',to_date('2025/08/20','YYYY/MM/DD'),285,'14:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (299,115,'내과','kim',to_date('2025/08/21','YYYY/MM/DD'),'취소',to_date('2025/08/20','YYYY/MM/DD'),311,'10:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (300,115,'내과','kim',to_date('2025/08/21','YYYY/MM/DD'),'취소',to_date('2025/08/20','YYYY/MM/DD'),311,'10:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (301,115,'내과','kim',to_date('2025/08/21','YYYY/MM/DD'),'취소',to_date('2025/08/20','YYYY/MM/DD'),308,'10:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (302,130,'내과','kim',to_date('2025/08/21','YYYY/MM/DD'),'취소',to_date('2025/08/20','YYYY/MM/DD'),315,'15:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (304,130,'내과','kim',to_date('2025/08/22','YYYY/MM/DD'),'취소',to_date('2025/08/20','YYYY/MM/DD'),313,'11:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (305,130,'내과','kim',to_date('2025/08/22','YYYY/MM/DD'),'취소',to_date('2025/08/20','YYYY/MM/DD'),279,'10:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (306,115,'내과','kim',to_date('2025/08/22','YYYY/MM/DD'),'취소',to_date('2025/08/20','YYYY/MM/DD'),313,'11:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (307,115,'내과','kim',to_date('2025/08/21','YYYY/MM/DD'),'취소',to_date('2025/08/20','YYYY/MM/DD'),311,'10:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (308,130,'내과','kim',to_date('2025/08/22','YYYY/MM/DD'),'완료',to_date('2025/08/20','YYYY/MM/DD'),313,'11:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (309,115,'내과','kim',to_date('2025/08/31','YYYY/MM/DD'),'취소',to_date('2025/08/20','YYYY/MM/DD'),108,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (310,130,'내과','kim',to_date('2025/08/22','YYYY/MM/DD'),'완료',to_date('2025/08/20','YYYY/MM/DD'),279,'10:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (311,100000,'내과','kim',to_date('2025/08/21','YYYY/MM/DD'),'대기',to_date('2025/08/21','YYYY/MM/DD'),308,'10:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (312,100000,'내과','kim',to_date('2025/08/22','YYYY/MM/DD'),'완료',to_date('2025/08/21','YYYY/MM/DD'),325,'09:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (313,100000,'내과','kim',to_date('2025/08/21','YYYY/MM/DD'),'대기',to_date('2025/08/21','YYYY/MM/DD'),285,'14:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (314,130,'내과','kim',to_date('2025/08/22','YYYY/MM/DD'),'완료',to_date('2025/08/21','YYYY/MM/DD'),326,'10:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (316,140,'내과','kim',to_date('2025/08/22','YYYY/MM/DD'),'완료',to_date('2025/08/21','YYYY/MM/DD'),317,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (317,161,'내과','kim',to_date('2025/08/22','YYYY/MM/DD'),'완료',to_date('2025/08/21','YYYY/MM/DD'),327,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (318,10684530,'내과','kim',to_date('2025/08/22','YYYY/MM/DD'),'대기',to_date('2025/08/21','YYYY/MM/DD'),321,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (319,100000,'내과','kim',to_date('2025/08/23','YYYY/MM/DD'),'대기',to_date('2025/08/22','YYYY/MM/DD'),335,'11:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (320,140,'내과','kim',to_date('2025/08/23','YYYY/MM/DD'),'취소',to_date('2025/08/22','YYYY/MM/DD'),337,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (321,140,'내과','kim',to_date('2025/08/23','YYYY/MM/DD'),'취소',to_date('2025/08/22','YYYY/MM/DD'),336,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (324,130,'내과','kim',to_date('2025/08/31','YYYY/MM/DD'),'취소',to_date('2025/08/25','YYYY/MM/DD'),106,'12:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (325,113,'내과','kim',to_date('2025/08/31','YYYY/MM/DD'),'취소',to_date('2025/08/25','YYYY/MM/DD'),110,'14:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (326,115,'내과','kim',to_date('2025/08/31','YYYY/MM/DD'),'취소',to_date('2025/08/25','YYYY/MM/DD'),108,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (328,115,'내과','kim',to_date('2025/08/31','YYYY/MM/DD'),'취소',to_date('2025/08/25','YYYY/MM/DD'),107,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (330,140,'내과','kim',to_date('2025/08/31','YYYY/MM/DD'),'대기',to_date('2025/08/25','YYYY/MM/DD'),296,'16:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (331,113,'내과','kim',to_date('2025/08/31','YYYY/MM/DD'),'취소',to_date('2025/08/25','YYYY/MM/DD'),111,'14:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (332,145,'내과','kim',to_date('2025/08/31','YYYY/MM/DD'),'대기',to_date('2025/08/25','YYYY/MM/DD'),112,'15:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (338,130,'내과','kim',to_date('2025/08/31','YYYY/MM/DD'),'취소',to_date('2025/08/26','YYYY/MM/DD'),109,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (339,115,'내과','kim',to_date('2025/08/31','YYYY/MM/DD'),'취소',to_date('2025/08/26','YYYY/MM/DD'),111,'14:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (350,115,'내과','kim',to_date('2025/08/31','YYYY/MM/DD'),'취소',to_date('2025/08/26','YYYY/MM/DD'),107,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (351,100000,'내과','kim',to_date('2025/08/26','YYYY/MM/DD'),'완료',to_date('2025/08/26','YYYY/MM/DD'),441,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (352,43,'내과','kim',to_date('2025/08/31','YYYY/MM/DD'),'취소',to_date('2025/08/26','YYYY/MM/DD'),110,'14:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (353,100000,'내과','kim',to_date('2025/08/26','YYYY/MM/DD'),'완료',to_date('2025/08/26','YYYY/MM/DD'),442,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (354,100000,'내과','kim',to_date('2025/08/26','YYYY/MM/DD'),'대기',to_date('2025/08/26','YYYY/MM/DD'),444,'14:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (355,130,'내과','kim',to_date('2025/08/31','YYYY/MM/DD'),'취소',to_date('2025/08/26','YYYY/MM/DD'),108,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (356,94925962,'내과','kim',to_date('2025/08/26','YYYY/MM/DD'),'취소',to_date('2025/08/26','YYYY/MM/DD'),443,'13:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (357,130,'내과','kim',to_date('2025/08/31','YYYY/MM/DD'),'취소',to_date('2025/08/26','YYYY/MM/DD'),111,'14:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (358,115,'내과','kim',to_date('2025/08/26','YYYY/MM/DD'),'대기',to_date('2025/08/26','YYYY/MM/DD'),446,'15:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (359,115,'내과','kim',to_date('2025/08/31','YYYY/MM/DD'),'취소',to_date('2025/08/26','YYYY/MM/DD'),113,'15:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (360,115,'내과','doc023',to_date('2025/08/26','YYYY/MM/DD'),'취소',to_date('2025/08/26','YYYY/MM/DD'),null,'16:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (361,24939194,'내과','doc023',to_date('2025/08/26','YYYY/MM/DD'),'취소',to_date('2025/08/26','YYYY/MM/DD'),null,'16:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (362,115,'내과','doc023',to_date('2025/08/27','YYYY/MM/DD'),'대기',to_date('2025/08/26','YYYY/MM/DD'),377,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (363,24939194,'내과','doc023',to_date('2025/08/26','YYYY/MM/DD'),'취소',to_date('2025/08/26','YYYY/MM/DD'),null,'18:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (364,77267544,'내과','doc023',to_date('2025/08/26','YYYY/MM/DD'),'취소',to_date('2025/08/26','YYYY/MM/DD'),null,'17:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (365,77267544,'내과','doc023',to_date('2025/08/26','YYYY/MM/DD'),'대기',to_date('2025/08/26','YYYY/MM/DD'),400,'17:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (366,74389698,'내과','kim',to_date('2025/08/31','YYYY/MM/DD'),'대기',to_date('2025/08/26','YYYY/MM/DD'),295,'16:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (367,24939194,'호흡기내과','doc023',to_date('2025/08/26','YYYY/MM/DD'),'취소',to_date('2025/08/26','YYYY/MM/DD'),null,'18:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (368,100000,'감염내과','doc027',to_date('2025/08/27','YYYY/MM/DD'),'대기',to_date('2025/08/26','YYYY/MM/DD'),530,'17:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (369,89955143,'감염내과','doc027',to_date('2025/08/27','YYYY/MM/DD'),'취소',to_date('2025/08/26','YYYY/MM/DD'),531,'18:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (370,100000,'감염내과','doc027',to_date('2025/08/26','YYYY/MM/DD'),'완료',to_date('2025/08/26','YYYY/MM/DD'),null,'17:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (371,130,'감염내과','doc027',to_date('2025/08/27','YYYY/MM/DD'),'대기',to_date('2025/08/26','YYYY/MM/DD'),531,'18:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (372,130,'감염내과','doc027',to_date('2025/08/26','YYYY/MM/DD'),'완료',to_date('2025/08/26','YYYY/MM/DD'),535,'18:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (373,130,'호흡기내과','doc023',to_date('2025/08/28','YYYY/MM/DD'),'대기',to_date('2025/08/26','YYYY/MM/DD'),537,'12:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (374,89955143,'내분비내과','doc002',to_date('2025/08/26','YYYY/MM/DD'),'취소',to_date('2025/08/26','YYYY/MM/DD'),529,'18:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (375,89955143,'내분비내과','doc002',to_date('2025/08/26','YYYY/MM/DD'),'취소',to_date('2025/08/26','YYYY/MM/DD'),529,'18:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (376,130,'호흡기내과','doc023',to_date('2025/08/29','YYYY/MM/DD'),'대기',to_date('2025/08/26','YYYY/MM/DD'),404,'10:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (377,89955143,'내분비내과','doc002',to_date('2025/08/26','YYYY/MM/DD'),'대기',to_date('2025/08/26','YYYY/MM/DD'),529,'18:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (378,147,'감염내과','doc027',to_date('2025/08/26','YYYY/MM/DD'),'대기',to_date('2025/08/26','YYYY/MM/DD'),591,'18:30');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (379,89955143,'내과','kim',to_date('2025/08/31','YYYY/MM/DD'),'대기',to_date('2025/08/27','YYYY/MM/DD'),108,'13:00');
+Insert into PROJECT.RESERVATIONS (RESERVATION_ID,PATIENT_NO,DEPARTMENT,DOCTOR_ID,RESERVATION_DATE,STATUS,CREATED_AT,SCHEDULE_ID,SCHEDULE_TIME) values (380,115,'정형외과','doc1002',to_date('2025/08/27','YYYY/MM/DD'),'취소',to_date('2025/08/27','YYYY/MM/DD'),504,'15:30');
+REM INSERTING into PROJECT.RESERVATION_COUNSELS
+SET DEFINE OFF;
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (5,'ㅇㅇ','ddd@ddd','DD','대기',to_date('2025/08/04','YYYY/MM/DD'),'010-1111-3333');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (6,'하하','GKGK@GG','GG','이메일 답변 완료',to_date('2025/08/04','YYYY/MM/DD'),null);
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (7,' 솨솨','sasa@naver.com','문의 드립니당','이메일 답변 완료',to_date('2025/08/04','YYYY/MM/DD'),'010-5525-5954');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (8,'히하','hoho@naver.com','dd','대기',to_date('2025/08/04','YYYY/MM/DD'),'132151321');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (9,'ㅎㅎ','ddd@ddd','dd','대기',to_date('2025/08/04','YYYY/MM/DD'),'dd');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (10,'gkgk','dfd@dd','dd','대기',to_date('2025/08/04','YYYY/MM/DD'),'dd');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (11,'sdfdsfsd','dfdsf@dfndslf','dfdfdfd','전화 답변 완료',to_date('2025/08/04','YYYY/MM/DD'),'65132');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (12,'ㅇㄴㄹㄹㄹ','SDFSD@DFD','12','이메일 답변 완료',to_date('2025/08/04','YYYY/MM/DD'),'11212');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (18,'빠른예약','fast@reservation','빠른예약','완료',to_date('2025/08/04','YYYY/MM/DD'),'010-7777-7777');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (19,'dsfs','fsdfds2@dfdf','ds','이메일 답변 완료',to_date('2025/08/04','YYYY/MM/DD'),'fddf');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (20,'빠른예약','fast@reservation','빠른예약','완료',to_date('2025/08/05','YYYY/MM/DD'),'010-2222-8888');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (16,'빠른예약','fast@reservation','빠른예약','완료',to_date('2025/08/04','YYYY/MM/DD'),'111-2222-3333');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (17,'빠른예약','fast@reservation','빠른예약','보류',to_date('2025/08/04','YYYY/MM/DD'),'999-9999-9999');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (21,'dfdfd','hongw3011@example.com','dd','전화 답변 완료',to_date('2025/08/05','YYYY/MM/DD'),'010-7271-3722');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (22,'ㅎ하하ㅏ','dkfnd@ggg','dㅇㄹㅇㄹ','대기',to_date('2025/08/05','YYYY/MM/DD'),'12456123132');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (23,'dddd','plzzz@naver.com','국어dd','대기',to_date('2025/08/05','YYYY/MM/DD'),'010845184152');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (24,'빠른예약','fast@reservation','빠른예약','보류',to_date('2025/08/05','YYYY/MM/DD'),'010-0805-0805');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (25,'테스트','test5555@3333','테스트','이메일 답변 완료',to_date('2025/08/05','YYYY/MM/DD'),'5132154132');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (26,'성소현','sh1012@naver.com','테스ㅡㅌ','대기',to_date('2025/08/05','YYYY/MM/DD'),'010727155885');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (27,'빠른예약','fast@reservation','빠른예약','대기',to_date('2025/08/06','YYYY/MM/DD'),'010-1111-1111');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (28,'춘식이','sertyw110868@naver.com','진료 예약','이메일 답변 완료',to_date('2025/08/06','YYYY/MM/DD'),'010-5555-5555');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (41,'팔팔이','8811@naver.com','그냥','이메일 답변 완료',to_date('2025/08/07','YYYY/MM/DD'),'01088881111');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (42,'빠른예약','fast@reservation','빠른예약','완료',to_date('2025/08/07','YYYY/MM/DD'),'010-8888-1111');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (61,'빠른예약','fast@reservation','빠른예약','대기',to_date('2025/08/13','YYYY/MM/DD'),'010-5651-6131');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (62,'dfds','fadsf@dfdasf','dfds','대기',to_date('2025/08/13','YYYY/MM/DD'),'010-2121-1651');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (63,'성소현','123456aaa@naver.com','문의드립니다','대기',to_date('2025/08/18','YYYY/MM/DD'),'0110125555554');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (64,'성소','9999111@naver.com','문의드립니다','대기',to_date('2025/08/18','YYYY/MM/DD'),'0110120110154');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (65,'빠른예약','fast@reservation','빠른예약','보류',to_date('2025/08/18','YYYY/MM/DD'),'010-2165-0000');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (66,'브이','vvvv@naver.com','dd','대기',to_date('2025/08/18','YYYY/MM/DD'),'01012349874');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (81,'이주화','casaskmnd@mavdfsmdkfn','테수트','대기',to_date('2025/08/21','YYYY/MM/DD'),'010-0404-5852');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (101,'빠른예약','fast@reservation','빠른예약','대기',to_date('2025/08/26','YYYY/MM/DD'),'010-1111-9999');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (102,'오예린','honggildong@example.com','건강검진 및 내과 진료 관련 문의','대기',to_date('2025/08/26','YYYY/MM/DD'),'010-1234-5678');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (103,'dd','dddd@ddd','dd','대기',to_date('2025/08/26','YYYY/MM/DD'),'d');
+Insert into PROJECT.RESERVATION_COUNSELS (COUNSEL_ID,PATIENT_NAME,EMAIL,SUBJECT,STATUS,CREATED_AT,PHONE) values (104,' 안찬우','ak@naver.com','흠','대기',to_date('2025/08/26','YYYY/MM/DD'),'01055558888');
+REM INSERTING into PROJECT.TMP_USER_IDS
+SET DEFINE OFF;
+REM INSERTING into PROJECT.UPLOADED_FILES
+SET DEFINE OFF;
+REM INSERTING into PROJECT.USERS
+SET DEFINE OFF;
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('kim','bf400c2a1cbc2c5536aec42018864edb5738ed69bf5488a017a1aead21f888ae05a13c2f30de004a4a6fa4eedeb8c8d62f79712a4f8489e7eca408e57b36c250','김외과','010128123456','남','010-4111-1234','juhwa@naver.com1234','doctor',1,'001',to_date('2025/07/21','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('cooptest','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','나협력','0212311234567','남','010-4803-9536','ccass33@naver.com','coop',2,'A02',to_date('2025/07/24','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('admin','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','관리자','9999991234567','남','010-1234-5678','admin@hospital.com','admin',0,'999',to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc002','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','김영희','9102022345678','여','010-2222-2222','kim2@example.com','doctor',1,'A02',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc003','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','이철수','9203033456789','남','010-3333-3333','lee3@example.com','doctor',1,'B01',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc004','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','박지은','9304044567890','여','010-4444-4444','park4@example.com','doctor',1,'B02',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc005','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','최우성','9405055678901','남','010-5555-5555','choi5@example.com','doctor',1,'C01',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc006','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','윤하늘','9506066789012','여','010-6666-6666','yoon6@example.com','doctor',1,'C02',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc007','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','장민수','9607077890123','남','010-7777-7777','jang7@example.com','doctor',1,'A03',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc008','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','오지연','9708088901234','여','010-8888-8888','oh8@example.com','doctor',1,'B03',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc009','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','백지원','9809099012345','여','010-9999-9999','baek9@example.com','doctor',1,'C03',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc010','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','한규진','9901010123456','남','010-0000-0000','han10@example.com','doctor',1,'A04',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc1001','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','이정훈','8101011234567','남','010-1234-1001','jhlee@hospital.com','doctor',1,'C01',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc1002','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','김수현','8505052345678','남','010-5678-1002','sykim@hospital.com','doctor',1,'C01',to_date('2025/08/04','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('qqq','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','김지윤','1111111111111','남','010-1111-1111','111@naver.com','coop',0,'C06',to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc011','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','김태훈','9001011234501','남','010-9000-0011','doc011@hospital.test','doctor',1,'C08',to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc012','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','이서연','9002021234502','여','010-9000-0012','doc012@hospital.test','doctor',1,'C07',to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc013','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','박민재','9003031234503','남','010-9000-0013','doc013@hospital.test','doctor',1,'C06',to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc014','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','최윤아','9004041234504','여','010-9000-0014','doc014@hospital.test','doctor',1,'C05',to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc015','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','정하준','9005051234505','남','010-9000-0015','doc015@hospital.test','doctor',1,'C04',to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc016','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','한지우','9006061234506','여','010-9000-0016','doc016@hospital.test','doctor',1,'C03',to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc017','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','유도현','9007071234507','남','010-9000-0017','doc017@hospital.test','doctor',1,'C02',to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc018','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','서다인','9008081234508','여','010-9000-0018','doc018@hospital.test','doctor',1,'C01',to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc019','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','문지호','9009091234509','남','010-9000-0019','doc019@hospital.test','doctor',1,'B05',to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc020','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','안소이','9010101234510','여','010-9000-0020','doc020@hospital.test','doctor',1,'B04',to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc021','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','배승우','9011111234511','남','010-9000-0021','doc021@hospital.test','doctor',1,'B03',to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc022','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','신가윤','9012121234512','여','010-9000-0022','doc022@hospital.test','doctor',1,'B02',to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc023','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','권태현','9101011234513','남','010-9100-0023','doc023@hospital.test','doctor',1,'A05',to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc024','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','임서현','9102021234514','여','010-9100-0024','doc024@hospital.test','doctor',1,'A04',to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc025','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','홍시후','9103031234515','남','010-9100-0025','doc025@hospital.test','doctor',1,'A03',to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc026','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','배수아','9104041234516','여','010-9100-0026','doc026@hospital.test','doctor',1,'A02',to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc027','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','장도윤','9105051234517','남','010-9100-0027','doc027@hospital.test','doctor',1,'A01',to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('doc111','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','차은우','1111117894561','남','01045677894','789456dd@naver.com','doctor',1,'C07',to_date('2025/08/26','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('coop001','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','김도윤','9001011234567','남','010-3012-8401','coop001@gmail.com','coop',0,'D1',to_date('2025/07/30','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('coop002','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','이서연','9802151234567','여','010-4920-1735','coop002@naver.com','coop',2,'A01',to_date('2025/07/29','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('coop003','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','박민준','9503271234567','남','010-6257-9043','coop003@daum.net','coop',0,'A02',to_date('2025/07/28','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('coop004','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','최하은','9904081234567','여','010-7182-3560','coop004@gmail.com','coop',2,'A03',to_date('2025/08/01','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('coop005','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','정시우','9205191234567','남','010-8339-4217','coop005@naver.com','coop',0,'A04',to_date('2025/08/03','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('coop006','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','한유진','9706221234567','여','010-9451-2680','coop006@daum.net','coop',2,'A05',to_date('2025/08/05','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('coop007','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','윤서준','9307031234567','남','010-1579-6032','coop007@gmail.com','coop',0,'B01',to_date('2025/08/08','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('coop008','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','배지원','0008141234567','여','010-2685-7490','coop008@naver.com','coop',2,'B02',to_date('2025/08/10','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('coop009','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','조현우','9109251234567','남','010-3724-9158','coop009@daum.net','coop',0,'B03',to_date('2025/08/12','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('coop010','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','송하린','9903061234567','여','010-4863-2079','coop010@gmail.com','coop',2,'B04',to_date('2025/08/14','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('coop011','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','임현우','9404171234567','남','010-5971-8342','coop011@naver.com','coop',0,'B05',to_date('2025/08/16','YYYY/MM/DD'));
+Insert into PROJECT.USERS (USER_ID,PASSWORD,NAME,RRN,GENDER,PHONE,EMAIL,ROLE,HOSPITAL_ID,DEPT_ID,CREATED_AT) values ('coop012','d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db','오나윤','0105281234567','여','010-7095-1468','coop012@daum.net','coop',2,'C01',to_date('2025/08/20','YYYY/MM/DD'));
+REM INSERTING into PROJECT.USER_ACTIVITY_LOGS
+SET DEFINE OFF;
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (2,'관리자','Press Created','EVENTS',167,to_date('2025/08/06','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (3,'관리자','Press Created','EVENTS',167,to_date('2025/08/06','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (4,'관리자','Press Created','EVENTS',210,to_date('2025/08/08','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (5,'관리자','Press Created','EVENTS',210,to_date('2025/08/08','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (6,'관리자','Press Created','EVENTS',228,to_date('2025/08/08','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (7,'관리자','Press Created','EVENTS',228,to_date('2025/08/08','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (8,'관리자','Press Created','EVENTS',230,to_date('2025/08/08','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (9,'관리자','Press Created','EVENTS',230,to_date('2025/08/08','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (10,'관리자','Press Created','EVENTS',232,to_date('2025/08/08','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (11,'관리자','Press Created','EVENTS',232,to_date('2025/08/08','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (12,'관리자','Press Created','EVENTS',237,to_date('2025/08/08','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (13,'관리자','Press Created','EVENTS',237,to_date('2025/08/08','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (14,'관리자','Press Created','EVENTS',239,to_date('2025/08/08','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (15,'관리자','Press Created','EVENTS',239,to_date('2025/08/08','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (16,'관리자','Press Created','EVENTS',242,to_date('2025/08/08','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (17,'관리자','Press Created','EVENTS',242,to_date('2025/08/08','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (18,'관리자','Press Created','EVENTS',244,to_date('2025/08/08','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (19,'관리자','Press Created','EVENTS',244,to_date('2025/08/08','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (20,'관리자','Press Created','EVENTS',246,to_date('2025/08/08','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (21,'관리자','Press Created','EVENTS',246,to_date('2025/08/08','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (41,'관리자','Press Created','EVENTS',0,to_date('2025/08/13','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (42,'관리자','Press Deleted','EVENTS',261,to_date('2025/08/18','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (43,'관리자','Press Deleted','EVENTS',24,to_date('2025/08/18','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (44,'관리자','Press Deleted','EVENTS',23,to_date('2025/08/18','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (45,'관리자','Press Deleted','EVENTS',21,to_date('2025/08/18','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (46,'관리자','Press Updated','EVENTS',247,to_date('2025/08/18','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (47,'관리자','Press Updated','EVENTS',247,to_date('2025/08/18','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (48,'관리자','Press Deleted','EVENTS',247,to_date('2025/08/18','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (49,'관리자','Press Created','EVENTS',0,to_date('2025/08/18','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (50,'관리자','Press Deleted','EVENTS',264,to_date('2025/08/18','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (51,'관리자','Press Created','EVENTS',0,to_date('2025/08/18','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (52,'관리자','Press Deleted','EVENTS',265,to_date('2025/08/18','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (53,'관리자','Press Created','EVENTS',0,to_date('2025/08/18','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (54,'관리자','Press Created','EVENTS',0,to_date('2025/08/18','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (55,'관리자','Press Updated','EVENTS',267,to_date('2025/08/18','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (56,'관리자','Press Created','EVENTS',0,to_date('2025/08/18','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (57,'관리자','Press Created','EVENTS',0,to_date('2025/08/18','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (58,'관리자','Press Deleted','EVENTS',267,to_date('2025/08/18','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (59,'관리자','Press Created','EVENTS',0,to_date('2025/08/18','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (60,'관리자','Press Created','EVENTS',0,to_date('2025/08/18','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (61,'관리자','Press Updated','EVENTS',271,to_date('2025/08/18','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (81,'관리자','Press Updated','EVENTS',270,to_date('2025/08/26','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (82,'관리자','Press Updated','EVENTS',269,to_date('2025/08/26','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (83,'관리자','Press Updated','EVENTS',268,to_date('2025/08/26','YYYY/MM/DD'),'admin',null);
+Insert into PROJECT.USER_ACTIVITY_LOGS (LOG_ID,USER_ID,ACTION,TARGET_TABLE,TARGET_ID,TIMESTAMP,USER_TYPE,USER_NAME) values (84,'관리자','Press Updated','EVENTS',266,to_date('2025/08/26','YYYY/MM/DD'),'admin',null);
+--------------------------------------------------------
+--  DDL for Index SYS_C007372
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007372" ON "PROJECT"."PARTNER_HOSPITALS" ("HOSPITAL_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007373
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007373" ON "PROJECT"."DEPARTMENTS" ("DEPT_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007377
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007377" ON "PROJECT"."USERS" ("USER_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007378
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007378" ON "PROJECT"."USERS" ("RRN") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007379
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007379" ON "PROJECT"."USERS" ("EMAIL") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007382
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007382" ON "PROJECT"."DOCTOR_INFO" ("DOCTOR_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007389
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007389" ON "PROJECT"."PENDING_USERS" ("PENDING_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007390
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007390" ON "PROJECT"."PENDING_USERS" ("USER_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007395
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007395" ON "PROJECT"."PATIENTS" ("PATIENT_NO") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007396
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007396" ON "PROJECT"."PATIENTS" ("PATIENT_USER_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007397
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007397" ON "PROJECT"."PATIENTS" ("PATIENT_RRN") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007398
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007398" ON "PROJECT"."PATIENTS" ("PATIENT_EMAIL") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007403
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007403" ON "PROJECT"."DOCTOR_SCHEDULES" ("SCHEDULE_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007407
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007407" ON "PROJECT"."RESERVATIONS" ("RESERVATION_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007410
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007410" ON "PROJECT"."MEDICAL_QUESTIONNAIRES" ("QUESTIONNAIRE_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007412
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007412" ON "PROJECT"."CERTIFICATES" ("CERTIFICATE_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007414
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007414" ON "PROJECT"."REFERRAL_REQUESTS" ("REQUEST_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007418
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007418" ON "PROJECT"."REFERRAL_REPLIES" ("REPLY_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007421
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007421" ON "PROJECT"."FEEDBACKS" ("FEEDBACK_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007440
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007440" ON "PROJECT"."EVENTS" ("EVENT_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007444
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007444" ON "PROJECT"."PRAISE_RELAY" ("PRAISE_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007447
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007447" ON "PROJECT"."MEDICAL_NOTICES" ("NOTICE_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007455
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007455" ON "PROJECT"."UPLOADED_FILES" ("FILE_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007457
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007457" ON "PROJECT"."USER_ACTIVITY_LOGS" ("LOG_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007473
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007473" ON "PROJECT"."HOSPITAL_NOTICES" ("NOTICE_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007483
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007483" ON "PROJECT"."MEDICAL_RECORDS" ("RECORD_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007488
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007488" ON "PROJECT"."HOSPITAL_FAQ" ("FAQ_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007490
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007490" ON "PROJECT"."ADMINS" ("ADMIN_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007498
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007498" ON "PROJECT"."REFERRAL_COMMENT" ("COMMENT_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007502
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007502" ON "PROJECT"."RESERVATION_COUNSELS" ("COUNSEL_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007514
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007514" ON "PROJECT"."REFERRAL_NOTICES" ("NOTICE_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007523
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007523" ON "PROJECT"."DONATIONS" ("DONATION_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index UX_DONATIONS_ORDER
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."UX_DONATIONS_ORDER" ON "PROJECT"."DONATIONS" ("ORDER_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007490
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007490" ON "PROJECT"."ADMINS" ("ADMIN_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007412
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007412" ON "PROJECT"."CERTIFICATES" ("CERTIFICATE_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007373
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007373" ON "PROJECT"."DEPARTMENTS" ("DEPT_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007382
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007382" ON "PROJECT"."DOCTOR_INFO" ("DOCTOR_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007403
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007403" ON "PROJECT"."DOCTOR_SCHEDULES" ("SCHEDULE_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007523
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007523" ON "PROJECT"."DONATIONS" ("DONATION_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index UX_DONATIONS_ORDER
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."UX_DONATIONS_ORDER" ON "PROJECT"."DONATIONS" ("ORDER_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007440
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007440" ON "PROJECT"."EVENTS" ("EVENT_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007421
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007421" ON "PROJECT"."FEEDBACKS" ("FEEDBACK_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007488
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007488" ON "PROJECT"."HOSPITAL_FAQ" ("FAQ_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007473
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007473" ON "PROJECT"."HOSPITAL_NOTICES" ("NOTICE_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007447
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007447" ON "PROJECT"."MEDICAL_NOTICES" ("NOTICE_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007410
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007410" ON "PROJECT"."MEDICAL_QUESTIONNAIRES" ("QUESTIONNAIRE_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007483
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007483" ON "PROJECT"."MEDICAL_RECORDS" ("RECORD_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007372
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007372" ON "PROJECT"."PARTNER_HOSPITALS" ("HOSPITAL_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007397
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007397" ON "PROJECT"."PATIENTS" ("PATIENT_RRN") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007395
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007395" ON "PROJECT"."PATIENTS" ("PATIENT_NO") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007396
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007396" ON "PROJECT"."PATIENTS" ("PATIENT_USER_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007398
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007398" ON "PROJECT"."PATIENTS" ("PATIENT_EMAIL") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007389
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007389" ON "PROJECT"."PENDING_USERS" ("PENDING_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007390
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007390" ON "PROJECT"."PENDING_USERS" ("USER_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007444
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007444" ON "PROJECT"."PRAISE_RELAY" ("PRAISE_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007498
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007498" ON "PROJECT"."REFERRAL_COMMENT" ("COMMENT_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007514
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007514" ON "PROJECT"."REFERRAL_NOTICES" ("NOTICE_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007418
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007418" ON "PROJECT"."REFERRAL_REPLIES" ("REPLY_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007414
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007414" ON "PROJECT"."REFERRAL_REQUESTS" ("REQUEST_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007407
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007407" ON "PROJECT"."RESERVATIONS" ("RESERVATION_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007502
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007502" ON "PROJECT"."RESERVATION_COUNSELS" ("COUNSEL_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007455
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007455" ON "PROJECT"."UPLOADED_FILES" ("FILE_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007377
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007377" ON "PROJECT"."USERS" ("USER_ID") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007378
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007378" ON "PROJECT"."USERS" ("RRN") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007379
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007379" ON "PROJECT"."USERS" ("EMAIL") 
+  ;
+--------------------------------------------------------
+--  DDL for Index SYS_C007457
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "PROJECT"."SYS_C007457" ON "PROJECT"."USER_ACTIVITY_LOGS" ("LOG_ID") 
+  ;
+--------------------------------------------------------
+--  Constraints for Table ADMINS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."ADMINS" ADD PRIMARY KEY ("ADMIN_ID") ENABLE;
+  ALTER TABLE "PROJECT"."ADMINS" MODIFY ("PASSWORD" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table CERTIFICATES
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."CERTIFICATES" ADD PRIMARY KEY ("CERTIFICATE_ID") ENABLE;
+--------------------------------------------------------
+--  Constraints for Table DEPARTMENTS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."DEPARTMENTS" ADD PRIMARY KEY ("DEPT_ID") ENABLE;
+--------------------------------------------------------
+--  Constraints for Table DOCTOR_INFO
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."DOCTOR_INFO" ADD PRIMARY KEY ("DOCTOR_ID") ENABLE;
+--------------------------------------------------------
+--  Constraints for Table DOCTOR_SCHEDULES
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."DOCTOR_SCHEDULES" ADD PRIMARY KEY ("SCHEDULE_ID") ENABLE;
+  ALTER TABLE "PROJECT"."DOCTOR_SCHEDULES" ADD CONSTRAINT "CK_NOTE_TYPE" CHECK (note IN ('외래진료', '학회', '강의', '휴가', '기타')) ENABLE;
+  ALTER TABLE "PROJECT"."DOCTOR_SCHEDULES" ADD CHECK (time_slot IN ('오전', '오후')) ENABLE;
+  ALTER TABLE "PROJECT"."DOCTOR_SCHEDULES" MODIFY ("SCHEDULE_DATE" NOT NULL ENABLE);
+  ALTER TABLE "PROJECT"."DOCTOR_SCHEDULES" MODIFY ("DOCTOR_ID" NOT NULL ENABLE);
+  ALTER TABLE "PROJECT"."DOCTOR_SCHEDULES" ADD CHECK (time_slot IN ('오전', '오후')) ENABLE;
+--------------------------------------------------------
+--  Constraints for Table DONATIONS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."DONATIONS" ADD CONSTRAINT "CK_DON_STATUS" CHECK (STATUS IN ('READY','PAID','FAILED','CANCELED')) ENABLE;
+  ALTER TABLE "PROJECT"."DONATIONS" ADD PRIMARY KEY ("DONATION_ID") ENABLE;
+  ALTER TABLE "PROJECT"."DONATIONS" MODIFY ("STATUS" NOT NULL ENABLE);
+  ALTER TABLE "PROJECT"."DONATIONS" MODIFY ("AMOUNT" NOT NULL ENABLE);
+  ALTER TABLE "PROJECT"."DONATIONS" MODIFY ("DONOR_NAME" NOT NULL ENABLE);
+  ALTER TABLE "PROJECT"."DONATIONS" MODIFY ("ORDER_ID" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table EVENTS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."EVENTS" ADD PRIMARY KEY ("EVENT_ID") ENABLE;
+  ALTER TABLE "PROJECT"."EVENTS" MODIFY ("TITLE" NOT NULL ENABLE);
+  ALTER TABLE "PROJECT"."EVENTS" ADD CONSTRAINT "CHK_EVENT_CATEGORY" CHECK (category IN ('공지', '소식', '채용', '언론', '강좌', '교육', '행사', '기타',
+                    '의사직', '간호사직', '의료기사직', '의료지원직')) ENABLE;
+--------------------------------------------------------
+--  Constraints for Table FEEDBACKS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."FEEDBACKS" ADD PRIMARY KEY ("FEEDBACK_ID") ENABLE;
+--------------------------------------------------------
+--  Constraints for Table HOSPITAL_FAQ
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."HOSPITAL_FAQ" ADD PRIMARY KEY ("FAQ_ID") ENABLE;
+--------------------------------------------------------
+--  Constraints for Table HOSPITAL_NOTICES
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."HOSPITAL_NOTICES" ADD PRIMARY KEY ("NOTICE_ID") ENABLE;
+  ALTER TABLE "PROJECT"."HOSPITAL_NOTICES" MODIFY ("CONTENT" NOT NULL ENABLE);
+  ALTER TABLE "PROJECT"."HOSPITAL_NOTICES" MODIFY ("TITLE" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table MEDICAL_NOTICES
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."MEDICAL_NOTICES" ADD PRIMARY KEY ("NOTICE_ID") ENABLE;
+  ALTER TABLE "PROJECT"."MEDICAL_NOTICES" ADD CHECK (target_role IN ('doctor', 'nurse', 'all')) ENABLE;
+  ALTER TABLE "PROJECT"."MEDICAL_NOTICES" ADD CHECK (target_role IN ('doctor', 'nurse', 'all')) ENABLE;
+--------------------------------------------------------
+--  Constraints for Table MEDICAL_QUESTIONNAIRES
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."MEDICAL_QUESTIONNAIRES" ADD PRIMARY KEY ("QUESTIONNAIRE_ID") ENABLE;
+--------------------------------------------------------
+--  Constraints for Table MEDICAL_RECORDS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."MEDICAL_RECORDS" ADD PRIMARY KEY ("RECORD_ID") ENABLE;
+  ALTER TABLE "PROJECT"."MEDICAL_RECORDS" MODIFY ("RESERVATION_ID" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table PARTNER_HOSPITALS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."PARTNER_HOSPITALS" ADD PRIMARY KEY ("HOSPITAL_ID") ENABLE;
+  ALTER TABLE "PROJECT"."PARTNER_HOSPITALS" MODIFY ("NAME" NOT NULL ENABLE);
+  ALTER TABLE "PROJECT"."PARTNER_HOSPITALS" ADD CONSTRAINT "CK_PARTNER_LNG" CHECK (LNG BETWEEN -180 AND 180) ENABLE;
+  ALTER TABLE "PROJECT"."PARTNER_HOSPITALS" ADD CONSTRAINT "CK_PARTNER_LAT" CHECK (LAT BETWEEN -90 AND 90) ENABLE;
+--------------------------------------------------------
+--  Constraints for Table PATIENTS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."PATIENTS" ADD UNIQUE ("PATIENT_EMAIL") ENABLE;
+  ALTER TABLE "PROJECT"."PATIENTS" ADD UNIQUE ("PATIENT_RRN") ENABLE;
+  ALTER TABLE "PROJECT"."PATIENTS" ADD UNIQUE ("PATIENT_USER_ID") ENABLE;
+  ALTER TABLE "PROJECT"."PATIENTS" ADD PRIMARY KEY ("PATIENT_NO") ENABLE;
+  ALTER TABLE "PROJECT"."PATIENTS" MODIFY ("PATIENT_RRN" NOT NULL ENABLE);
+  ALTER TABLE "PROJECT"."PATIENTS" ADD CONSTRAINT "CHK_PATIENTS_NO_8DIGIT" CHECK (PATIENT_NO BETWEEN 10000000 AND 99999999) ENABLE NOVALIDATE;
+--------------------------------------------------------
+--  Constraints for Table PENDING_USERS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."PENDING_USERS" ADD UNIQUE ("USER_ID") ENABLE;
+  ALTER TABLE "PROJECT"."PENDING_USERS" ADD PRIMARY KEY ("PENDING_ID") ENABLE;
+  ALTER TABLE "PROJECT"."PENDING_USERS" MODIFY ("RRN" NOT NULL ENABLE);
+  ALTER TABLE "PROJECT"."PENDING_USERS" MODIFY ("PASSWORD" NOT NULL ENABLE);
+  ALTER TABLE "PROJECT"."PENDING_USERS" MODIFY ("USER_ID" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table PRAISE_RELAY
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."PRAISE_RELAY" ADD PRIMARY KEY ("PRAISE_ID") ENABLE;
+  ALTER TABLE "PROJECT"."PRAISE_RELAY" MODIFY ("CONTENT" NOT NULL ENABLE);
+  ALTER TABLE "PROJECT"."PRAISE_RELAY" MODIFY ("TITLE" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table REFERRAL_COMMENT
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."REFERRAL_COMMENT" ADD PRIMARY KEY ("COMMENT_ID") ENABLE;
+  ALTER TABLE "PROJECT"."REFERRAL_COMMENT" MODIFY ("COMMENT_TEXT" NOT NULL ENABLE);
+  ALTER TABLE "PROJECT"."REFERRAL_COMMENT" MODIFY ("DOCTOR_ID" NOT NULL ENABLE);
+  ALTER TABLE "PROJECT"."REFERRAL_COMMENT" MODIFY ("REQUEST_ID" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table REFERRAL_NOTICES
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."REFERRAL_NOTICES" ADD PRIMARY KEY ("NOTICE_ID") ENABLE;
+  ALTER TABLE "PROJECT"."REFERRAL_NOTICES" MODIFY ("TARGET_ROLE" NOT NULL ENABLE);
+  ALTER TABLE "PROJECT"."REFERRAL_NOTICES" MODIFY ("CREATED_BY" NOT NULL ENABLE);
+  ALTER TABLE "PROJECT"."REFERRAL_NOTICES" MODIFY ("CONTENT" NOT NULL ENABLE);
+  ALTER TABLE "PROJECT"."REFERRAL_NOTICES" MODIFY ("TITLE" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table REFERRAL_REPLIES
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."REFERRAL_REPLIES" ADD PRIMARY KEY ("REPLY_ID") ENABLE;
+--------------------------------------------------------
+--  Constraints for Table REFERRAL_REQUESTS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."REFERRAL_REQUESTS" ADD PRIMARY KEY ("REQUEST_ID") ENABLE;
+--------------------------------------------------------
+--  Constraints for Table RESERVATIONS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."RESERVATIONS" ADD PRIMARY KEY ("RESERVATION_ID") ENABLE;
+  ALTER TABLE "PROJECT"."RESERVATIONS" ADD CHECK (status IN ('대기', '확정', '완료', '취소')) ENABLE;
+  ALTER TABLE "PROJECT"."RESERVATIONS" MODIFY ("PATIENT_NO" NOT NULL ENABLE);
+  ALTER TABLE "PROJECT"."RESERVATIONS" ADD CHECK (status IN ('대기', '확정', '완료', '취소')) ENABLE;
+--------------------------------------------------------
+--  Constraints for Table RESERVATION_COUNSELS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."RESERVATION_COUNSELS" ADD PRIMARY KEY ("COUNSEL_ID") ENABLE;
+  ALTER TABLE "PROJECT"."RESERVATION_COUNSELS" MODIFY ("PATIENT_NAME" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table UPLOADED_FILES
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."UPLOADED_FILES" ADD PRIMARY KEY ("FILE_ID") ENABLE;
+--------------------------------------------------------
+--  Constraints for Table USERS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."USERS" ADD UNIQUE ("EMAIL") ENABLE;
+  ALTER TABLE "PROJECT"."USERS" ADD UNIQUE ("RRN") ENABLE;
+  ALTER TABLE "PROJECT"."USERS" ADD PRIMARY KEY ("USER_ID") ENABLE;
+  ALTER TABLE "PROJECT"."USERS" ADD CHECK (role IN ('admin', 'doctor', 'nurse', 'coop')) ENABLE;
+  ALTER TABLE "PROJECT"."USERS" MODIFY ("RRN" NOT NULL ENABLE);
+  ALTER TABLE "PROJECT"."USERS" MODIFY ("PASSWORD" NOT NULL ENABLE);
+  ALTER TABLE "PROJECT"."USERS" ADD CHECK (role IN ('admin', 'doctor', 'nurse', 'coop')) ENABLE;
+--------------------------------------------------------
+--  Constraints for Table USER_ACTIVITY_LOGS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."USER_ACTIVITY_LOGS" ADD PRIMARY KEY ("LOG_ID") ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table CERTIFICATES
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."CERTIFICATES" ADD CONSTRAINT "FK_CERTIFICATE_FILE" FOREIGN KEY ("FILE_ID")
+	  REFERENCES "PROJECT"."UPLOADED_FILES" ("FILE_ID") ENABLE;
+  ALTER TABLE "PROJECT"."CERTIFICATES" ADD FOREIGN KEY ("PATIENT_NO")
+	  REFERENCES "PROJECT"."PATIENTS" ("PATIENT_NO") ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table DEPARTMENTS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."DEPARTMENTS" ADD CONSTRAINT "FK_HEAD_DOCTOR" FOREIGN KEY ("HEAD_DOCTOR_ID")
+	  REFERENCES "PROJECT"."DOCTOR_INFO" ("DOCTOR_ID") ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table DOCTOR_INFO
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."DOCTOR_INFO" ADD FOREIGN KEY ("DOCTOR_ID")
+	  REFERENCES "PROJECT"."USERS" ("USER_ID") ENABLE;
+  ALTER TABLE "PROJECT"."DOCTOR_INFO" ADD FOREIGN KEY ("DEPT_ID")
+	  REFERENCES "PROJECT"."DEPARTMENTS" ("DEPT_ID") ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table DOCTOR_SCHEDULES
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."DOCTOR_SCHEDULES" ADD FOREIGN KEY ("DOCTOR_ID")
+	  REFERENCES "PROJECT"."DOCTOR_INFO" ("DOCTOR_ID") ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table EVENTS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."EVENTS" ADD FOREIGN KEY ("CREATED_BY")
+	  REFERENCES "PROJECT"."USERS" ("USER_ID") ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table FEEDBACKS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."FEEDBACKS" ADD FOREIGN KEY ("PATIENT_USER_ID")
+	  REFERENCES "PROJECT"."PATIENTS" ("PATIENT_USER_ID") ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table MEDICAL_NOTICES
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."MEDICAL_NOTICES" ADD CONSTRAINT "FK_MEDICAL_NOTICES_CREATED_BY" FOREIGN KEY ("CREATED_BY")
+	  REFERENCES "PROJECT"."ADMINS" ("ADMIN_ID") ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table MEDICAL_QUESTIONNAIRES
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."MEDICAL_QUESTIONNAIRES" ADD FOREIGN KEY ("RESERVATION_ID")
+	  REFERENCES "PROJECT"."RESERVATIONS" ("RESERVATION_ID") ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table MEDICAL_RECORDS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."MEDICAL_RECORDS" ADD FOREIGN KEY ("RESERVATION_ID")
+	  REFERENCES "PROJECT"."RESERVATIONS" ("RESERVATION_ID") ENABLE;
+  ALTER TABLE "PROJECT"."MEDICAL_RECORDS" ADD FOREIGN KEY ("DOCTOR_ID")
+	  REFERENCES "PROJECT"."DOCTOR_INFO" ("DOCTOR_ID") ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table PENDING_USERS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."PENDING_USERS" ADD CONSTRAINT "FK_PENDING_REVIEWED_BY_ADMIN" FOREIGN KEY ("REVIEWED_BY")
+	  REFERENCES "PROJECT"."ADMINS" ("ADMIN_ID") ENABLE;
+  ALTER TABLE "PROJECT"."PENDING_USERS" ADD FOREIGN KEY ("HOSPITAL_ID")
+	  REFERENCES "PROJECT"."PARTNER_HOSPITALS" ("HOSPITAL_ID") ENABLE;
+  ALTER TABLE "PROJECT"."PENDING_USERS" ADD FOREIGN KEY ("DEPT_ID")
+	  REFERENCES "PROJECT"."DEPARTMENTS" ("DEPT_ID") ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table PRAISE_RELAY
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."PRAISE_RELAY" ADD FOREIGN KEY ("PATIENT_USER_ID")
+	  REFERENCES "PROJECT"."PATIENTS" ("PATIENT_USER_ID") ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table REFERRAL_COMMENT
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."REFERRAL_COMMENT" ADD CONSTRAINT "FK_REFERRAL_COMMENT_DOCTOR" FOREIGN KEY ("DOCTOR_ID")
+	  REFERENCES "PROJECT"."USERS" ("USER_ID") ENABLE;
+  ALTER TABLE "PROJECT"."REFERRAL_COMMENT" ADD CONSTRAINT "FK_REFERRAL_COMMENT_REQUEST" FOREIGN KEY ("REQUEST_ID")
+	  REFERENCES "PROJECT"."REFERRAL_REQUESTS" ("REQUEST_ID") ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table REFERRAL_REPLIES
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."REFERRAL_REPLIES" ADD FOREIGN KEY ("REQUEST_ID")
+	  REFERENCES "PROJECT"."REFERRAL_REQUESTS" ("REQUEST_ID") ENABLE;
+  ALTER TABLE "PROJECT"."REFERRAL_REPLIES" ADD FOREIGN KEY ("HOSPITAL_ID")
+	  REFERENCES "PROJECT"."PARTNER_HOSPITALS" ("HOSPITAL_ID") ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table REFERRAL_REQUESTS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."REFERRAL_REQUESTS" ADD CONSTRAINT "FK_TABLE2_RECORD" FOREIGN KEY ("RECORD_ID")
+	  REFERENCES "PROJECT"."MEDICAL_RECORDS" ("RECORD_ID") ENABLE;
+  ALTER TABLE "PROJECT"."REFERRAL_REQUESTS" ADD FOREIGN KEY ("USER_ID")
+	  REFERENCES "PROJECT"."USERS" ("USER_ID") ENABLE;
+  ALTER TABLE "PROJECT"."REFERRAL_REQUESTS" ADD FOREIGN KEY ("DOCTOR_ID")
+	  REFERENCES "PROJECT"."DOCTOR_INFO" ("DOCTOR_ID") ENABLE;
+  ALTER TABLE "PROJECT"."REFERRAL_REQUESTS" ADD FOREIGN KEY ("HOSPITAL_ID")
+	  REFERENCES "PROJECT"."PARTNER_HOSPITALS" ("HOSPITAL_ID") ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table RESERVATIONS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."RESERVATIONS" ADD CONSTRAINT "FK_RES_SCHEDULE" FOREIGN KEY ("SCHEDULE_ID")
+	  REFERENCES "PROJECT"."DOCTOR_SCHEDULES" ("SCHEDULE_ID") ENABLE;
+  ALTER TABLE "PROJECT"."RESERVATIONS" ADD FOREIGN KEY ("PATIENT_NO")
+	  REFERENCES "PROJECT"."PATIENTS" ("PATIENT_NO") ENABLE;
+  ALTER TABLE "PROJECT"."RESERVATIONS" ADD FOREIGN KEY ("DOCTOR_ID")
+	  REFERENCES "PROJECT"."DOCTOR_INFO" ("DOCTOR_ID") ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table UPLOADED_FILES
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."UPLOADED_FILES" ADD FOREIGN KEY ("UPLOADED_BY")
+	  REFERENCES "PROJECT"."USERS" ("USER_ID") ENABLE;
+--------------------------------------------------------
+--  Ref Constraints for Table USERS
+--------------------------------------------------------
+
+  ALTER TABLE "PROJECT"."USERS" ADD FOREIGN KEY ("HOSPITAL_ID")
+	  REFERENCES "PROJECT"."PARTNER_HOSPITALS" ("HOSPITAL_ID") ENABLE;
+  ALTER TABLE "PROJECT"."USERS" ADD FOREIGN KEY ("DEPT_ID")
+	  REFERENCES "PROJECT"."DEPARTMENTS" ("DEPT_ID") ENABLE;
